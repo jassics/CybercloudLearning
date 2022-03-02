@@ -1,10 +1,8 @@
 site_name: CyberCloud Learnings
-site_url: https://cybercloud.guru/
-site_description: Tutorials for Cloud Technologies and Cybersecurity with an easy to understand examples and projects
+site_url: https://www.cybercloud.guru/
+site_description: Tutorials for Cloud Technologies and Cybersecurity, CloudSecurity, DevSecOps with an easy to understand examples and projects
 site_author: Sanjeev Jaiswal (Jassi)
-copyright: '&copy; Copyright 2021 - Developed with Care by Cybercloud Team'
-repo_url: https://github.com/jassics/CybercloudLearning
-repo_name: jassics/CybercloudLearning
+copyright: '&copy; Copyright 2022 - Developed with Care by Cybercloud Gurus'
 
 nav:
     - Home: index.md
@@ -22,11 +20,14 @@ nav:
       - 'Learning Azure':
             - 'Azure Overview': cloud-computing/learning-azure/index.md
     - Cloud Security:
-      - 'Cloud Security Essentials': cloud-security/cloud-security-basics/cloud-security.md
+      - 'Cloud Security Essentials': cloud-security/cloud-security-essentials.md
       - 'Learning AWS Security':
         - 'AWS Security Overview': cloud-security/learning-aws-security/aws-security-overview.md
         - 'IAM Security': cloud-security/learning-aws-security/iam-security.md
         - 'S3 Security': cloud-security/learning-aws-security/s3-security.md
+        - 'Cloudtrail': cloud-security/learning-aws-security/cloudtrail.md
+        - 'GuardDuty': cloud-security/learning-aws-security/guardduty.md
+        - 'KMS': cloud-security/learning-aws-security/kms.md
       - 'Learning GCP Security':
         - 'AWS Security Overview': cloud-security/learning-gcp-security/gcp-security-overview.md
       - 'Learning Aazure Security':
@@ -45,15 +46,24 @@ nav:
       - 'Application Security':
           - 'Secure Coding': cybersecurity/application-security/secure-coding.md
           - 'Secure Code Review': cybersecurity/application-security/secure-code-review.md
-          - 'Cryptography': cybersecurity/application-security/cryptography
+          - 'Cryptography': cybersecurity/application-security/cryptography.md
           - 'Threat Modeling': cybersecurity/application-security/threat-modeling.md
-          - 'SAST and SCA': cybersecurity/application-security/sast-sca.md
+          - 'SAST': cybersecurity/application-security/sast.md
+          - 'SCA': cybersecurity/application-security/sca.md
     - DevOps:
         - 'Understanding DevOps': devops/devops-introduction.md
         - 'Ansible': devops/ansible.md
         - 'Terraform': devops/terraform.md
         - 'CloudFormation': devops/cloudformation.md
         - 'Pulumi': devops/pulumi.md
+    - DevSecOps:
+        - 'DevSecOps Fundamentals': devsecops/devsecops-fundamentals.md
+        - 'DevSecOps Maturity Model': devsecops/devsecops-maturity.md
+        - 'SDL in CI/CD Pipeline': devsecops/sdl-cicd.md
+        - 'SCA in CI/CD Pipeline': devsecops/sca-cicd.md
+        - 'DAST in CI/CD Pipeline': devsecops/dast-cicd.md
+        - 'Compliance as a Code': devsecops/compliance-as-code.md
+        - 'Automated Vulnerability Management': devsecops/vulnerability-management.md
     - GRC:
       - 'GRC Overview': grc/grc-overview.md
     - Python Track:

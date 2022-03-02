@@ -29,19 +29,34 @@ We will cover topics related to Cloud Computing, DevSecOps and Cybersecurity as 
         1. Secure Coding
         2. Secure Code Review
         3. Cryptography
-### 5. DevOps(Sec)
-    1. Ansible
-    2. Terraform
-    3. CloudFormation
-    4. Pulumi
-### 6. GRC
-### 7. Python Track
+### 5. DevOps
+    1. Understanding DevOps
+    2. Ansible
+    3. Terraform
+    4. CloudFormation
+    5. Pulumi
+### 6. DevSecOps
+    1. DevSecOps Fundamentals
+    2. DevSecOps Maturity Model
+    3. SDL in CI/CD Pipeline
+    4. SCA in CI/CD Pipeline
+    5. DAST in CI/CD Pipeline
+    6. Compliance as a Code
+    7. Automated Vulnerability Management
+### 7. GRC
+    1. Data Privacy
+    2. NIST RMF
+    3. NIST CSF
+    4. GDPR
+    5. PCIDSS
+    6. HIPAA
+### 8. Python Track
     1. Python Essentials
     2. Python for AWS
     3. Python for Cybersecurity
     4. Python for Automation
     5. Python for DevOps
-### 8. Miscellaneous
+### 9. Miscellaneous
     1. Linux Commands
     2. Vim for everyone
     3. Regular Expression with Examples
