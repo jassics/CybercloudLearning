@@ -1,4 +1,4 @@
-name: ci 
+name: cybercloud-publish 
 on:
   push:
     branches:
