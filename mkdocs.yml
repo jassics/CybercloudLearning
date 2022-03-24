@@ -5,7 +5,41 @@ site_author: Sanjeev Jaiswal (Jassi)
 copyright: '&copy; Copyright 2022 - Developed with Care by CyberCloud Gurus'
 repo_url: https://github.com/jassics/CybercloudLearning
 repo_name: jassics/CybercloudLearning
-repo: fontawesome/brands/github
+edit_uri: blob/main/docs/
+
+theme:
+  name: material
+  nav_style: dark
+  logo: assets/images/logo.png
+  favicon: assets/images/favicon.png
+  analytics:
+    gtag: G-ABC123
+  features:
+    - navigation.top
+    - navigation.tabs
+    - navigation.indexes
+    - navigation.tracking
+    - search.suggest
+    - search.highlight
+  icon:
+    repo: fontawesome/brands/github
+  palette:
+    # Light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: light blue
+      accent: blue grey
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+    # Dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: light blue
+      accent: light blue
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
 
 nav:
     - Home: index.md
@@ -82,39 +116,22 @@ nav:
       - 'Regular Expression Essentials': miscellaneous/regular-expression.md
       - 'Git Essentials with Examples': miscellaneous/git-basics.md
 
-theme:
-  name: material
-  nav_style: dark
-  # logo: assets/logo.png
-  favicon: assets/images/favicon.png
-  analytics:
-    gtag: G-ABC123
-  features:
-    - navigation.top
-    - navigation.tabs
-    - navigation.tracking
-  palette:
-    # Light mode
-    - media: "(prefers-color-scheme: light)"
-      scheme: default
-      primary: light blue
-      accent: blue grey
-      toggle:
-        icon: material/toggle-switch-off-outline
-        name: Switch to dark mode
-    # Dark mode
-    - media: "(prefers-color-scheme: dark)"
-      scheme: slate
-      primary: light blue
-      accent: light blue
-      toggle:
-        icon: material/toggle-switch
-        name: Switch to light mode
-  extra:
-    consent:
-      title: Cookie consent
-      description: >-
-        We use cookies to recognize your repeated visits and preferences, as well
-        as to measure the effectiveness of our documentation and whether users
-        find what they're searching for. With your consent, you're helping us to
-        make our documentation better.
+
+extra:
+  consent:
+    title: Cookie consent
+    description: >-
+      We use cookies to recognize your repeated visits and preferences, as well
+      as to measure the effectiveness of our documentation and whether users
+      find what they're searching for. With your consent, you're helping us to
+      make our documentation better.
+
+extra:
+  social:
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/jassics
+      name: follow Sanjeev Jaiswal
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/jassics
+      name: connect Sanjeev on Linkedin
+  generator: false
