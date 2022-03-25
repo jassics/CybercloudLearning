@@ -1,5 +1,5 @@
 site_name: CyberCloud Learnings
-site_url: https://www.cybercloud.guru/
+site_url: https://cybercloud.guru/
 site_description: Tutorials for Cloud Technologies and Cybersecurity, CloudSecurity, DevSecOps with an easy to understand examples and projects
 site_author: Sanjeev Jaiswal (Jassi)
 copyright: '&copy; Copyright 2022 - Developed with Care by CyberCloud Gurus'
@@ -10,8 +10,8 @@ edit_uri: blob/main/docs/
 theme:
   name: material
   nav_style: dark
-  logo: assets/images/logo.png
-  favicon: assets/images/favicon.png
+  logo: "assets/images/logo.png"
+  favicon: "assets/images/favicon.png"
   analytics:
     gtag: G-ABC123
   features:
