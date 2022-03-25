@@ -1,5 +1,5 @@
 # CybercloudLearning
-Repo for Cybercloud Tutorials hosted at cybercloud.guru
+Repo for Cybercloud Tutorials hosted at [cybercloud.guru](https://cybercloud.guru/)
 
 ## Prerequisites
 1. Python3 is installed
@@ -9,7 +9,17 @@ Repo for Cybercloud Tutorials hosted at cybercloud.guru
 1. mkdocs: `pip install mkdocs`
 2. mkdocs-material: `pip install mkdocs-material` 
 3. mkdocs-material-extensions: `pip install mkdocs-material-extensions`
+4. download other dependencies based on `requirements.txt` file. 
+   1. Run this command: `pip3 install -r requirements.txt`
 
 ## Run and build static site
-1. Just serve the site locally: `mkdocs serve`
+1. Just serve the site locally: `mkdocs serve` and you will get localhost IP:port
 2. Build a static website as site/ directory: `mkdocs build`
+   1. site folder will be created which is a static website and you can host it anywhere to run a website.
+
+## Contribute
+This is a community driven project and if you are interested to share your knowledge be it on any topic related to cybersecurity or cloud computing. You can send PR and we will publish under your credit.
+
+If you write using some reference, please give credit to those reference in your article.
+
+Contact [me](https://www.twitter.com/jassics) for any queries related to this project and I would be happy to help you.
