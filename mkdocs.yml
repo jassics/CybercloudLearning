@@ -44,7 +44,7 @@ theme:
 nav:
     - Home: index.md
     - Cloud Computing:
-      - 'Cloud Computing Essentials': cloud-computing/cloud-fundamentals/cloud-basics.md
+      - 'Cloud Computing Essentials': cloud-computing/cloud-basics.md
       - 'Learning AWS':
         - 'AWS Overview': cloud-computing/learning-aws/index.md
         - 'IAM': cloud-computing/learning-aws/iam.md
@@ -77,7 +77,9 @@ nav:
         - 'Kubernetes Security': containers/kubernetes-security.md
     - Cybersecurity:
       - 'Cybersecurity Overview': cybersecurity/cybersecurity-overview.md
-      - 'Web Security': cybersecurity/web-security.md
+      - 'Web Security':
+        - 'Web Security Overview': cybersecurity/web-security/web-security-overview.md
+        - 'OWASP Top 10': cybersecurity/web-security/owasp-top-10.md
       - 'Network Security': cybersecurity/network-security.md
       - 'API Security': cybersecurity/api-security.md
       - 'Application Security':
@@ -104,7 +106,7 @@ nav:
     - GRC:
       - 'GRC Overview': grc/grc-overview.md
     - Python Track:
-        - 'Python Track Introduction': python-track/introduction.md
+        - 'Python Track Introduction': python-track/python-track-overview.md
         - 'Learning Python': python-track/learning-python.md
         - 'Python for AWS': python-track/python-for-aws.md
         - 'Python for Automation': python-track/python-for-automation.md
@@ -115,7 +117,6 @@ nav:
       - 'ViM for Everyone': miscellaneous/vim-essentials.md
       - 'Regular Expression Essentials': miscellaneous/regular-expression.md
       - 'Git Essentials with Examples': miscellaneous/git-basics.md
-
 
 extra:
   consent:
@@ -128,6 +129,9 @@ extra:
 
 extra:
   social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/jassics
+      name: follow Sanjeev Jaiswal
     - icon: fontawesome/brands/twitter
       link: https://twitter.com/jassics
       name: follow Sanjeev Jaiswal
