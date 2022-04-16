@@ -1,4 +1,4 @@
-# CybercloudLearning
+# CybercloudLearning ![](https://github.com/jassics/CybercloudLearning/actions/workflows/ci.yml/badge.svg)
 Repo for Cybercloud Tutorials hosted at [cybercloud.guru](https://cybercloud.guru/)
 
 ## Prerequisites
