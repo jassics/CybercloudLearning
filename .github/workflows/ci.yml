@@ -1,8 +1,7 @@
 name: cybercloud-publish 
 on:
   push:
-    branches:
-      - master 
+    branches: 
       - main
 jobs:
   deploy:
