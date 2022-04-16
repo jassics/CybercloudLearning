@@ -58,6 +58,7 @@ nav:
             - 'Azure Overview': cloud-computing/learning-azure/index.md
     - Cloud Security:
       - 'Cloud Security Essentials': cloud-security/cloud-security-essentials.md
+      - 'OWASP Top 10 Cloud': cloud-security/owasp-top10-cloud.md
       - 'Learning AWS Security':
         - 'AWS Security Overview': cloud-security/learning-aws-security/aws-security-overview.md
         - 'IAM Security': cloud-security/learning-aws-security/iam-security.md
@@ -66,9 +67,9 @@ nav:
         - 'GuardDuty': cloud-security/learning-aws-security/guardduty.md
         - 'KMS': cloud-security/learning-aws-security/kms.md
       - 'Learning GCP Security':
-        - 'AWS Security Overview': cloud-security/learning-gcp-security/gcp-security-overview.md
-      - 'Learning Aazure Security':
-        - 'AWS Security Overview': cloud-security/learning-azure-security/azure-security-overview.md
+        - 'GCP Security Overview': cloud-security/learning-gcp-security/gcp-security-overview.md
+      - 'Learning Azure Security':
+        - 'Azure Security Overview': cloud-security/learning-azure-security/azure-security-overview.md
     - Containers:
         - 'Container Overview': containers/container-overview.md
         - 'Docker': containers/docker.md
@@ -77,9 +78,11 @@ nav:
         - 'Kubernetes Security': containers/kubernetes-security.md
     - Cybersecurity:
       - 'Cybersecurity Overview': cybersecurity/cybersecurity-overview.md
+      - 'Common Security Concepts': cybersecurity/common-security-concepts.md
       - 'Web Security':
         - 'Web Security Overview': cybersecurity/web-security/web-security-overview.md
-        - 'OWASP Top 10': cybersecurity/web-security/owasp-top-10.md
+        - 'OWASP Top 10 2021': cybersecurity/web-security/owasp-top10.md
+        - 'Web Security Concepts': cybersecurity/web-security/web-security-concepts.md
       - 'Network Security': cybersecurity/network-security.md
       - 'API Security': cybersecurity/api-security.md
       - 'Application Security':
@@ -105,6 +108,11 @@ nav:
         - 'Automated Vulnerability Management': devsecops/vulnerability-management.md
     - GRC:
       - 'GRC Overview': grc/grc-overview.md
+      - 'ISO/IEC 27001:2022': grc/iso27k1.md
+      - 'Data Privacy': grc/data-privacy.md
+      - 'GDPR': grc/gdpr.md
+      - 'NIST RMF': grc/nist-rmf.md
+      - 'NIST CSF': grc/nist-csf.md
     - Python Track:
         - 'Python Track Introduction': python-track/python-track-overview.md
         - 'Learning Python': python-track/learning-python.md
@@ -112,6 +120,15 @@ nav:
         - 'Python for Automation': python-track/python-for-automation.md
         - 'Python for DevOps': python-track/python-for-devops.md
         - 'Python for Cybersecurity': python-track/python-for-cybersecurity.md
+    - Study Plan:
+        - 'AWS Security Study Plan': study-plan/aws-security-study-plan.md
+        - 'GCP Security Study Plan': study-plan/gcp-security-study-plan.md
+        - 'DevSecOps Study Plan': study-plan/devsecops-study-plan.md
+        - 'Web Security Study Plan': study-plan/web-security-study-plan.md
+        - 'Application Security Study Plan': study-plan/application-security-study-plan.md
+        - 'Python for Security Study Plan': study-plan/python-for-security-study-plan.md
+        - 'Docker Security Study Plan': study-plan/docker-security-study-plan.md
+        - 'Kubernetes Security Study Plan': study-plan/kubernetes-security-study-plan.md
     - Miscellaneous:
       - 'Linux Commands': miscellaneous/linux-commands.md
       - 'ViM for Everyone': miscellaneous/vim-essentials.md
