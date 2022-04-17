@@ -41,6 +41,15 @@ theme:
         icon: material/toggle-switch
         name: Switch to light mode
 
+plugins:
+  - search
+  - minify:
+      minify_html: true
+      minify_js: true
+      minify_css: true
+      htmlmin_opts:
+          remove_comments: true
+
 nav:
     - Home: index.md
     - Cloud Computing:
