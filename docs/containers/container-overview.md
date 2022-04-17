@@ -85,6 +85,7 @@ Common ways organizations use containers include:
 
 ## What are some examples of containers
 **Some examples include:** 
+
 1. Container Linux (formerly CoreOS Linux) — one of the first lightweight container operating systems built for containers. 
 2. RancherOS — a simplified Linux distribution built from containers, specifically for running containers
 3. Docker - The first and still most popular container technology, Docker's open-source containerization engine works with most of the products that follow, as well as many open-source tools.
