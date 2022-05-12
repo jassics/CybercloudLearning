@@ -81,7 +81,8 @@ nav:
         - 'Azure Security Overview': cloud-security/learning-azure-security/azure-security-overview.md
     - Containers:
         - 'Container Overview': containers/container-overview.md
-        - 'Docker': containers/docker.md
+        - 'Docker':
+          - 'Introduction to Docker': containers/docker/docker-introduction.md
         - 'Docker Security': containers/docker-security.md
         - 'Kubernetes': containers/kubernetes.md
         - 'Kubernetes Security': containers/kubernetes-security.md
@@ -130,19 +131,36 @@ nav:
         - 'Python for DevOps': python-track/python-for-devops.md
         - 'Python for Cybersecurity': python-track/python-for-cybersecurity.md
     - Study Plan:
-        - 'AWS Security Study Plan': study-plan/aws-security-study-plan.md
-        - 'GCP Security Study Plan': study-plan/gcp-security-study-plan.md
-        - 'DevSecOps Study Plan': study-plan/devsecops-study-plan.md
-        - 'Web Security Study Plan': study-plan/web-security-study-plan.md
         - 'Application Security Study Plan': study-plan/application-security-study-plan.md
-        - 'Python for Security Study Plan': study-plan/python-for-security-study-plan.md
+        - 'AWS Security Study Plan': study-plan/aws-security-study-plan.md
+        - 'Azure Security Study Plan': study-plan/azure-security-study-plan.md
+        - 'Common Security Study Plan': study-plan/common-skills-study-plan.md
+        - 'DevSecOps Study Plan': study-plan/devsecops-study-plan.md
         - 'Docker Security Study Plan': study-plan/docker-security-study-plan.md
+        - 'GCP Security Study Plan': study-plan/gcp-security-study-plan.md
         - 'Kubernetes Security Study Plan': study-plan/kubernetes-security-study-plan.md
+        - 'Network Security Study Plan': study-plan/network-security-study-plan.md
+        - 'Python for Security Study Plan': study-plan/python-for-security-study-plan.md
+        - 'Web Security Study Plan': study-plan/web-security-testing-study-plan.md
     - Miscellaneous:
       - 'Linux Commands': miscellaneous/linux-commands.md
       - 'ViM for Everyone': miscellaneous/vim-essentials.md
       - 'Regular Expression Essentials': miscellaneous/regular-expression.md
       - 'Git Essentials with Examples': miscellaneous/git-basics.md
+    - 'Security Presentations':
+      - 'Security Presentation Lists': security-presentations/index.md
+      - 'Application Security':
+        - 'Threat Modeling Hands-On': security-presentations/application-security/threat-modeling-handson.md
+      - 'Common Cybersecurity Presentations':
+        - 'Cybersecurity Roadmap for Beginners': security-presentations/common-security-presentations/cybersecurity-roadmap-for-beginners.md
+        - 'Social Engineering Basics': security-presentations/common-security-presentations/social-engineering-basics.md
+        - 'How to Build a Career in Cybersecurity': security-presentations/common-security-presentations/how-to-build-a-career-in-cybersecurity.md
+      - 'Cloud Security':
+        - 'Cloud Security 101': security-presentations/cloud-security/cloud-security-101.md
+        - 'Penetration Testing AWS': security-presentations/cloud-security/penetration-testing-aws.md
+      - 'Python Track':
+          - 'Python for AWS': security-presentations/python-track/python-for-aws.md
+          - 'Python for Web Security': security-presentations/python-track/python-for-web-security.md
 
 extra:
   consent:
@@ -165,3 +183,11 @@ extra:
       link: https://www.linkedin.com/in/jassics
       name: connect Sanjeev on Linkedin
   generator: false
+
+# Strategy: Use an absolute path
+markdown_extensions:
+  - pymdownx.pathconverter:
+      base_path: 'jassics/CybercloudLearning' # default: ''
+      relative_path: '' # default ''
+      absolute: false # default: false
+      tags: 'a script img link object embed'
