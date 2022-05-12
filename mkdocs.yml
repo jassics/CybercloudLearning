@@ -130,7 +130,7 @@ nav:
         - 'Python for Automation': python-track/python-for-automation.md
         - 'Python for DevOps': python-track/python-for-devops.md
         - 'Python for Cybersecurity': python-track/python-for-cybersecurity.md
-    - Study Plan:
+    - Cybersecurity Study Plan:
         - 'Application Security Study Plan': study-plan/application-security-study-plan.md
         - 'AWS Security Study Plan': study-plan/aws-security-study-plan.md
         - 'Azure Security Study Plan': study-plan/azure-security-study-plan.md

@@ -74,6 +74,8 @@ We cover topics related to Cloud Computing, DevSecOps and Cybersecurity as menti
     1. Linux Commands
     2. Vim for everyone
     3. Regular Expression with Examples
+### 10. Security Study Plan and Security Presentations
+It will cover common cybersecurity domains related study plans and presentations.
 
 ## Disclaimer
 The information here provided by Cybercloud Gurus is only for educational purpose.
