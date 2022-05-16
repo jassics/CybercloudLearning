@@ -56,11 +56,69 @@ nav:
       - 'Cloud Computing Essentials': cloud-computing/cloud-basics.md
       - 'Learning AWS':
         - 'AWS Overview': cloud-computing/learning-aws/index.md
-        - 'IAM': cloud-computing/learning-aws/iam.md
-        - 'EC2': cloud-computing/learning-aws/ec2.md
-        - 'S3': cloud-computing/learning-aws/s3.md
-        - 'VPC': cloud-computing/learning-aws/vpc.md
-        - 'Lambda': cloud-computing/learning-aws/lambda.md
+        - 'Compute':
+          - 'Compute Overview': cloud-computing/learning-aws/compute/index.md
+          - 'Amazon EC2': cloud-computing/learning-aws/compute/amazon-ec2.md
+          - 'AWS Lambda': cloud-computing/learning-aws/compute/aws-lambda.md
+          - 'Amazon Lightsail': cloud-computing/learning-aws/compute/amazon-lightsail.md
+          - 'AWS Auto Scaling': cloud-computing/learning-aws/compute/aws-auto-scaling.md
+          - 'AWS Elastic Beanstalk': cloud-computing/learning-aws/compute/aws-elastic-beanstalk.md
+        - 'Containers':
+          - 'Containers Overview': cloud-computing/learning-aws/containers/index.md
+          - 'Amazon ECR': cloud-computing/learning-aws/containers/amazon-ecr.md
+          - 'Amazon ECS': cloud-computing/learning-aws/containers/amazon-ecs.md
+          - 'Amazon EKS': cloud-computing/learning-aws/containers/amazon-eks.md
+          - 'AWS Fargate': cloud-computing/learning-aws/containers/aws-fargate.md
+        - 'Database':
+          - 'Database Overview': cloud-computing/learning-aws/database/index.md
+          - 'Amazon Aurora': cloud-computing/learning-aws/database/amazon-aurora.md
+          - 'Amazon DynamoDB': cloud-computing/learning-aws/database/amazon-dynamodb.md
+          - 'Amazon Elasticache': cloud-computing/learning-aws/database/amazon-elasticache.md
+          - 'Amazon Neptune': cloud-computing/learning-aws/database/amazon-neptune.md
+          - 'Amazon RDS': cloud-computing/learning-aws/database/amazon-rds.md
+          - 'Amazon Redshift': cloud-computing/learning-aws/database/amazon-redshift.md
+        - 'Management and Governance':
+          - 'Management and Governance Overview': cloud-computing/learning-aws/management-and-governance/index.md
+          - 'Amazon CloudWatch': cloud-computing/learning-aws/management-and-governance/amazon-cloudwatch.md
+          - 'AWS CloudTrail': cloud-computing/learning-aws/management-and-governance/aws-cloudtrail.md
+          - 'AWS Config': cloud-computing/learning-aws/management-and-governance/aws-config.md
+          - 'AWS Organizations': cloud-computing/learning-aws/management-and-governance/aws-organizations.md
+          - 'AWS Trusted Advisor': cloud-computing/learning-aws/management-and-governance/aws-trusted-advisor.md
+        - 'Networking':
+          - 'Networking Overview': cloud-computing/learning-aws/networking/index.md
+          - 'Amazon VPC': cloud-computing/learning-aws/networking/amazon-vpc.md
+          - 'Amazon API Gateway': cloud-computing/learning-aws/networking/amazon-api-gateway.md
+          - 'Amazon CloudFront': cloud-computing/learning-aws/networking/amazon-cloudfront.md
+          - 'Amazon Route53': cloud-computing/learning-aws/networking/amazon-route53.md
+          - 'Elastic Load Balancing': cloud-computing/learning-aws/networking/elb.md
+        - 'Security, Identity and Compliance':
+          - 'Security, Identity and Compliance Overview': cloud-computing/learning-aws/security-identity-compliance/index.md
+          - 'AWS IAM': cloud-computing/learning-aws/security-identity-compliance/aws-iam.md
+          - 'Amazon Cognito': cloud-computing/learning-aws/security-identity-compliance/amazon-cognito.md
+          - 'Amazon Detective': cloud-computing/learning-aws/security-identity-compliance/amazon-detective.md
+          - 'Amazon GuardDuty': cloud-computing/learning-aws/security-identity-compliance/amazon-guardduty.md
+          - 'Amazon Inspector': cloud-computing/learning-aws/security-identity-compliance/amazon-inspector.md
+          - 'Amazon Macie': cloud-computing/learning-aws/security-identity-compliance/amazon-macie.md
+          - 'AWS KMS': cloud-computing/learning-aws/security-identity-compliance/aws-kms.md
+          - 'AWS Secrets Manager': cloud-computing/learning-aws/security-identity-compliance/aws-secrets-manager.md
+          - 'AWS Security Hub': cloud-computing/learning-aws/security-identity-compliance/aws-security-hub.md
+        - 'Storage':
+          - 'Storage Overview': cloud-computing/learning-aws/storage/index.md
+          - 'Amazon S3': cloud-computing/learning-aws/storage/amazon-s3.md
+          - 'Amazon EBS': cloud-computing/learning-aws/storage/amazon-ebs.md
+          - 'Amazon EFS': cloud-computing/learning-aws/storage/amazon-efs.md
+        - 'Application Integration':
+          - 'Application Integration Overview': cloud-computing/learning-aws/application-integration/index.md
+          - 'Amazon EventBridge': cloud-computing/learning-aws/application-integration/amazon-eventbridge.md
+          - 'Amazon SNS': cloud-computing/learning-aws/application-integration/amazon-sns.md
+          - 'Amazon SQS': cloud-computing/learning-aws/application-integration/amazon-sqs.md
+          - 'AWS Step Functions': cloud-computing/learning-aws/application-integration/aws-step-functions.md
+        - 'Analytics':
+          - 'Analytics Overview': cloud-computing/learning-aws/analytics/index.md
+          - 'Amazon Athena': cloud-computing/learning-aws/analytics/amazon-athena.md
+          - 'Amazon Kinesis': cloud-computing/learning-aws/analytics/amazon-kinesis.md
+          - 'Amazon Redshift': cloud-computing/learning-aws/analytics/amazon-redshift.md
+          - 'AWS Glue': cloud-computing/learning-aws/analytics/aws-glue.md
       - 'Learning GCP':
         - 'GCP Overview': cloud-computing/learning-gcp/index.md
       - 'Learning Azure':
@@ -131,17 +189,17 @@ nav:
         - 'Python for DevOps': python-track/python-for-devops.md
         - 'Python for Cybersecurity': python-track/python-for-cybersecurity.md
     - Cybersecurity Study Plan:
-        - 'Application Security Study Plan': study-plan/application-security-study-plan.md
-        - 'AWS Security Study Plan': study-plan/aws-security-study-plan.md
-        - 'Azure Security Study Plan': study-plan/azure-security-study-plan.md
-        - 'Common Security Study Plan': study-plan/common-skills-study-plan.md
-        - 'DevSecOps Study Plan': study-plan/devsecops-study-plan.md
-        - 'Docker Security Study Plan': study-plan/docker-security-study-plan.md
-        - 'GCP Security Study Plan': study-plan/gcp-security-study-plan.md
-        - 'Kubernetes Security Study Plan': study-plan/kubernetes-security-study-plan.md
-        - 'Network Security Study Plan': study-plan/network-security-study-plan.md
-        - 'Python for Security Study Plan': study-plan/python-for-security-study-plan.md
-        - 'Web Security Study Plan': study-plan/web-security-testing-study-plan.md
+        - 'Application Security Study Plan': cybersecurity-study-plan/application-security-study-plan.md
+        - 'AWS Security Study Plan': cybersecurity-study-plan/aws-security-study-plan.md
+        - 'Azure Security Study Plan': cybersecurity-study-plan/azure-security-study-plan.md
+        - 'Common Security Study Plan': cybersecurity-study-plan/common-skills-study-plan.md
+        - 'DevSecOps Study Plan': cybersecurity-study-plan/devsecops-study-plan.md
+        - 'Docker Security Study Plan': cybersecurity-study-plan/docker-security-study-plan.md
+        - 'GCP Security Study Plan': cybersecurity-study-plan/gcp-security-study-plan.md
+        - 'Kubernetes Security Study Plan': cybersecurity-study-plan/kubernetes-security-study-plan.md
+        - 'Network Security Study Plan': cybersecurity-study-plan/network-security-study-plan.md
+        - 'Python for Security Study Plan': cybersecurity-study-plan/python-for-security-study-plan.md
+        - 'Web Security Study Plan': cybersecurity-study-plan/web-security-testing-study-plan.md
     - Miscellaneous:
       - 'Linux Commands': miscellaneous/linux-commands.md
       - 'ViM for Everyone': miscellaneous/vim-essentials.md
