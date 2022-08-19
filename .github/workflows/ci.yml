@@ -2,7 +2,7 @@ name: cybercloud-publish
 on:
   push:
     branches: 
-      - main
+      - build
 jobs:
   deploy:
     runs-on: ubuntu-latest
