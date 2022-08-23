@@ -4,6 +4,13 @@ description: Single place to learn only necessary topics in Cloud and Security
 ---
 
 # Welcome to Cybercloud Learnings
+
+<div >
+    <img src="./assets/images/logo-orig.jpg" height="250" width="250" />
+</div>
+
+<!-- ![ Bare Metal vs Container vs Virtual Machine](./assets/images/logo.png) -->
+
 ## Introduction
 Cybercloud Learning is trying to put simple yet practical contents which can be used by beginners or experienced  professionals as a revision or skills update. The goal is to share the knowledge with the cloud and cybersecurity community to better understand offensive and defensive approach on cloud native technologies.
 
@@ -87,7 +94,8 @@ Please check [GitHub page](https://github.com/jassics/CybercloudLearning) for mo
 
 
 ## Contributors
-> [Sanjeev Jaiswal](https://www.twitter.com/jassics)
+- [Sanjeev Jaiswal](https://www.twitter.com/jassics)
+- [Deepraj Baidya](https://github.com/deepraj1729)
 
 > You can help us to improve further if you find any discrepancies in existing content through an [Issue](https://github.com/jassics/CybercloudLearning/issues) or submit the new content through a [Pull Request (PR)](https://github.com/jassics/CybercloudLearning/pulls).
 
