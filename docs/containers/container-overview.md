@@ -16,6 +16,8 @@ The term bare metal refers to the fact that there is no operating system between
 You might already be familiar with VMs: a guest operating system such as Linux or Windows runs on top of a host operating system with access to the underlying hardware. 
 Containers are often compared to virtual machines (VMs). Like virtual machines, containers allow you to package your application together with libraries and other dependencies, providing isolated environments for running your software services. 
 
+Multiple containers can be run on the same machine, and usually consume less space than VMs, apart from being quicker to start. 
+
 ![Containers vs Virtual Machines](../assets/images/containers/Containers_vs_Virtual-Machines.png)
 As you’ll see below, however, the similarities end here as containers offer a far more lightweight unit for developers and IT Ops teams to work with, carrying a myriad of benefits.
 
