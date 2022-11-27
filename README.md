@@ -1,6 +1,18 @@
 # CybercloudLearning ![](https://github.com/jassics/CybercloudLearning/actions/workflows/ci.yml/badge.svg)
 Repo for Cybercloud Tutorials hosted at [cybercloud.guru](https://cybercloud.guru/)
 
+## The tutorials covers but not limited to:
+1. Cloud Computing
+2. Cloud Security
+3. DevOps
+4. DevSecOps
+5. Containers
+6. IaC
+7. Python Tracks
+8. Linux Commands
+9. Others like regular expression, vim etc.
+10. Study Plans
+
 ## Prerequisites
 1. Python3 is installed
 2. pip/pip3 is working as expected
