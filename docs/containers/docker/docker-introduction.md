@@ -1,5 +1,7 @@
 # Docker
 
+![ Docker ](../../assets/images/containers/docker.png)
+
 ## What is Docker
 Docker is a standalone software that can be installed on any computer to run containerized applications
 When we talk about Docker, its mostly we talk about Docker Engine.
