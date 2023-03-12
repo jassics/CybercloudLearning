@@ -11,7 +11,7 @@ When we talk about Docker, its mostly we talk about Docker Engine.
 1. Enterprise Edition (EE)
 2. Community Edition (CE)
 
-Docker has an open-source project called "Moby"  to enable and accelerate software containerization.It's source code is available at [github](https://github.com/moby/moby)
+Docker has an open-source project called "Moby"  to enable and accelerate software containerization.It's source code is available at [github](https://github.com/moby/moby "moby project")
 
 ## History of Docker Company
 - It's based out of San Francisco
@@ -38,7 +38,7 @@ Docker images are read-only templates used to build containers. Containers are d
 
 
 Before going to the next chapter, please make sure you have install all the necessary software to run Docker on your local machine.
-**Install** [Docker from here](https://docs.docker.com/get-docker/)
+**Install** [Docker from here](https://docs.docker.com/get-docker/ "Download Docker")
 
-**Reference**: [Docker Deep Dive from acloud.guru](https://acloudguru.com/course/docker-deep-dive)
+**Reference**: [Docker Deep Dive from acloud.guru](https://acloudguru.com/course/docker-deep-dive "Docker Deep Dive from Acloud.guru")
 

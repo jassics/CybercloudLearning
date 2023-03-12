@@ -3,7 +3,7 @@
 I am making the study plan irrespective of job role under AWS Security category. It can be AWS Security Analyst, AWS Security Researcher or AWS Security Engineer or Cloud Security Operations Expert or Cloud Security Manager.
 
 So, check how much you can cover and close the checkbox. The more you close, the better candidate you are for the job role.
-Also, I assume you have already checked and comfortable with [Common Security Skills study plan](common-skills-study-plan.md).
+Also, I assume you have already checked and comfortable with [Common Security Skills study plan](../common-skills-study-plan.md).
 
 This page is updated based on [jassics/security-study-plan/aws-security-study-plan](https://github.com/jassics/security-study-plan/blob/main/aws-security-study-plan.md)
 ## AWS Security Skills Learning and Checklist

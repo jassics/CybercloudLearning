@@ -1,26 +1,28 @@
-site_name: CyberCloud Learnings
+site_name: CyberCloud Guru
 site_url: https://cybercloud.guru/
-site_description: Tutorials for Cloud Technologies and Cybersecurity, CloudSecurity, DevSecOps with an easy to understand examples and projects
+site_description: Tutorials for Cybersecurity, CloudSecurity, DevSecOps and many more with an easy to understand examples.
 site_author: Sanjeev Jaiswal (Jassi)
-copyright: '&copy; Copyright 2022 - Developed with Care by CyberCloud Gurus'
+copyright: '&copy; Copyright 2023 - Developed with Care by CyberCloud Gurus'
 repo_url: https://github.com/jassics/CybercloudLearning
 repo_name: jassics/CybercloudLearning
 edit_uri: blob/main/docs/
 
 theme:
-  name: material
+  name: material #mkdocs, readthedocs, material
   nav_style: dark
   logo: "assets/images/logo.png"
   favicon: "assets/images/favicon.png"
   analytics:
-    gtag: G-ABC123
+    gtag: G-6SNSTEDE6T
   features:
     - navigation.top
     - navigation.tabs
+    - navigation.tabs.sticky
     - navigation.indexes
     - navigation.tracking
     - search.suggest
     - search.highlight
+    - content.tooltips
   icon:
     repo: fontawesome/brands/github
   palette:
@@ -188,37 +190,48 @@ nav:
         - 'Python for Automation': python-track/python-for-automation.md
         - 'Python for DevOps': python-track/python-for-devops.md
         - 'Python for Cybersecurity': python-track/python-for-cybersecurity.md
-    - Cybersecurity Study Plan:
-        - 'Application Security Study Plan': cybersecurity-study-plan/application-security-study-plan.md
-        - 'AWS Security Study Plan': cybersecurity-study-plan/aws-security-study-plan.md
-        - 'Azure Security Study Plan': cybersecurity-study-plan/azure-security-study-plan.md
-        - 'Common Security Study Plan': cybersecurity-study-plan/common-skills-study-plan.md
-        - 'DevSecOps Study Plan': cybersecurity-study-plan/devsecops-study-plan.md
-        - 'Docker Security Study Plan': cybersecurity-study-plan/docker-security-study-plan.md
-        - 'GCP Security Study Plan': cybersecurity-study-plan/gcp-security-study-plan.md
-        - 'Kubernetes Security Study Plan': cybersecurity-study-plan/kubernetes-security-study-plan.md
-        - 'Network Security Study Plan': cybersecurity-study-plan/network-security-study-plan.md
-        - 'Python for Security Study Plan': cybersecurity-study-plan/python-for-security-study-plan.md
-        - 'Web Security Study Plan': cybersecurity-study-plan/web-security-testing-study-plan.md
+    - Study Plan:
+        - 'Study Plans': study-plan/index.md
+        - 'Common Skills required for security study plan': study-plan/common-skills-study-plan.md
+        - Cybersecurity:
+          - 'Application Security Study Plan': study-plan/cybersecurity/application-security-study-plan.md
+          - 'Web Security Testing Study Plan': study-plan/cybersecurity/web-security-testing-study-plan.md
+          - 'Network Security Study Plan': study-plan/cybersecurity/network-security-study-plan.md
+        - Cloud Security:
+          - 'AWS Security Study Plan': study-plan/cloud-security/aws-security-study-plan.md
+          - 'Azure Security Study Plan': study-plan/cloud-security/azure-security-study-plan.md
+          - 'GCP Security Study Plan': study-plan/cloud-security/gcp-security-study-plan.md
+        - 'DevSecOps Study Plan': study-plan/devsecops-study-plan.md
+        - 'Docker Security Study Plan': study-plan/docker-security-study-plan.md
+        - 'Kubernetes Security Study Plan': study-plan/kubernetes-security-study-plan.md
+        - 'Python for Security Study Plan': study-plan/python-for-security-study-plan.md
+        - DevOps:
+          - 'Docker Study Plan': study-plan/devops/docker-study-plan.md
+          - 'Kubernetes Study Plan': study-plan/devops/kubernetes-study-plan.md
+          - 'Terraform Study Plan': study-plan/devops/terraform-study-plan.md
     - Miscellaneous:
       - 'Linux Commands': miscellaneous/linux-commands.md
       - 'ViM for Everyone': miscellaneous/vim-essentials.md
       - 'Regular Expression Essentials': miscellaneous/regular-expression.md
       - 'Git Essentials with Examples': miscellaneous/git-basics.md
-    - 'Security Presentations':
-      - 'Security Presentation Lists': security-presentations/index.md
-      - 'Application Security':
-        - 'Threat Modeling Hands-On': security-presentations/application-security/threat-modeling-handson.md
+    - 'Slides':
+      - 'Slides Lists': slides/index.md
       - 'Common Cybersecurity Presentations':
-        - 'Cybersecurity Roadmap for Beginners': security-presentations/common-security-presentations/cybersecurity-roadmap-for-beginners.md
-        - 'Social Engineering Basics': security-presentations/common-security-presentations/social-engineering-basics.md
-        - 'How to Build a Career in Cybersecurity': security-presentations/common-security-presentations/how-to-build-a-career-in-cybersecurity.md
+        - 'Cybersecurity Roadmap for Beginners': slides/security-presentations/common-security/cybersecurity-roadmap-for-beginners.md
+        - 'Social Engineering Basics': slides/security-presentations/common-security/social-engineering-basics.md
+        - 'How to Build a Career in Cybersecurity': slides/security-presentations/common-security/how-to-build-a-career-in-cybersecurity.md
+      - 'Application Security':
+        - 'Threat Modeling Hands-On': slides/security-presentations/application-security/threat-modeling-handson.md
+        - 'API Security 101': slides/security-presentations/application-security/api-security-101.md
+        - 'OWASP Top 10 for API': slides/security-presentations/application-security/owasp-top10-api.md
+        - 'OWASP Top 10 for web': slides/security-presentations/web-security/owasp-top10-web.md
+        - 'Web Security 101': slides/security-presentations/web-security/web-security-101.md
       - 'Cloud Security':
-        - 'Cloud Security 101': security-presentations/cloud-security/cloud-security-101.md
-        - 'Penetration Testing AWS': security-presentations/cloud-security/penetration-testing-aws.md
+        - 'Cloud Security 101': slides/security-presentations/cloud-security/cloud-security-101.md
+        - 'Penetration Testing AWS': slides/security-presentations/cloud-security/penetration-testing-aws.md
       - 'Python Track':
-          - 'Python for AWS': security-presentations/python-track/python-for-aws.md
-          - 'Python for Web Security': security-presentations/python-track/python-for-web-security.md
+          - 'Python for AWS': slides/python-track/python-for-aws.md
+          - 'Python for Web Security': slides/python-track/python-for-web-security.md
 
 extra:
   consent:
@@ -249,3 +262,6 @@ markdown_extensions:
       relative_path: '' # default ''
       absolute: false # default: false
       tags: 'a script img link object embed'
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
