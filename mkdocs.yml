@@ -168,6 +168,7 @@ nav:
         - 'Terraform': devops/terraform.md
         - 'CloudFormation': devops/cloudformation.md
         - 'Pulumi': devops/pulumi.md
+        - 'Jenkins': devops/jenkins.md
     - DevSecOps:
         - 'DevSecOps Fundamentals': devsecops/devsecops-fundamentals.md
         - 'DevSecOps Maturity Model': devsecops/devsecops-maturity.md
