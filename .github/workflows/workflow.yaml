@@ -61,9 +61,11 @@ jobs:
           ls -lrt
           cd ..
           ls -lRt
+
+      - name: installing scp
+        run: |
           sudo apt-get update -y
           sudo apt-get install openssh-client -y
-          scp -h
 
       - name: scp to cybercloud.guru
         run: |
