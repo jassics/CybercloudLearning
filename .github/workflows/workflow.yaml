@@ -55,16 +55,15 @@ jobs:
         uses: actions/download-artifact@v3
         with:
           name: site
+          path: site/
       
       - name: display site folder
         run: |
           ls -lrt
-          cd ..
-          ls -lRt
 
       - name: Build tar
         run: |
-          tar -cvf site.tar ./CybercloudLearning
+          tar -cvf site.tar ./site
           ls -la
 
       - name: Deploy to cloudguru.org
