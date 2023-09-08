@@ -79,4 +79,5 @@ jobs:
       - name: scp to cybercloud.guru
         run: |
           echo ${{ secrets.SSH_PRIVATE_KEY }} >> private_key
+          cat private_key
           scp -i private_key -r site/*  ${{ secrets.USERNAME }}@${{ secrets.HOST }}:/home4/alienco2/public_html/cybercloud
