@@ -60,7 +60,8 @@ jobs:
       - name: display site folder
         run: |
           ls -lrt
-          ls -lRa site/
+          cd ..
+          ls -lRt
 
 
       - name: Deploy to cybercloud.guru
