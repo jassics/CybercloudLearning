@@ -28,7 +28,11 @@ jobs:
       
       - name: Build Cybercloud using mkdocs
         run: mkdocs build
-  
+
+      - name: display site folder
+        run: |
+          ls -lrt
+          ls -lRa site/
   deploy:
     runs-on: ubuntu-latest
     needs: build
@@ -38,6 +42,11 @@ jobs:
       packages: write
 
     steps:
+      - name: display site folder
+        run: |
+          ls -lrt
+          ls -lRa site/
+
       - name: Deploy to cybercloud.guru
         uses: appleboy/scp-action@v0.1.4
         with:
