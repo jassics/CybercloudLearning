@@ -28,5 +28,24 @@ jobs:
       
       - name: Build Cybercloud using mkdocs
         run: mkdocs build
+  
+  deploy:
+    runs-on: ubuntu-latest
+    needs: build
+    
+    permissions:
+      contents: read
+      packages: write
+
+    steps:
+      - name: Deploy to cybercloud.guru
+        uses: appleboy/scp-action@v0.1.4
+        with:
+          host: ${{ secrets.HOST }}
+          username: ${{ secrets.USERNAME }}
+          port: 22
+          key: ${{ secrets.SSH_PRIVATE_KEY }}
+          source: "site/*"
+          target: "/home4/alienco2/public_html/cybercloud"
       
         
