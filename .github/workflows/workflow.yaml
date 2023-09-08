@@ -64,7 +64,7 @@ jobs:
 
       - name: Build tar
         run: |
-          tar -cvf site.tar ./site/
+          tar -cvf site.tar ./CybercloudLearning
           ls -la
 
       - name: Deploy to cloudguru.org
