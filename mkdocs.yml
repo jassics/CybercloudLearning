@@ -169,6 +169,7 @@ nav:
         - 'CloudFormation': devops/cloudformation.md
         - 'Pulumi': devops/pulumi.md
         - 'Jenkins': devops/jenkins.md
+        - 'Git Essentials with Examples': devops/git-basics.md
     - DevSecOps:
         - 'DevSecOps Fundamentals': devsecops/devsecops-fundamentals.md
         - 'DevSecOps Maturity Model': devsecops/devsecops-maturity.md
@@ -214,7 +215,6 @@ nav:
       - 'Linux Commands': miscellaneous/linux-commands.md
       - 'ViM for Everyone': miscellaneous/vim-essentials.md
       - 'Regular Expression Essentials': miscellaneous/regular-expression.md
-      - 'Git Essentials with Examples': miscellaneous/git-basics.md
     - 'Slides':
       - 'Slides Lists': slides/index.md
       - 'Common Cybersecurity Presentations':
