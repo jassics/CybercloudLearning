@@ -63,14 +63,18 @@ jobs:
           cd ..
           ls -lRt
 
+#      - name: Deploy to cybercloud.guru
+#        uses: appleboy/scp-action@v0.1.4
+#
+#        with:
+#          host: ${{ secrets.HOST }}
+#          username: ${{ secrets.USERNAME }}
+#          port: 22
+#          key: ${{ secrets.SSH_PRIVATE_KEY }}
+#          source: "site/*"
+#          target: "/home4/alienco2/public_html/cybercloud"
 
-      - name: Deploy to cybercloud.guru
-        uses: appleboy/scp-action@v0.1.4
-        with:
-          host: ${{ secrets.HOST }}
-          username: ${{ secrets.USERNAME }}
-          port: 22
-          key: ${{ secrets.SSH_PRIVATE_KEY }}
-          source: "site/*"
-          target: "/home4/alienco2/public_html/cybercloud"
-      
+     - name: scp to cybercloud.guru
+       run: |
+        echo ${{ secrets.SSH_PRIVATE_KEY }} >> private_key
+        scp -i private_key -r site/*  ${{ secrets.USERNAME }}@${{ secrets.HOST }}:/home4/alienco2/public_html/cybercloud
