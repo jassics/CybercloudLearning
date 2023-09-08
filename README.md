@@ -20,8 +20,7 @@ Repo for Cybercloud Tutorials hosted at [cybercloud.guru](https://cybercloud.gur
 ## Install
 1. mkdocs: `pip install mkdocs`
 2. mkdocs-material: `pip install mkdocs-material` 
-3. mkdocs-material-extensions: `pip install mkdocs-material-extensions`
-4. mkdocs-minify-plugin: `pip install mkdocs-minify-plugin`
+3. mkdocs-minify-plugin: `pip install mkdocs-minify-plugin`
 
 ## Run and build static site
 1. Just serve the site locally: `mkdocs serve` and you will get localhost IP:port
