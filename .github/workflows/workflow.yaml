@@ -62,12 +62,17 @@ jobs:
           cd ..
           ls -lRt
 
-      - name: installing scp
+      - name: Build tar
         run: |
-          sudo apt-get update -y
-          sudo apt-get install openssh-client -y
+          tar -cvf site.tar ./site/
+          ls -la
 
-      - name: scp to cybercloud.guru
-        run: |
-          echo ${{ secrets.SSH_PRIVATE_KEY }} >> private_key
-          scp -i private_key -r site/*  ${{ secrets.USERNAME }}@${{ secrets.HOST }}:/home4/alienco2/public_html/cybercloud
+      - name: Deploy to cloudguru.org
+        uses: appleboy/scp-action@master
+        with:
+          host: ${{ secrets.HOST }}
+          username: ${{ secrets.USERNAME }}
+          key: ${{ secrets.SSH_PRIVATE_KEY }}
+          port: 22
+          source: "site.tar"
+          target: "/home4/alienco2/public_html/cybercloud"
