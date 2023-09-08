@@ -51,7 +51,6 @@ jobs:
       packages: write
 
     steps:
-
       - name: Download artifact
         uses: actions/download-artifact@v3
         with:
@@ -62,6 +61,9 @@ jobs:
           ls -lrt
           cd ..
           ls -lRt
+          sudo apt-get update -y
+          sudo apt-get install openssh-client -y
+          scp -h
 
       - name: scp to cybercloud.guru
         run: |
