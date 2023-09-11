@@ -29,8 +29,6 @@ jobs:
       - name: Build Cybercloud using mkdocs
         run: mkdocs build
 
-  
-
       - name: display site folder
         run: |
           ls -lrt
@@ -66,17 +64,6 @@ jobs:
           tar -cvf site.tar ./site
           ls -la
 
-      # - name: Deploy to cloudguru.org
-      #   uses: appleboy/scp-action@master
-      #   with:
-      #     host: ${{ secrets.HOST }}
-      #     username: ${{ secrets.USERNAME }}
-      #     key: ${{ secrets.SSH_PRIVATE_KEY }}
-      #     port: 22
-      #     source: "site.tar"
-      #     target: "/home4/alienco2/public_html/cybercloud"
-
-    steps:
       - name: Cat secret
       - shell: bash
         env:
