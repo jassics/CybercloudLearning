@@ -64,7 +64,7 @@ jobs:
           tar -cvf site.tar ./site
           ls -la
 
-      - name: Retrieve the secret and decode it to a file
+      - name: Retrieve the ssh private key and decode it to a file
         env:
           CERTIFICATE_BASE64: ${{ secrets.SSH_PRIVATE_KEY }}
         run: |
