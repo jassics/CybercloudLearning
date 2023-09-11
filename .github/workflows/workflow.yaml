@@ -72,4 +72,4 @@ jobs:
 
       - name: scp to cybercloud.guru
         run: |
-          scp -i priv_key -r site/* -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null  ${{ vars.USERNAME }}@${{ vars.HOST }}:/home4/alienco2/public_html/cybercloud
+          scp -i priv_key -o StrictHostKeyChecking=no -r site/*  ${{ vars.USERNAME }}@${{ vars.HOST }}:/home4/alienco2/public_html/cybercloud
