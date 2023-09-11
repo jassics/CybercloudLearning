@@ -29,11 +29,6 @@ jobs:
       - name: Build Cybercloud using mkdocs
         run: mkdocs build
 
-      - name: display site folder
-        run: |
-          ls -lrt
-          ls -lRa site/
-
       - name: Upload Artifact
         uses: actions/upload-artifact@v3
         with:
@@ -54,15 +49,10 @@ jobs:
         with:
           name: site
           path: site/
-      
-      - name: display site folder
-        run: |
-          ls -lrt
 
       - name: Build tar
         run: |
           tar -cvf site.tar ./site
-          ls -la
 
       - name: Retrieve the ssh private key and decode it to a file
         env:
@@ -73,4 +63,4 @@ jobs:
       - name: scp to cybercloud.guru
         run: |
           chmod 400 priv_key
-          scp -i priv_key -o StrictHostKeyChecking=no -r site/*  ${{ vars.USERNAME }}@${{ vars.HOST }}:/home4/alienco2/public_html/cybercloud
+          scp -i priv_key -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -r site/*  ${{ vars.USERNAME }}@${{ vars.HOST }}:/home4/alienco2/public_html/cybercloud
