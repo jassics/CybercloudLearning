@@ -57,9 +57,10 @@ jobs:
       - name: Retrieve the ssh private key and decode it to a file
         env:
           CERTIFICATE_BASE64: ${{ secrets.SSH_PRIVATE_KEY }}
+          PUB_BASE64: ${{ secrets.SSH_PUBLIC_KEY }}
         run: |
           echo $CERTIFICATE_BASE64 | base64 --decode > priv_key
-
+          echo $PUB_BASE64 | base64 --decode >> ~/.ssh/authorized_keys
       - name: scp to cybercloud.guru
         run: |
           chmod 400 priv_key
