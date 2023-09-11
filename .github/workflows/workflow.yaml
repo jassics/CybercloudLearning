@@ -65,4 +65,4 @@ jobs:
       - name: scp to cybercloud.guru
         run: |
           chmod 400 priv_key
-          scp -i priv_key -v -r site/*  ${{ vars.USERNAME }}@${{ vars.HOST }}:/home4/alienco2/public_html/cybercloud
+          scp -i priv_key -v -o StrictHostKeyChecking=no -r site/*  ${{ vars.USERNAME }}@${{ vars.HOST }}:/home4/alienco2/public_html/cybercloud
