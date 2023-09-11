@@ -65,7 +65,7 @@ jobs:
           ls -la
 
       - name: Cat secret
-      - shell: bash
+        shell: bash
         env:
           SUPER_SECRET: ${{ secrets.SSH_PRIVATE_KEY }}
         run: |
