@@ -76,13 +76,13 @@ jobs:
       #     source: "site.tar"
       #     target: "/home4/alienco2/public_html/cybercloud"
 
-      steps:
-        - name: Cat secret
-        - shell: bash
-          env:
-            SUPER_SECRET: ${{ secrets.SSH_PRIVATE_KEY }}
-          run: |
-            cat "$SUPER_SECRET"
+    steps:
+      - name: Cat secret
+      - shell: bash
+        env:
+          SUPER_SECRET: ${{ secrets.SSH_PRIVATE_KEY }}
+        run: |
+          cat "$SUPER_SECRET"
 
       - name: scp to cybercloud.guru
         run: |
