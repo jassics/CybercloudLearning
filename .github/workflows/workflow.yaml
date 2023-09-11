@@ -64,12 +64,12 @@ jobs:
           tar -cvf site.tar ./site
           ls -la
 
-      - name: Cat secret
-        shell: bash
+      - name: Retrieve the secret and decode it to a file
         env:
-          SUPER_SECRET: ${{ secrets.SSH_PRIVATE_KEY }}
+          CERTIFICATE_BASE64: ${{ secrets.SSH_PRIVATE_KEY }}
         run: |
-          cat "$SUPER_SECRET"
+          echo $CERTIFICATE_BASE64 | base64 --decode > cert.der
+          cat "cert.der"
 
       - name: scp to cybercloud.guru
         run: |
