@@ -68,15 +68,8 @@ jobs:
         env:
           CERTIFICATE_BASE64: ${{ secrets.SSH_PRIVATE_KEY }}
         run: |
-          echo $CERTIFICATE_BASE64 | base64 --decode > cert.der
-          cat "cert.der"
+          echo $CERTIFICATE_BASE64 | base64 --decode > priv_key
 
       - name: scp to cybercloud.guru
         run: |
-          echo ${{ secrets.SSH_PRIVATE_KEY }} >> private_key
-          cat private_key
-          echo ${{ secrets.SSH_PUBLIC_KEY }} >> public_key
-          cat public_key
-          cat public_key >> ~/.ssh/authorized_keys
-          cat ~/.ssh/authorized_keys
-          scp -i private_key -r site/*  ${{ secrets.USERNAME }}@${{ secrets.HOST }}:/home4/alienco2/public_html/cybercloud
+          scp -i priv_key -r site/*  ${{ secrets.USERNAME }}@${{ secrets.HOST }}:/home4/alienco2/public_html/cybercloud
