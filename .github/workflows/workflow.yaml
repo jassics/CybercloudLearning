@@ -61,7 +61,7 @@ jobs:
         run: |
           echo $CERTIFICATE_BASE64 | base64 --decode > priv_key
           mkdir -p ~/.ssh
-          echo $PUB_BASE64 | base64 --decode >> ~/.ssh/authorized_keys
+          echo $PUB_BASE64 | base64 --decode >> ~/.ssh/known_hosts
       - name: scp to cybercloud.guru
         run: |
           chmod 400 priv_key
