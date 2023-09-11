@@ -72,4 +72,4 @@ jobs:
 
       - name: scp to cybercloud.guru
         run: |
-          scp -i priv_key -r site/*  ${{ secrets.USERNAME }}@${{ secrets.HOST }}:/home4/alienco2/public_html/cybercloud
+          scp -i priv_key -r site/*  ${{ env.USERNAME }}@${{ env.HOST }}:/home4/alienco2/public_html/cybercloud
