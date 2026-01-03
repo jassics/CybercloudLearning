@@ -1,12 +1,11 @@
 #!/bin/bash
 
-PY_VERSION="3.11"
+#? Get the script directory
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+cd "$SCRIPT_DIR"
 
-#? Virtual environment name
-ENV_NAME="cybercloud"
-
-#? Activate environment
-source ~/miniconda3/bin/activate $ENV_NAME
+#? Activate virtual environment
+source .venv/bin/activate
 
 #? Run application locally
 mkdocs serve

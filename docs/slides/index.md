@@ -21,8 +21,6 @@
 
 ### DevSecOps Presentations
 
-## DevOps Presentations
-
 ## Python Track
 1. [Python(Boto) for AWS](../python-track/python-for-aws.md)
 2. [Python for Cybersecurity - Beginner](../python-track/python-for-cybersecurity.md)

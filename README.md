@@ -2,16 +2,13 @@
 Repo for Cybercloud Tutorials hosted at [cybercloud.guru](https://cybercloud.guru/)
 
 ## The tutorials covers but not limited to:
-1. Cloud Computing
-2. Cloud Security
-3. DevOps
-4. DevSecOps
-5. Containers
-6. IaC
-7. Python Tracks
-8. Linux Commands
-9. Others like regular expression, vim etc.
-10. Study Plans
+1. Cloud Security
+2. DevSecOps
+3. Containers
+4. IaC
+5. Python Tracks
+6. Others like Linux Commands, regular expression, vim, git commands etc.
+7. Study Plans
 
 ## Prerequisites
 1. Python3 is installed
