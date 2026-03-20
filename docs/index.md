@@ -92,8 +92,7 @@ Please check [GitHub page](https://github.com/jassics/CybercloudLearning) for mo
 
 
 ## Contributors
-- [Sanjeev Jaiswal](https://www.twitter.com/jassics)
-- [Deepraj Baidya](https://github.com/deepraj1729)
+- [Sanjeev Jaiswal](https://sanjeevjjaiswal.com)
 
 > You can help us to improve further if you find any discrepancies in existing content through an [Issue](https://github.com/jassics/CybercloudLearning/issues) or submit the new content through a [Pull Request (PR)](https://github.com/jassics/CybercloudLearning/pulls).
 
