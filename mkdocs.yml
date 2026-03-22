@@ -1,11 +1,8 @@
 site_name: CyberCloud Guru
 site_url: https://cybercloud.guru/
-site_description: Tutorials for Cybersecurity, CloudSecurity, DevSecOps and many more with an easy to understand examples.
+site_description: Easy to follow and understand tutorials with real-world examples for Application Security, CloudSecurity, DevSecOps, AI security and many more.
 site_author: Sanjeev Jaiswal (Jassi)
 copyright: '&copy; Copyright 2026 - Developed with Care by CyberCloud Gurus'
-repo_url: https://github.com/jassics/CybercloudLearning
-repo_name: jassics/CybercloudLearning
-edit_uri: blob/main/docs/
 
 theme:
   name: material #mkdocs, readthedocs, material
@@ -127,18 +124,7 @@ nav:
         - 'Python for DevOps': python-track/python-for-devops.md
         - 'Python for Cybersecurity': python-track/python-for-cybersecurity.md
     - Study Plan:
-        - 'Study Plans': study-plan/index.md
-        - 'Common Skills required for security study plan': study-plan/common-skills-study-plan.md
-        - 'Application Security Study Plan': study-plan/cybersecurity/application-security-study-plan.md
-        - 'Web Security Testing Study Plan': study-plan/cybersecurity/web-security-testing-study-plan.md
-        - 'Network Security Study Plan': study-plan/cybersecurity/network-security-study-plan.md
-        - 'DevSecOps Study Plan': study-plan/cybersecurity/devsecops-study-plan.md
-        - 'Docker Security Study Plan': study-plan/cybersecurity/docker-security-study-plan.md
-        - 'Kubernetes Security Study Plan': study-plan/cybersecurity/kubernetes-security-study-plan.md
-        - 'Python for Security Study Plan': study-plan/cybersecurity/python-for-security-study-plan.md
-        - 'AWS Security Study Plan': study-plan/cloud-security/aws-security-study-plan.md
-        - 'Azure Security Study Plan': study-plan/cloud-security/azure-security-study-plan.md
-        - 'GCP Security Study Plan': study-plan/cloud-security/gcp-security-study-plan.md
+        - 'All Study Plans': study-plan/index.md
     - Miscellaneous:
       - 'Linux Commands': miscellaneous/linux-commands.md
       - 'ViM for Everyone': miscellaneous/vim-essentials.md
