@@ -32,6 +32,12 @@ Downloadable PDF tutorials covering cybersecurity concepts, interview preparatio
 |----------|-------------|----------|
 | *Coming soon* | ISO 27001, SOC 2, compliance guides | - |
 
+## Linux & System Administration
+
+| Tutorial | Description | Download |
+|----------|-------------|----------|
+| :material-file-pdf-box: **Linux Commands for Security Professionals** | Comprehensive guide to 50+ essential Linux commands with practical examples for pentesters and security professionals | [:material-download: Download](../assets/pdfs/Linux-Commands-for-Security-Professionals.pdf) |
+
 ---
 
 !!! info "Adding New Tutorials"
