@@ -125,6 +125,10 @@ nav:
         - 'Python for Cybersecurity': python-track/python-for-cybersecurity.md
     - Study Plan:
         - 'All Study Plans': study-plan/index.md
+    - Resources:
+        - 'Resources Overview': resources/index.md
+        - 'Tutorials & Guides': resources/tutorials.md
+        - 'Roadmaps': resources/roadmaps.md
     - Miscellaneous:
       - 'Linux Commands': miscellaneous/linux-commands.md
       - 'ViM for Everyone': miscellaneous/vim-essentials.md
@@ -179,3 +183,7 @@ markdown_extensions:
   - admonition
   - pymdownx.details
   - pymdownx.superfences
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
