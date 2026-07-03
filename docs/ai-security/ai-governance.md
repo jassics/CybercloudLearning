@@ -49,7 +49,7 @@ Risk-based classification of AI systems:
 
 ### Risk Assessment Process
 
-```
+```text
 Identify → Assess → Mitigate → Monitor → Review
    ↑                                      ↓
    └──────────── Continuous ──────────────┘
@@ -92,6 +92,37 @@ Identify → Assess → Mitigate → Monitor → Review
 | **Impact Assessments** | Evaluate societal impact |
 | **Audit Trails** | Track model development and decisions |
 
+### What a Model Card Actually Looks Like
+
+A model card isn't a blank compliance form - it's a short, filled-in document a reviewer can act on. A minimal but real example for an internal support-ticket classifier:
+
+```text
+Model Card: Support Ticket Priority Classifier v2.3
+
+Intended use: Suggest a priority (Low/Medium/High/Urgent) for inbound
+support tickets. Human agent makes the final call - model output is
+advisory, not auto-applied to SLAs.
+
+Training data: 180k historical tickets (2022-2024), English only.
+Excludes tickets from before the 2022 support-process change.
+
+Known limitations:
+  - Underperforms on tickets under 10 words (high false-negative rate
+    for "Urgent" on terse messages)
+  - Not validated on non-English tickets - do not deploy for other locales
+  - Trained on B2B tickets only; do not use for consumer support queue
+
+Evaluation metrics: 87% agreement with human-assigned priority on a
+held-out 2024 Q4 test set (n=4,200). Urgent-class recall: 71%
+(intentionally biased toward flagging more tickets Urgent - a false
+Urgent costs an agent a few minutes; a missed Urgent costs an SLA breach).
+
+Owner: Support Engineering team (#support-ml-oncall)
+Last reviewed: 2026-05-01. Next review due: 2026-11-01.
+```
+
+This is the level of specificity a governance review actually needs - vague answers like "trained on internal data" or "performs well" don't let a reviewer make a real risk decision.
+
 ## Implementing AI Governance
 
 ### Step 1: Establish Policies
@@ -129,3 +160,10 @@ Identify → Assess → Mitigate → Monitor → Review
 3. **Engage stakeholders** - Include diverse perspectives
 4. **Iterate continuously** - Governance evolves with AI
 5. **Learn from incidents** - Update policies based on lessons learned
+
+## Credits/References
+
+1. [EU Artificial Intelligence Act - Official Text](https://artificialintelligenceact.eu/)
+2. [NIST AI Risk Management Framework (AI RMF 1.0)](https://www.nist.gov/itl/ai-risk-management-framework)
+3. [ISO/IEC 42001:2023 - AI Management System](https://www.iso.org/standard/81230.html)
+4. [Mitchell et al., Model Cards for Model Reporting](https://arxiv.org/abs/1810.03993)
