@@ -255,7 +255,7 @@ Note: this plan does not require core AI/ML skills - everything here is scoped w
 - How would you implement AI governance in an organization?
 - What metrics would you use to measure AI security posture?
 
-More AI security questions live in the [security-interview-questions](https://github.com/jassics/security-interview-questions/blob/main/ai-security-interview-questions.md) repo.
+More AI security questions live on the [AI Security interview questions](../../interview-questions/ai-security-interview-questions.md) page.
 
 ---
 

@@ -135,7 +135,7 @@ It covers what you need to excel at IAM from both **application** and **cloud** 
 
 ## Interview Questions
 
-Reuse questions from [Application Security](https://github.com/jassics/security-interview-questions/blob/main/application-security-interview-questions.md), [AWS Security](https://github.com/jassics/security-interview-questions/blob/main/aws-security-interview-questions.md), and [Common Security](https://github.com/jassics/security-interview-questions/blob/main/common-security-interview-questions.md), but focus on Identity & Access:
+Reuse questions from [Application Security](../../interview-questions/application-security-interview-questions.md), [AWS Security](../../interview-questions/aws-security-interview-questions.md), and [Common Security](../../interview-questions/common-security-interview-questions.md), but focus on Identity & Access:
 
 1. How would you design authentication and authorization for a new web/mobile app?
 2. How would you migrate on-prem identities to a cloud IdP safely?

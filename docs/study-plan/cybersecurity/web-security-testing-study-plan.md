@@ -14,7 +14,7 @@ Web security testing (pentesting) is different from bug bounty hunting, red team
 
 Read more about [Pentesting vs Red Team](https://www.mitnicksecurity.com/blog/red-team-operations-vs.-penetration-testing).
 
-It usually takes about 6 months to be good at the fundamentals and land an entry-level role. If you also test Android or iOS apps, read the [Mobile Application Security Study Plan](https://github.com/jassics/security-study-plan/blob/main/mobile-application-security-study-plan.md) alongside this one.
+It usually takes about 6 months to be good at the fundamentals and land an entry-level role. If you also test Android or iOS apps, read the [Mobile Application Security Study Plan](../specialized/mobile-application-security-study-plan.md) alongside this one.
 
 ## ToC
 1. [Pentesting Concepts](#pentesting-concepts) - 6 weeks
@@ -195,6 +195,6 @@ By the time you've worked through this checklist, you'll already be on your way 
 22. [Harsh Bothra](https://twitter.com/harshbothra_)
 
 ## Interview Questions
-[Web Security interview questions](https://github.com/jassics/security-interview-questions/blob/main/web-security-interview-questions.md) are maintained in a separate repo, kept aligned with the wider [cybersecurity-roadmap](https://github.com/jassics/cybersecurity-roadmap).
+[Web Security interview questions](../../interview-questions/web-security-interview-questions.md) are also maintained on GitHub, kept aligned with the wider [cybersecurity-roadmap](https://github.com/jassics/cybersecurity-roadmap).
 
 **Practice next:** [jassics/security-study-plan](https://github.com/jassics/security-study-plan) for the latest updates to this plan.
