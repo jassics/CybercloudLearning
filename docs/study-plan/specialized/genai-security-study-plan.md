@@ -70,7 +70,7 @@ Note: this plan does not require core AI/ML skills - everything here is scoped w
 - Lead AI security transformation initiatives
 - Mentor and train internal security teams on AI security
 
-## Study Plan ToC
+## ToC
 
 1. [GenAI/LLM Fundamental Concepts](#genai-fundamental-concepts) - 4 weeks
 2. [Prompt Engineering](#prompt-engineering) - 1 week
