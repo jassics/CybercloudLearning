@@ -1,19 +1,53 @@
 # Security Roadmaps
 
-Visual learning paths and career roadmaps for various cybersecurity domains.
+Visual, **clickable** learning paths for various cybersecurity domains. Click any node below to jump straight to that topic's guide on this site.
 
 ## How to Use Roadmaps
 
 1. **Identify your goal** - Choose the security domain you want to master
 2. **Follow the path** - Progress through topics in the recommended order
-3. **Track progress** - Check off completed topics as you learn
-4. **Deep dive** - Use linked resources for detailed learning
+3. **Click to learn** - Each node links directly to the relevant guide
+4. **Practice** - Pair each stage with hands-on labs and the interview-question sets linked at the bottom of each domain
 
 ---
 
 ## Application Security Roadmap
 
-*Coming soon* - Complete path from beginner to senior AppSec engineer
+Complete path from beginner to job-ready AppSec engineer. Click any box to open that topic.
+
+```mermaid
+flowchart TD
+    A[Secure Coding Fundamentals] --> B[Secure Code Review]
+    A --> C[Cryptography]
+    B --> D[Threat Modeling / STRIDE]
+    C --> D
+    D --> E[SAST - Static Analysis]
+    D --> F[SCA - Dependency Scanning]
+    E --> G[API Security]
+    F --> G
+    G --> H[Interview Ready]
+
+    click A "../../product-security/application-security/secure-coding/" "Secure Coding"
+    click B "../../product-security/application-security/secure-code-review/" "Secure Code Review"
+    click C "../../product-security/application-security/cryptography/" "Cryptography"
+    click D "../../product-security/application-security/threat-modeling/" "Threat Modeling"
+    click E "../../product-security/application-security/sast/" "SAST"
+    click F "../../product-security/application-security/sca/" "SCA"
+    click G "../../product-security/application-security/api-security/" "API Security"
+    click H "https://github.com/jassics/security-interview-questions" "Interview Questions Repo" _blank
+```
+
+**Topics Covered:**
+
+- [Secure Coding](../product-security/application-security/secure-coding.md) - injection, auth, XSS, access control fundamentals
+- [Secure Code Review](../product-security/application-security/secure-code-review.md) - manual review methodology and checklists
+- [Cryptography](../product-security/application-security/cryptography.md) - encryption, hashing, key management, TLS
+- [Threat Modeling](../product-security/application-security/threat-modeling.md) - STRIDE, DFDs, trust boundaries
+- [SAST](../product-security/application-security/sast.md) - static analysis tooling and CI/CD gating
+- [SCA](../product-security/application-security/sca.md) - dependency/CVE scanning and SBOMs
+- [API Security](../product-security/application-security/api-security.md) - OWASP API Top 10
+
+**Practice next:** [jassics/security-interview-questions](https://github.com/jassics/security-interview-questions) for domain-wise Q&A, and [jassics/security-study-plan](https://github.com/jassics/security-study-plan) for a structured study schedule.
 
 ## Cloud Security Roadmap
 
@@ -38,26 +72,31 @@ Visual learning paths and career roadmaps for various cybersecurity domains.
 ---
 
 !!! info "Adding New Roadmaps"
-    To add a new roadmap:
-    
-    1. Place your SVG/PNG in `docs/assets/roadmaps/`
-    2. Add an entry with the image embedded below
-    3. Submit a Pull Request
+    To add a new roadmap, follow the pattern used above for Application Security:
+
+    1. Sketch the learning path as a Mermaid `flowchart TD` (see the AppSec roadmap source for syntax)
+    2. Add a `click NodeId "relative/path/"` line per node, pointing at the matching docs page
+    3. List the topics covered underneath, with links, plus a "Practice next" line pointing at the relevant [jassics repo](../resources/index.md#related-repositories)
+    4. Submit a Pull Request
 
 ## Roadmap Template
-
-When adding a roadmap, use this format:
 
 ```markdown
 ## [Domain] Roadmap
 
-![Domain Roadmap](../assets/roadmaps/domain-roadmap.svg)
+\`\`\`mermaid
+flowchart TD
+    A[Topic 1] --> B[Topic 2] --> C[Topic 3]
+    click A "../../path/to/topic-1/" "Topic 1"
+    click B "../../path/to/topic-2/" "Topic 2"
+    click C "../../path/to/topic-3/" "Topic 3"
+\`\`\`
 
 **Topics Covered:**
 
-- Topic 1
-- Topic 2
-- Topic 3
+- [Topic 1](../path/to/topic-1.md)
+- [Topic 2](../path/to/topic-2.md)
+- [Topic 3](../path/to/topic-3.md)
 
-[:material-download: Download Full Size](../assets/roadmaps/domain-roadmap.svg)
+**Practice next:** [relevant jassics repo](https://github.com/jassics/...)
 ```
