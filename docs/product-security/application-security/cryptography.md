@@ -43,7 +43,7 @@ One-way function producing a fixed-size digest. Used for integrity checks, not f
 
 Passwords need slow, salted, memory-hard hashing to resist brute-force/GPU cracking - fast hashes like SHA-256 are the *wrong* tool here.
 
-- **Recommended:** Argon2id (winner of the Password Hashing Competition), or bcrypt/scrypt if Argon2 isn't available.
+- **Recommended:** Argon2id - the hybrid variant of Argon2, the algorithm family that won the 2015 Password Hashing Competition, and now OWASP's default recommendation. Use bcrypt/scrypt if Argon2 isn't available in your stack.
 - Always use a unique, random salt per password (most libraries handle this automatically).
 
 ```python
