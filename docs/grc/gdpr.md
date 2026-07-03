@@ -91,18 +91,20 @@ Data can leave the EU only with:
 
 ## Compliance Checklist
 
-1. [ ] Map all personal data processing
-2. [ ] Identify lawful basis for each process
-3. [ ] Update privacy notices
-4. [ ] Implement data subject rights procedures
-5. [ ] Review consent mechanisms
-6. [ ] Appoint DPO if required
-7. [ ] Implement security measures
-8. [ ] Establish breach response procedures
-9. [ ] Review international transfers
-10. [ ] Train staff on GDPR requirements
+- [ ] Map all personal data processing
+- [ ] Identify lawful basis for each process
+- [ ] Update privacy notices
+- [ ] Implement data subject rights procedures
+- [ ] Review consent mechanisms
+- [ ] Appoint DPO if required
+- [ ] Implement security measures
+- [ ] Establish breach response procedures
+- [ ] Review international transfers
+- [ ] Train staff on GDPR requirements
 
-## Resources
+## Credits/References
 
-- [Official GDPR Text](https://gdpr.eu/)
-- [ICO Guidance (UK)](https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/)
+1. [Official GDPR Text (EUR-Lex, Regulation (EU) 2016/679)](https://eur-lex.europa.eu/eli/reg/2016/679/oj)
+2. [gdpr.eu - Plain-Language GDPR Reference](https://gdpr.eu/)
+3. [ICO Guidance (UK)](https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/)
+4. [European Data Protection Board (EDPB) Guidelines](https://www.edpb.europa.eu/our-work-tools/general-guidance/guidelines-recommendations-best-practices_en)
