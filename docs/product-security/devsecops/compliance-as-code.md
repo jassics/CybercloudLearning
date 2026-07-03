@@ -94,4 +94,3 @@ A control that exists only as policy-as-code with no framework mapping is hard t
 1. [Open Policy Agent](https://www.openpolicyagent.org/)
 2. [Checkov by Bridgecrew](https://www.checkov.io/)
 3. [Conftest](https://www.conftest.dev/)
-4. [NIST CSF](../../grc/nist-csf.md), [ISO/IEC 27001:2022](../../grc/iso27k1.md)
