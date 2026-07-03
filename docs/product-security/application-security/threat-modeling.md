@@ -27,7 +27,7 @@ Build a Data Flow Diagram (DFD) showing:
 - **Data flows** - arrows showing how data moves between the above
 - **Trust boundaries** - lines marking where trust level changes (e.g., internet → DMZ → internal network)
 
-```
+```text
 [User] --(HTTPS)--> [Trust Boundary] --> [Web App] --> [Trust Boundary] --> [Database]
                                               |
                                          [Auth Service]

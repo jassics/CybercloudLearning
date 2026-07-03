@@ -44,7 +44,7 @@ Cloud equivalents: AWS Security Groups (stateful, instance-level) vs. NACLs (sta
 
 Traditional VPN grants broad network-level access once connected - if the device or credentials are compromised, the attacker often gets lateral access to everything on that network. **Zero Trust** flips the model: no implicit trust based on network location, every request is authenticated/authorized per-resource regardless of whether it originates "inside" or "outside" the perimeter.
 
-```
+```text
 Traditional:  User --VPN--> [Trusted Network] --> can reach most internal systems
 Zero Trust:   User --ZTNA--> per-request authz --> only the specific app/service granted
 ```

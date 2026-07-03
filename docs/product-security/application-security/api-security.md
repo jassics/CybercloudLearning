@@ -32,7 +32,7 @@ This makes broken authorization and excessive data exposure some of the most com
 
 The single most reported API vulnerability. The API authenticates the user correctly but fails to check whether that user is *authorized* to access the specific object ID requested.
 
-```
+```text
 GET /api/orders/12345   → returns order 12345, regardless of who is logged in
 ```
 

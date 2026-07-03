@@ -43,7 +43,7 @@ Because it runs on source code, SAST can be integrated as early as the developer
 
 ## Integrating SAST into the SDLC
 
-```
+```text
 IDE (pre-commit)  →  Pull Request (CI gate)  →  Merge to main (full scan)  →  Scheduled deep scan
    Fast/local           Blocks bad merges          Baseline tracking          Comprehensive sweep
 ```

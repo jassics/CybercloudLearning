@@ -8,7 +8,7 @@ The [OWASP Top 10](owasp-top10.md) tells you *what* can go wrong. This page cove
 
 The browser's foundational security boundary: a page can only freely read data from another page if they share the same **origin** - scheme + host + port, all three.
 
-```
+```text
 https://app.example.com:443   vs   https://api.example.com:443   -> different origin (different host)
 https://example.com:443       vs   http://example.com:443        -> different origin (different scheme)
 ```
@@ -19,7 +19,7 @@ Without SOP, any website you visit could read your logged-in session data from y
 
 A server opts in to letting specific other origins read its responses via response headers:
 
-```
+```http
 Access-Control-Allow-Origin: https://trusted-app.com
 Access-Control-Allow-Credentials: true
 ```
@@ -40,7 +40,7 @@ Access-Control-Allow-Credentials: true
 | `HttpOnly` | Cookie inaccessible to JavaScript (`document.cookie`) | Blocks session-token theft via XSS |
 | `SameSite` | Controls whether the cookie is sent on cross-site requests (`Strict`, `Lax`, `None`) | Primary modern defense against CSRF |
 
-```
+```http
 Set-Cookie: session=abc123; Secure; HttpOnly; SameSite=Strict
 ```
 
@@ -50,7 +50,7 @@ If you're asked "how do you prevent session hijacking via XSS," the answer start
 
 A response header that restricts what a page is allowed to load/execute, as defense in depth against XSS:
 
-```
+```http
 Content-Security-Policy: default-src 'self'; script-src 'self' https://cdn.trusted.com; object-src 'none'
 ```
 
