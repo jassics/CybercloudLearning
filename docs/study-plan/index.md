@@ -33,15 +33,15 @@ A practical study plan to become a successful cybersecurity engineer based on ro
 | [DevSecOps](https://github.com/jassics/security-study-plan/blob/main/devsecops-study-plan.md) | CI/CD security, pipeline hardening |
 | [Docker Security](https://github.com/jassics/security-study-plan/blob/main/docker-security-study-plan.md) | Container security fundamentals |
 | [Kubernetes Security](https://github.com/jassics/security-study-plan/blob/main/kubernetes-security-study-plan.md) | K8s security, RBAC, network policies |
-| [Software Supply Chain Security](https://github.com/jassics/security-study-plan/blob/main/software-supply-chain-security-study-plan.md) | SBOM, dependency security |
+| [Software Supply Chain Security](specialized/software-supply-chain-security-study-plan.md) | SBOM, dependency security |
 
 ## Security Architecture & SDLC
 
 | Study Plan | Description |
 |------------|-------------|
-| [Security Architecture](https://github.com/jassics/security-study-plan/blob/main/security-architecture-study-plan.md) | Security design principles |
-| [Secure SDLC](https://github.com/jassics/security-study-plan/blob/main/secure-software-development-lifecycle-study-plan.md) | Security in development lifecycle |
-| [Product Security](https://github.com/jassics/security-study-plan/blob/main/product-security-study-plan.md) | End-to-end product security |
+| [Security Architecture](specialized/security-architecture-study-plan.md) | Security design principles |
+| [Secure SDLC](specialized/secure-sdlc-study-plan.md) | Security in development lifecycle |
+| [Product Security](specialized/product-security-study-plan.md) | End-to-end product security |
 | [GRC](https://github.com/jassics/security-study-plan/blob/main/grc-study-plan.md) | Governance, Risk & Compliance |
 
 ## Specialized Security
@@ -49,12 +49,12 @@ A practical study plan to become a successful cybersecurity engineer based on ro
 | Study Plan | Description |
 |------------|-------------|
 | [Network Security](https://github.com/jassics/security-study-plan/blob/main/network-security-study-plan.md) | Network defense & monitoring |
-| [GenAI Security](https://github.com/jassics/security-study-plan/blob/main/genai-security-study-plan.md) | LLM security, prompt injection |
+| [GenAI Security](specialized/genai-security-study-plan.md) | LLM security, prompt injection |
 | [IAM Security](https://github.com/jassics/security-study-plan/blob/main/iam-security-study-plan.md) | Identity & Access Management |
-| [Mobile Application Security](https://github.com/jassics/security-study-plan/blob/main/mobile-application-security-study-plan.md) | iOS & Android security |
-| [Blue Team & Detection](https://github.com/jassics/security-study-plan/blob/main/blue-team-detection-response-study-plan.md) | SOC, SIEM, incident response |
-| [Reverse Engineering & Malware](https://github.com/jassics/security-study-plan/blob/main/reverse-engineering-malware-security-study-plan.md) | Malware analysis |
-| [OSINT & Social Engineering](https://github.com/jassics/security-study-plan/blob/main/osint-social-engineering-study-plan.md) | Reconnaissance techniques |
+| [Mobile Application Security](specialized/mobile-application-security-study-plan.md) | iOS & Android security |
+| [Blue Team & Detection](specialized/blue-team-detection-response-study-plan.md) | SOC, SIEM, incident response |
+| [Reverse Engineering & Malware](specialized/reverse-engineering-malware-security-study-plan.md) | Malware analysis |
+| [OSINT & Social Engineering](specialized/osint-social-engineering-study-plan.md) | Reconnaissance techniques |
 
 ## How to Use These Study Plans
 

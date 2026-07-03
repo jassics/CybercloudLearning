@@ -125,6 +125,16 @@ nav:
         - 'Python for Cybersecurity': python-track/python-for-cybersecurity.md
     - Study Plan:
         - 'All Study Plans': study-plan/index.md
+        - Specialized Security:
+          - 'GenAI Security': study-plan/specialized/genai-security-study-plan.md
+          - 'Mobile Application Security': study-plan/specialized/mobile-application-security-study-plan.md
+          - 'Blue Team & Detection': study-plan/specialized/blue-team-detection-response-study-plan.md
+          - 'Reverse Engineering & Malware': study-plan/specialized/reverse-engineering-malware-security-study-plan.md
+          - 'OSINT & Social Engineering': study-plan/specialized/osint-social-engineering-study-plan.md
+          - 'Security Architecture': study-plan/specialized/security-architecture-study-plan.md
+          - 'Secure SDLC': study-plan/specialized/secure-sdlc-study-plan.md
+          - 'Software Supply Chain Security': study-plan/specialized/software-supply-chain-security-study-plan.md
+          - 'Product Security': study-plan/specialized/product-security-study-plan.md
     - Resources:
         - 'Resources Overview': resources/index.md
         - 'Tutorials & Guides': resources/tutorials.md
