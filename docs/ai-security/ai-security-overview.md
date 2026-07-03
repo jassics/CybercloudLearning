@@ -34,3 +34,9 @@ As AI systems become critical infrastructure, they face unique security challeng
 2. Learn to identify risks with [AI Threat Modeling](ai-threat-modeling.md)
 3. Implement controls for [Data](ai-data-security.md) and [Model Security](ai-model-security.md)
 4. Establish [Governance](ai-governance.md) practices
+
+## Practice Next
+
+- [AI Security Interview Questions](../interview-questions/ai-security-interview-questions.md) - self-test on attack taxonomy, prompt injection, and governance
+- [GenAI Security Study Plan](../study-plan/specialized/genai-security-study-plan.md) - a structured, week-by-week path through this domain
+- [awesome-genai-security](https://github.com/jassics/awesome-genai-security) for curated further reading
