@@ -67,6 +67,8 @@ jobs:
 
 `soft_fail: false` is the important part - a compliance check that only warns and never blocks gets ignored under deadline pressure, same as an unenforced SAST gate.
 
+**See also:** this is the same pattern used to scan real infrastructure code before it ships - see [Terraform](terraform.md) for IaC-specific scanning with Checkov/tfsec, and [Ansible](ansible.md) for enforcing the same kind of hardening rules against configuration-management playbooks.
+
 ## Mapping Automated Checks Back to Frameworks
 
 The value of compliance-as-code compounds when each rule is explicitly mapped to the framework requirement it satisfies, so audit evidence is generated automatically instead of assembled by hand:
