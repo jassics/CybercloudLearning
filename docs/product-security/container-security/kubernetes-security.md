@@ -144,7 +144,7 @@ Kubernetes `Secret` objects are base64-encoded, not encrypted, by default - anyo
 - Encrypt etcd traffic (TLS) and at-rest data, and restrict network access to etcd to control-plane nodes only - etcd holds the entire cluster's state, including Secrets.
 - Enable audit logging on the API server so privileged actions (RBAC changes, secret access) are traceable.
 
-## Kubernetes Hardening Checklist
+## Best Practices Checklist
 
 - [ ] RBAC follows least privilege - no unnecessary `cluster-admin` bindings
 - [ ] Default-deny NetworkPolicy per namespace, with explicit allow rules

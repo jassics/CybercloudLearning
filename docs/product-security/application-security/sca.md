@@ -34,7 +34,7 @@ Modern applications are often 70-90% third-party code by volume. A vulnerability
 
 ## SCA in the CI/CD Pipeline
 
-```
+```text
 Dependency added/updated → SCA scan → Block on Critical/High CVE → Generate SBOM → Store as build artifact
 ```
 

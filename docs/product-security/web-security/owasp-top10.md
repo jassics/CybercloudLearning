@@ -28,7 +28,7 @@ The single most common finding in real audits. Two failure modes show up constan
 - **Vertical**: a regular user reaches admin-only functionality because the server never re-checks role on that endpoint.
 - **Horizontal (IDOR)**: a user accesses another user's data by changing an ID, because ownership is never verified.
 
-```
+```text
 # Vulnerable
 GET /api/invoices/482       -> returns invoice 482 regardless of who's asking
 
@@ -79,7 +79,7 @@ Common instances: default credentials never changed, directory listing enabled, 
 
 New as a standalone category in 2021, reflecting how common it's become with cloud metadata endpoints as a target.
 
-```
+```text
 POST /api/import-avatar
 {"image_url": "http://169.254.169.254/latest/meta-data/iam/security-credentials/"}
 ```
