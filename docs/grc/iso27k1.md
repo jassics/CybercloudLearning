@@ -58,6 +58,9 @@ ISO 27001:2022 includes 93 controls organized into 4 themes:
 6. **Stage 2 Audit** - Implementation verification
 7. **Certification** - 3-year certificate issued
 
+!!! note "Where audits actually fail"
+    The single most common finding auditors raise isn't a missing control - it's an **evidence gap**. A policy exists and a control is genuinely followed, but nobody can produce the records proving it: no ticket showing the quarterly access review happened, no signed log of who approved a firewall change, no record that a terminated employee's access was revoked within the required timeframe. If you're implementing an ISMS, treat "can we prove this happened, six months from now, to someone who wasn't in the room" as the real bar - not just "do we do this."
+
 ### Maintaining Certification
 
 - **Surveillance Audits** - Annual audits (Years 1 & 2)
@@ -82,3 +85,9 @@ ISO 27001:2022 includes 93 controls organized into 4 themes:
 6. Monitor and measure
 7. Conduct internal audits
 8. Seek certification
+
+## Credits/References
+
+1. [ISO/IEC 27001:2022 - Information Security Management Systems](https://www.iso.org/standard/27001)
+2. [ISO/IEC 27002:2022 - Code of Practice for Information Security Controls](https://www.iso.org/standard/75652.html)
+3. [ISO/IEC Annex SL - High Level Structure for Management Systems](https://www.iso.org/publication/PUB100438.html)
