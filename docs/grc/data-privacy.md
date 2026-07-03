@@ -78,6 +78,8 @@ Evaluate privacy risks before deploying systems:
 | **Homomorphic Encryption** | Compute on encrypted data |
 | **Secure Multi-Party Computation** | Joint computation without sharing |
 
+**Differential privacy in practice**: instead of publishing the exact query result "average salary in this department: $89,213," a differentially private system adds calibrated random noise and publishes something like "$89,340" - close enough to be useful for analytics, but not precise enough for someone to compare the answer before and after one employee joins or leaves and back out that individual's exact salary. See [AI Data Security](../ai-security/ai-data-security.md) for a runnable code example of this mechanism.
+
 ## Data Lifecycle Management
 
 ### Collection
@@ -136,3 +138,10 @@ Evaluate privacy risks before deploying systems:
 - Privacy Analyst
 - Privacy Engineer
 - Chief Privacy Officer (CPO)
+
+## Credits/References
+
+1. [OECD Privacy Framework](https://www.oecd.org/en/topics/policy-issues/privacy-and-data-protection.html)
+2. [NIST SP 800-188: De-Identification of Personal Information](https://csrc.nist.gov/pubs/sp/800/188/final)
+3. [IAPP - International Association of Privacy Professionals](https://iapp.org/)
+4. [Cavoukian, Privacy by Design: The 7 Foundational Principles](https://www.ipc.on.ca/en/privacy-by-design)
