@@ -28,7 +28,7 @@ GRC stands for **Governance, Risk, and Compliance** - an integrated approach to 
 
 ### Risk Management
 
-```
+```text
 Identify → Assess → Treat → Monitor → Review
 ```
 
@@ -38,6 +38,15 @@ Identify → Assess → Treat → Monitor → Review
 - **Mitigate** - Implement controls to reduce risk
 - **Transfer** - Insurance or outsourcing
 - **Avoid** - Eliminate the risky activity
+
+**What a real risk register entry looks like** - not just the abstract cycle above, but the actual artifact a GRC analyst maintains:
+
+| Risk ID | Description | Likelihood | Impact | Treatment | Owner | Status |
+|---------|-------------|------------|--------|-----------|-------|--------|
+| R-014 | Third-party vendor has access to customer PII with no signed DPA | Medium | High | Mitigate - block data access until DPA signed, add to vendor risk review cadence | Vendor Risk Manager | Open, due 2026-08-01 |
+| R-015 | Legacy internal tool has no MFA, used by 3 admins | Low | High | Mitigate - enforce MFA via SSO gateway | IT Security Lead | In Progress |
+
+This is the level of specificity an auditor or a manager expects - "we manage risk" isn't an answer, a tracked register with owners and dates is.
 
 ### Compliance
 
@@ -76,3 +85,14 @@ Common frameworks and regulations:
 3. **Define risk appetite** - How much risk is acceptable?
 4. **Implement controls** - Address gaps systematically
 5. **Monitor and improve** - Continuous compliance
+
+## Practice Next
+
+- [GRC Interview Questions](../interview-questions/grc-interview-questions.md)
+- [GRC Study Plan](../study-plan/grc-study-plan.md)
+
+## Credits/References
+
+1. [NIST SP 800-37: Risk Management Framework](https://csrc.nist.gov/pubs/sp/800/37/r2/final)
+2. [ISO/IEC 27001:2022](https://www.iso.org/standard/27001)
+3. [OCEG GRC Capability Model (Red Book)](https://www.oceg.org/redbook/)
