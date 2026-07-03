@@ -11,7 +11,7 @@ AI security focuses on protecting machine learning systems throughout their life
 | Attack | Description | Impact |
 |--------|-------------|--------|
 | **Data Poisoning** | Injecting malicious samples into training data | Model learns wrong patterns |
-| **Data Extraction** | Stealing training data through model queries | Privacy breach |
+| **Data Extraction** | Recovering verbatim, memorized training samples from a model's outputs (e.g. an LLM regurgitating a training document word-for-word) | Privacy breach |
 | **Label Flipping** | Changing labels in training data | Model misclassification |
 
 ### Model-Level Attacks
@@ -19,8 +19,8 @@ AI security focuses on protecting machine learning systems throughout their life
 | Attack | Description | Impact |
 |--------|-------------|--------|
 | **Model Extraction** | Recreating model through API queries | IP theft |
-| **Model Inversion** | Reconstructing training data from model | Privacy violation |
-| **Membership Inference** | Determining if data was used in training | Privacy leakage |
+| **Model Inversion** | Reconstructing an *approximate* input (not necessarily a memorized exact sample) from a model's confidence scores or gradients - e.g. reconstructing a face from a facial-recognition model's outputs | Privacy violation |
+| **Membership Inference** | A binary determination of whether a *specific known record* was part of the training set, without necessarily recovering any of the record's content | Privacy leakage |
 
 ### Inference-Level Attacks
 
