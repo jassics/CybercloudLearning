@@ -76,7 +76,7 @@ flowchart TD
 
     1. Sketch the learning path as a Mermaid `flowchart TD` (see the AppSec roadmap source for syntax)
     2. Add a `click NodeId "relative/path/"` line per node, pointing at the matching docs page
-    3. List the topics covered underneath, with links, plus a "Practice next" line pointing at the relevant [jassics repo](../resources/index.md#related-repositories)
+    3. List the topics covered underneath, with links, plus a "Practice next" line pointing at the relevant [jassics repo](index.md#related-repositories)
     4. Submit a Pull Request
 
 ## Roadmap Template
