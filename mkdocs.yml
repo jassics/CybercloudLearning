@@ -125,6 +125,11 @@ nav:
         - 'Python for Cybersecurity': python-track/python-for-cybersecurity.md
     - Study Plan:
         - 'All Study Plans': study-plan/index.md
+    - Interview Questions:
+        - 'All Interview Questions': interview-questions/index.md
+        - 'Application Security': interview-questions/application-security-interview-questions.md
+        - 'AWS Security': interview-questions/aws-security-interview-questions.md
+        - 'Common Security': interview-questions/common-security-interview-questions.md
     - Resources:
         - 'Resources Overview': resources/index.md
         - 'Tutorials & Guides': resources/tutorials.md
