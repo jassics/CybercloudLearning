@@ -53,6 +53,13 @@ This is what lets security scale with engineering headcount instead of becoming 
 - [SCA in CI/CD Pipeline](sca-cicd.md) - dependency scanning, concretely wired into CI
 - [DAST in CI/CD Pipeline](dast-cicd.md) - runtime scanning, concretely wired into CI
 
+**Tooling and Platform Security** - securing the tools that implement all of the above:
+
+- [Ansible](ansible.md) - security automation and hardening at scale
+- [Terraform](terraform.md) - IaC security scanning and secure state management
+- [Pulumi](pulumi.md) - IaC security with general-purpose languages, Policy as Code
+- [Jenkins](jenkins.md) - securing the CI/CD tool itself
+
 ## Best Practices
 
 1. **Automate before you mandate** - a manual security checklist gets skipped under deadline pressure; a CI gate doesn't.
