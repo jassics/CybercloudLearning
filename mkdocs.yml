@@ -153,6 +153,11 @@ nav:
           - 'Secure SDLC': study-plan/specialized/secure-sdlc-study-plan.md
           - 'Software Supply Chain Security': study-plan/specialized/software-supply-chain-security-study-plan.md
           - 'Product Security': study-plan/specialized/product-security-study-plan.md
+    - Interview Questions:
+        - 'All Interview Questions': interview-questions/index.md
+        - 'Application Security': interview-questions/application-security-interview-questions.md
+        - 'AWS Security': interview-questions/aws-security-interview-questions.md
+        - 'Common Security': interview-questions/common-security-interview-questions.md
     - Resources:
         - 'Resources Overview': resources/index.md
         - 'Tutorials & Guides': resources/tutorials.md

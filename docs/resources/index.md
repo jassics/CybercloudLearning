@@ -8,6 +8,10 @@ Downloadable tutorials, roadmaps, and reference materials to support your cybers
 |----------|-------------|
 | **[Tutorials & Guides](tutorials.md)** | Comprehensive PDF guides covering security concepts, interview preparation, and best practices |
 | **[Roadmaps](roadmaps.md)** | Visual, clickable learning paths and career roadmaps for various security domains |
+| **[Interview Questions](../interview-questions/index.md)** | Domain-wise interview questions with collapsible answers for self-testing |
+
+!!! tip "Practice on this site first"
+    The [Interview Questions](../interview-questions/index.md) section mirrors the [security-interview-questions](https://github.com/jassics/security-interview-questions) GitHub repo in a self-test-friendly collapsible format. The GitHub repo stays the canonical, most up-to-date source - check there for domains not yet covered on-site.
 
 ## Related Repositories
 
