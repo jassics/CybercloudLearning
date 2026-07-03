@@ -6,7 +6,7 @@ This study plan is based on milestones. Check how much you can cover within the 
 
 Application Security is different from Web Security, and different from what most people think of as offensive security or pentesting. Though it needs some pentester-aligned concepts, it's a different skill set altogether.
 
-It leans more toward shift-left security - Threat Modeling, Secure Code Review, Secure Code Design, training developers, owning the overall SDL process, and of course the OWASP Top 10 for Web and API security. There's a separate ["API Security Study Plan"](https://github.com/jassics/security-study-plan/blob/main/api-security-study-plan.md) on GitHub because that skill needs dedicated time too.
+It leans more toward shift-left security - Threat Modeling, Secure Code Review, Secure Code Design, training developers, owning the overall SDL process, and of course the OWASP Top 10 for Web and API security. There's a separate ["API Security Study Plan"](api-security-study-plan.md) because that skill needs dedicated time too.
 
 ## In Short
 
@@ -89,19 +89,19 @@ Most of these concepts are covered at the [OWASP Cheat Sheet Series](https://che
 16. [Content Security Policy (CSP)](https://cheatsheetseries.owasp.org/cheatsheets/Content_Security_Policy_Cheat_Sheet.html)
 
 ## Threat Modeling
-Read this site's [Threat Modeling](../../product-security/application-security/threat-modeling.md) guide, or the deeper [Threat Modeling Study Plan](https://github.com/jassics/security-study-plan/blob/main/threat-modeling-study-plan.md) on GitHub.
+Read this site's [Threat Modeling](../../product-security/application-security/threat-modeling.md) guide, or the deeper [Threat Modeling Study Plan](threat-modeling-study-plan.md).
 
 ## Secure Code Review
-Read this site's [Secure Code Review](../../product-security/application-security/secure-code-review.md) guide, or the [Secure Code Review Study Plan](https://github.com/jassics/security-study-plan/blob/main/secure-code-review-study-plan.md) on GitHub.
+Read this site's [Secure Code Review](../../product-security/application-security/secure-code-review.md) guide, or the [Secure Code Review Study Plan](secure-code-review-study-plan.md).
 
 ## Cryptography
-Read this site's [Cryptography](../../product-security/application-security/cryptography.md) guide, or the [Cryptography Study Plan](https://github.com/jassics/security-study-plan/blob/main/cryptography-study-plan.md) on GitHub.
+Read this site's [Cryptography](../../product-security/application-security/cryptography.md) guide, or the [Cryptography Study Plan](cryptography-study-plan.md).
 
 ## Security Development Lifecycle (SDL)
-Read the [Secure Software Development Lifecycle Study Plan](https://github.com/jassics/security-study-plan/blob/main/secure-software-development-lifecycle-study-plan.md) on GitHub.
+Read the [Secure Software Development Lifecycle Study Plan](../specialized/secure-sdlc-study-plan.md).
 
 ## Mobile Application Security
-If you work with mobile apps (Android/iOS), also check the [Mobile Application Security Study Plan](https://github.com/jassics/security-study-plan/blob/main/mobile-application-security-study-plan.md).
+If you work with mobile apps (Android/iOS), also check the [Mobile Application Security Study Plan](../specialized/mobile-application-security-study-plan.md).
 
 ## Books
 1. [Agile Application Security](https://www.amazon.in/Agile-Application-Security-Enabling-Continuous/dp/9352136292/)
@@ -133,7 +133,7 @@ If you work with mobile apps (Android/iOS), also check the [Mobile Application S
 3. [GWEB: GIAC Certified Web Application Defender](https://www.giac.org/certifications/certified-web-application-defender-gweb/)
 
 ## Interview Questions
-[Application Security interview questions](https://github.com/jassics/security-interview-questions/blob/main/application-security-interview-questions.md) are maintained in a separate repo, kept aligned with the wider [cybersecurity-roadmap](https://github.com/jassics/cybersecurity-roadmap).
+[Application Security interview questions](../../interview-questions/application-security-interview-questions.md) are also maintained on GitHub as [security-interview-questions](https://github.com/jassics/security-interview-questions/blob/main/application-security-interview-questions.md), kept aligned with the wider [cybersecurity-roadmap](https://github.com/jassics/cybersecurity-roadmap).
 
 ## AppSec Tools
 1. Checkmarx or HCL AppScan (previously IBM AppScan) for SAST

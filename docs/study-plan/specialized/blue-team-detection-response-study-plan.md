@@ -6,7 +6,7 @@ Also, I assume you have already checked and are comfortable with the [Common Sec
 
 It covers what you need to **monitor, detect, and respond** to attacks across endpoints, networks, applications, and cloud.
 
-**How this connects:** Start with [Common Skills](../common-skills-study-plan.md) and [Network Security](../cybersecurity/network-security-study-plan.md), then pair this plan with the cloud study plans ([AWS](../cloud-security/aws-security-study-plan.md), [Azure](../cloud-security/azure-security-study-plan.md), [GCP](../cloud-security/gcp-security-study-plan.md)) and [Web Security Testing](../cybersecurity/web-security-testing-study-plan.md) / [Application Security](../cybersecurity/application-security-study-plan.md) so you can detect the attacks you already know how to perform. Combine it with [Threat Modeling](https://github.com/jassics/security-study-plan/blob/main/threat-modeling-study-plan.md) to turn identified threats into concrete detections and playbooks.
+**How this connects:** Start with [Common Skills](../common-skills-study-plan.md) and [Network Security](../cybersecurity/network-security-study-plan.md), then pair this plan with the cloud study plans ([AWS](../cloud-security/aws-security-study-plan.md), [Azure](../cloud-security/azure-security-study-plan.md), [GCP](../cloud-security/gcp-security-study-plan.md)) and [Web Security Testing](../cybersecurity/web-security-testing-study-plan.md) / [Application Security](../cybersecurity/application-security-study-plan.md) so you can detect the attacks you already know how to perform. Combine it with [Threat Modeling](../cybersecurity/threat-modeling-study-plan.md) to turn identified threats into concrete detections and playbooks.
 
 ## In Short
 
@@ -123,4 +123,4 @@ Reuse questions from Network Security, Cloud Security, and GRC, but focus on det
 3. How would you investigate a suspected account compromise in a cloud environment?
 4. How do you measure the effectiveness of your detections and IR process?
 
-More SOC-focused questions live in the [security-interview-questions](https://github.com/jassics/security-interview-questions/blob/main/soc-interview-questions.md) repo.
+More SOC-focused questions live in the [SOC interview questions](../../interview-questions/soc-interview-questions.md) page.

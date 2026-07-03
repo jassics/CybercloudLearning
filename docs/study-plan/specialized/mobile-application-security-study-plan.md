@@ -6,7 +6,7 @@ Also, I assume you have already checked and are comfortable with the [Common Sec
 
 It covers what you need to test and secure mobile apps, including client, API, and backend aspects.
 
-**How this connects:** Use this plan together with [Web Security Testing](../cybersecurity/web-security-testing-study-plan.md), [Application Security](../cybersecurity/application-security-study-plan.md), and [API Security](https://github.com/jassics/security-study-plan/blob/main/api-security-study-plan.md), since mobile apps almost always talk to web backends and APIs.
+**How this connects:** Use this plan together with [Web Security Testing](../cybersecurity/web-security-testing-study-plan.md), [Application Security](../cybersecurity/application-security-study-plan.md), and [API Security](../cybersecurity/api-security-study-plan.md), since mobile apps almost always talk to web backends and APIs.
 
 ## In Short
 
@@ -88,7 +88,7 @@ Goal: get hands-on experience.
 1. **Proxying & Interception** - Burp/ZAP, cert installation, bypassing certificate pinning (at a high level)
 2. **Emulators & Devices** - basic setup for Android and iOS testing
 3. **Deliberately Vulnerable Apps** - practice on intentionally vulnerable mobile apps from reputable sources
-4. **Backend APIs** - reuse techniques from the [API Security Study Plan](https://github.com/jassics/security-study-plan/blob/main/api-security-study-plan.md) to test the APIs mobile apps use
+4. **Backend APIs** - reuse techniques from the [API Security Study Plan](../cybersecurity/api-security-study-plan.md) to test the APIs mobile apps use
 
 ---
 

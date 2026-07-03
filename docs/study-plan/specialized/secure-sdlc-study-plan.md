@@ -51,7 +51,7 @@ Security must start before code is written.
 
 ### Week 3-5: Shift Left
 1. **Requirements phase** - define security/privacy requirements alongside functional ones (authN/authZ, logging, encryption, data retention, compliance); work with Product Security and GRC to capture constraints
-2. **Design phase** - perform high-level architecture reviews, do threat modeling for new features/major changes (see [Threat Modeling Study Plan](https://github.com/jassics/security-study-plan/blob/main/threat-modeling-study-plan.md)), choose appropriate security patterns (gateway, zero trust, secure data flow)
+2. **Design phase** - perform high-level architecture reviews, do threat modeling for new features/major changes (see [Threat Modeling Study Plan](../cybersecurity/threat-modeling-study-plan.md)), choose appropriate security patterns (gateway, zero trust, secure data flow)
 3. **Deliverables** - documented security requirements, threat models/risk assessments, architecture diagrams with security controls marked
 
 ---
@@ -65,7 +65,7 @@ Focus on day-to-day development activities.
 1. **Secure coding practices** - follow language-specific secure coding guidelines (see this site's [Secure Coding](../../product-security/application-security/secure-coding.md) guide), use frameworks/libraries securely
 2. **Code review** - integrate basic security checks into regular code reviews, use checklists for common issues
 3. **Automation** - introduce [SAST](../../product-security/application-security/sast.md) and [SCA](../../product-security/application-security/sca.md) as part of the build; ensure findings are triaged and assigned, not ignored
-4. Deepen code review skills with the [Secure Code Review Study Plan](https://github.com/jassics/security-study-plan/blob/main/secure-code-review-study-plan.md)
+4. Deepen code review skills with the [Secure Code Review Study Plan](../cybersecurity/secure-code-review-study-plan.md)
 
 ---
 

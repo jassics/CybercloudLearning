@@ -42,7 +42,7 @@ Understand what DevSecOps is and what problems it tries to solve.
 1. Understand the evolution: Dev &rarr; DevOps &rarr; DevSecOps, and why traditional "security at the end" doesn't work.
 2. Read or refresh related plans:
    1. [Application Security Study Plan](application-security-study-plan.md)
-   2. [Secure SDLC Study Plan](https://github.com/jassics/security-study-plan/blob/main/secure-software-development-lifecycle-study-plan.md)
+   2. [Secure SDLC Study Plan](../specialized/secure-sdlc-study-plan.md)
    3. The relevant cloud security study plan(s) - [AWS](../cloud-security/aws-security-study-plan.md), [Azure](../cloud-security/azure-security-study-plan.md), [GCP](../cloud-security/gcp-security-study-plan.md)
 
 ### Week 3-4: Responsibilities & Shift Left
@@ -125,7 +125,7 @@ DevSecOps is as much about people and feedback as it is about tools.
 **Certifications:** cloud security certs for your primary provider (AWS/Azure/GCP), DevOps/cloud-native certs covering CI/CD and containers, Application Security/Secure SDLC certs if you want to emphasize the security side.
 
 ## Interview Questions
-You can reuse many questions from [Application Security interview questions](https://github.com/jassics/security-interview-questions/blob/main/application-security-interview-questions.md), and from cloud/security interviews generally - but focus on how you would **automate** and **integrate** security into pipelines and platforms.
+You can reuse many questions from [Application Security interview questions](../../interview-questions/application-security-interview-questions.md), and from cloud/security interviews generally - but focus on how you would **automate** and **integrate** security into pipelines and platforms.
 
 Additional DevSecOps-focused questions to prepare for:
 
@@ -134,4 +134,4 @@ Additional DevSecOps-focused questions to prepare for:
 3. How would you integrate container and IaC scanning into the delivery process?
 4. How would you measure the success of a DevSecOps initiative over 6-12 months?
 
-**Practice next:** [jassics/security-study-plan](https://github.com/jassics/security-study-plan) for the latest updates to this plan, and [jassics/security-interview-questions](https://github.com/jassics/security-interview-questions/blob/main/devsecops-interview-questions.md) for DevSecOps-specific questions.
+**Practice next:** [jassics/security-study-plan](https://github.com/jassics/security-study-plan) for the latest updates to this plan, and [DevSecOps interview questions](../../interview-questions/devsecops-interview-questions.md) for DevSecOps-specific questions.
