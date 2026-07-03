@@ -48,6 +48,8 @@ Determine the security impact level using FIPS 199:
 | **Moderate** | Serious adverse effect | Serious adverse effect | Serious adverse effect |
 | **High** | Severe/catastrophic effect | Severe/catastrophic effect | Severe/catastrophic effect |
 
+**Worked example**: a system's overall categorization is the *high-water mark* across the three properties, not an average. A customer-records database might rate: Confidentiality = **High** (breach exposes PII at scale), Integrity = **Moderate** (bad data causes billing errors but is recoverable), Availability = **Low** (a few hours of downtime is tolerable). The system's overall FIPS 199 categorization is **High** - driven entirely by the confidentiality rating, even though the other two properties are lower. This is a common interview question because it trips people up: categorization isn't "mostly moderate," it's whichever property is worst.
+
 ### Step 2: Select
 
 Choose security controls from NIST SP 800-53:
@@ -133,3 +135,9 @@ Continuous monitoring activities:
 3. **Document thoroughly** - Maintain comprehensive records
 4. **Automate monitoring** - Use tools for continuous assessment
 5. **Iterate regularly** - RMF is continuous, not one-time
+
+## Credits/References
+
+1. [NIST SP 800-37 Rev. 2: Risk Management Framework for Information Systems and Organizations](https://csrc.nist.gov/pubs/sp/800/37/r2/final)
+2. [FIPS 199: Standards for Security Categorization](https://csrc.nist.gov/pubs/fips/199/final)
+3. [NIST SP 800-53 Rev. 5: Security and Privacy Controls](https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final)
