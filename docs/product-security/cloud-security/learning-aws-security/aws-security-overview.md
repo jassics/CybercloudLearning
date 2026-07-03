@@ -79,6 +79,14 @@ aws iam get-account-password-policy
 - [ ] IAM Access Analyzer running to catch unintended external access
 - [ ] Security Hub aggregating findings from GuardDuty, Config, Inspector, Macie
 
+## Practice Next
+
+- [IAM Security](iam-security.md)
+- [S3 Security](s3-security.md)
+- [CloudTrail](cloudtrail.md)
+- [GuardDuty](guardduty.md)
+- [KMS](kms.md)
+
 ## Credits/References
 
 1. [AWS Shared Responsibility Model](https://aws.amazon.com/compliance/shared-responsibility-model/)

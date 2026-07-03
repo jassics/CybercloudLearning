@@ -108,7 +108,7 @@ docker run --rm --net host --pid host --userns host --cap-add audit_control \
   docker/docker-bench-security
 ```
 
-## Hardening Checklist
+## Best Practices Checklist
 
 - [ ] Base image is minimal/distroless, pinned to a specific digest (not `:latest`)
 - [ ] Container runs as a non-root `USER`

@@ -38,9 +38,22 @@ Docker images are read-only templates used to build containers. Containers are d
 
 ## Benefits of using Docker
 
+- **Portability** - a container runs the same way on a laptop, a CI runner, and a production server, since the image bundles the app with its dependencies and runtime.
+- **Resource efficiency** - containers share the host OS kernel instead of virtualizing a full guest OS, so you can run far more containers than VMs on the same hardware.
+- **Faster startup** - containers start in seconds (sometimes milliseconds), compared to the minutes a full VM boot typically takes.
+- **Consistency across environments** - eliminates the classic "works on my machine" problem, since dev, test, and prod all run the same image.
+- **Version control for infrastructure** - Dockerfiles and images can be versioned, tagged, and rolled back just like application code.
+- **Ecosystem and tooling** - a large registry (Docker Hub) of pre-built images, plus mature orchestration (Kubernetes, ECS) built around the same container format.
 
-Before going to the next chapter, please make sure you have install all the necessary software to run Docker on your local machine.
-**Install** [Docker from here](https://docs.docker.com/get-docker/ "Download Docker")
+## Getting Started
 
-**Reference**: [Docker Deep Dive from acloud.guru](https://acloudguru.com/course/docker-deep-dive "Docker Deep Dive from Acloud.guru")
+Before going to the next chapter, please make sure you have installed all the necessary software to run Docker on your local machine.
+
+**Install:** [Docker from here](https://docs.docker.com/get-docker/ "Download Docker")
+
+## Credits/References
+
+1. [Docker Official Documentation](https://docs.docker.com/)
+2. [Moby Project](https://github.com/moby/moby)
+3. [Docker Deep Dive, acloud.guru](https://acloudguru.com/course/docker-deep-dive)
 
