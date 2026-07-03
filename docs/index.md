@@ -10,7 +10,7 @@ description: Single place to learn only necessary topics in Cloud and Security
 </div>
 
 ## Introduction
-Cybercloud Learning is trying to put simple yet practical contents which can be used by beginners or experienced  professionals as a revision or skills update. The goal is to share the knowledge with the cloud and cybersecurity community to better understand offensive and defensive approach on cloud native technologies.
+Cybercloud Learning is trying to put simple yet practical contents which can be used by beginners or experienced professionals as a revision or skills update. The goal is to share the knowledge with the cloud and cybersecurity community to better understand offensive and defensive approach on cloud native technologies.
 
 All content on this site is developed by volunteers like us. If you'd like to be one of them, you can contribute your knowledge by submitting a [Pull Request](https://github.com/jassics/CybercloudLearning/pulls). We are open to content from any SMEs or educational institutes. 
 
@@ -56,13 +56,20 @@ We cover topics related to Application Security, Cloud Security, DevSecOps, AI S
 - DevSecOps, Docker & Kubernetes Security
 - AWS, GCP, Azure Security
 
-### 6. Miscellaneous
+### 6. Interview Questions
+- Domain-wise, collapsible Q&A - Application Security, AWS/GCP Security, DevSecOps, Container Security, Network Security, Web Security, AI Security, GRC, SOC, Common Security
+
+### 7. Resources
+- Downloadable tutorials and PDF guides
+- Clickable, interactive roadmaps (Mermaid diagrams linking straight to the matching guide)
+
+### 8. Miscellaneous
 - Linux Commands
 - ViM for Everyone
 - Regular Expression Essentials
 - Git Essentials
 
-### 7. Slides & Presentations
+### 9. Slides & Presentations
 - Cybersecurity Roadmaps
 - OWASP Top 10 (Web & API)
 - Cloud Security & Penetration Testing
