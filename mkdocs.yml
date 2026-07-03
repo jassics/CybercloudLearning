@@ -160,6 +160,13 @@ nav:
         - 'Common Security': interview-questions/common-security-interview-questions.md
         - 'AI Security': interview-questions/ai-security-interview-questions.md
         - 'GRC': interview-questions/grc-interview-questions.md
+        - 'API Security': interview-questions/api-security-interview-questions.md
+        - 'Container Security': interview-questions/container-security-interview-questions.md
+        - 'DevSecOps': interview-questions/devsecops-interview-questions.md
+        - 'Network Security': interview-questions/network-security-interview-questions.md
+        - 'GCP Security': interview-questions/gcp-security-interview-questions.md
+        - 'Web Security': interview-questions/web-security-interview-questions.md
+        - 'SOC': interview-questions/soc-interview-questions.md
     - Resources:
         - 'Resources Overview': resources/index.md
         - 'Tutorials & Guides': resources/tutorials.md
