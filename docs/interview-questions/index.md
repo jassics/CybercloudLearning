@@ -17,10 +17,12 @@ Domain-wise interview questions with **collapsible answers** - click a question 
 | [Application Security](application-security-interview-questions.md) | Secure coding, secure code review, threat modeling, SDLC, spot-the-bug code snippets |
 | [AWS Security](aws-security-interview-questions.md) | IAM policies, GuardDuty/CloudTrail, IMDSv2/SSRF, KMS, design scenarios |
 | [Common Security](common-security-interview-questions.md) | Behavioral/scenario questions and cross-domain fundamentals that apply to any security role |
+| [AI Security](ai-security-interview-questions.md) | AI/ML attack taxonomy, prompt injection, model extraction, governance and risk (grounded in this site's AI Security section) |
+| [GRC](grc-interview-questions.md) | Governance vs. risk vs. compliance, ISO 27001, NIST CSF/RMF, privacy fundamentals (grounded in this site's GRC section) |
 
 ## More Domains, Coming Soon
 
-The source repo covers more domains than are converted here yet - AI Security, API Security, Container Security, DevSecOps, GCP Security, GRC, Network Security, SOC, and Web Security are still thin/stub content upstream. As those get filled in on [jassics/security-interview-questions](https://github.com/jassics/security-interview-questions), they'll be added here in the same collapsible format.
+The source repo covers more domains than are converted here yet - API Security, Container Security, DevSecOps, GCP Security, Network Security, SOC, and Web Security are still thin/stub content upstream, and this site's own guides for several of those domains are still being written. Once either side has enough real content to ground good questions in, they'll be added here in the same collapsible format - see [jassics/security-interview-questions](https://github.com/jassics/security-interview-questions) for the canonical, evolving source.
 
 ## Scenario-Based Deep Dives (GitHub Only)
 

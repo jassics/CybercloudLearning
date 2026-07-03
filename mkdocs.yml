@@ -158,6 +158,8 @@ nav:
         - 'Application Security': interview-questions/application-security-interview-questions.md
         - 'AWS Security': interview-questions/aws-security-interview-questions.md
         - 'Common Security': interview-questions/common-security-interview-questions.md
+        - 'AI Security': interview-questions/ai-security-interview-questions.md
+        - 'GRC': interview-questions/grc-interview-questions.md
     - Resources:
         - 'Resources Overview': resources/index.md
         - 'Tutorials & Guides': resources/tutorials.md
