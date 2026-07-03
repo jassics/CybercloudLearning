@@ -58,14 +58,15 @@ What this does:
 The first time you turn on hard-blocking SCA, you'll likely surface a backlog of existing critical/high findings across the whole dependency tree. Don't disable the gate - baseline it instead:
 
 ```bash
-# Generate a baseline of currently-known findings
-trivy fs --format json --output baseline.json .
+# One-time: scan today's tree and turn every existing CVE ID into a .trivyignore entry
+trivy fs --format json --severity CRITICAL,HIGH . | \
+  jq -r '.Results[].Vulnerabilities[]?.VulnerabilityID' | sort -u > .trivyignore
 
-# In CI, only fail on NEW findings not in the baseline
-trivy fs --severity CRITICAL,HIGH --ignorefile baseline.json --exit-code 1 .
+# In CI, going forward: only fail on NEW findings not already in .trivyignore
+trivy fs --severity CRITICAL,HIGH --exit-code 1 .
 ```
 
-This lets you enforce "no new critical/high dependency vulnerabilities" immediately while planning a separate remediation effort for the existing backlog - the same pattern used for [SAST](../application-security/sast.md) baseline management.
+Note the mechanism here: Trivy's `--ignorefile` flag (defaulting to `.trivyignore` in the repo root) expects a plain list of CVE/AVD IDs - not a saved JSON scan report - so the baseline step extracts IDs into that format rather than pointing `--ignorefile` at the raw report. This lets you enforce "no new critical/high dependency vulnerabilities" immediately while planning a separate remediation effort for the existing backlog (each `.trivyignore` entry should carry a tracking ticket and, where Trivy supports it, an expiry date so it doesn't become a permanent suppression) - the same pattern used for [SAST](../application-security/sast.md) baseline management.
 
 ## Reachability-Aware Gating (Reducing Noise)
 
