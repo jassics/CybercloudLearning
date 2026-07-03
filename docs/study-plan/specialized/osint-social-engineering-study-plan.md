@@ -98,3 +98,5 @@ Goal: use OSINT and SE knowledge to improve defenses.
 3. How can OSINT and SE knowledge help improve an organization's security posture?
 
 Also see the [Common Security Interview Questions](../../interview-questions/common-security-interview-questions.md) for broader awareness/GRC-adjacent questions.
+
+**Practice next:** [Common Security interview questions](../../interview-questions/common-security-interview-questions.md), and [jassics/security-study-plan](https://github.com/jassics/security-study-plan) for the latest updates to this plan.

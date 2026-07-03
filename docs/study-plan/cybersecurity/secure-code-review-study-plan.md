@@ -83,3 +83,5 @@ This study plan is designed to help you master Secure Code Review - methodologie
 ### Interview Questions
 
 Secure code review questions are commonly bundled into [Application Security interview questions](../../interview-questions/application-security-interview-questions.md).
+
+**Practice next:** [Application Security interview questions](../../interview-questions/application-security-interview-questions.md), and [jassics/security-study-plan](https://github.com/jassics/security-study-plan) for the latest updates to this plan.

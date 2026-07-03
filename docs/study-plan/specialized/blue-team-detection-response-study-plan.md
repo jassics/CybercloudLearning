@@ -124,3 +124,5 @@ Reuse questions from Network Security, Cloud Security, and GRC, but focus on det
 4. How do you measure the effectiveness of your detections and IR process?
 
 More SOC-focused questions live in the [SOC interview questions](../../interview-questions/soc-interview-questions.md) page.
+
+**Practice next:** [SOC interview questions](../../interview-questions/soc-interview-questions.md), and [jassics/security-study-plan](https://github.com/jassics/security-study-plan) for the latest updates to this plan.

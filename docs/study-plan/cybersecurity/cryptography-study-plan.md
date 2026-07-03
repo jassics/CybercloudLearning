@@ -95,3 +95,5 @@ This plan has three objectives:
 ### Interview Questions
 
 Cryptography questions frequently show up inside broader [Application Security interview questions](../../interview-questions/application-security-interview-questions.md) - review that set alongside this plan.
+
+**Practice next:** [Application Security interview questions](../../interview-questions/application-security-interview-questions.md), and [jassics/security-study-plan](https://github.com/jassics/security-study-plan) for the latest updates to this plan.
