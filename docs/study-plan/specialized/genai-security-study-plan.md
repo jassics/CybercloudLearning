@@ -1,6 +1,6 @@
 # GenAI Security Study Plan (GenAI/LLM)
 
-This study plan covers all the topics, concepts, blogs, videos, books, and newsletters needed to build GenAI security skills, sourced from [jassics/security-study-plan/genai-security-study-plan](https://github.com/jassics/security-study-plan/blob/main/genai-security-study-plan.md).
+This page is updated based on [jassics/security-study-plan/genai-security-study-plan](https://github.com/jassics/security-study-plan/blob/main/genai-security-study-plan.md), covering all the topics, concepts, blogs, videos, books, and newsletters needed to build GenAI security skills.
 
 It should take 6-9 months to be good at GenAI security so that you can do one or more of the below:
 

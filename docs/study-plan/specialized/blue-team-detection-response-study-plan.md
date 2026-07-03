@@ -1,6 +1,6 @@
 # Blue Team, Detection & Response Study Plan
 
-This study plan is based on milestones, sourced from [jassics/security-study-plan/blue-team-detection-response-study-plan](https://github.com/jassics/security-study-plan/blob/main/blue-team-detection-response-study-plan.md). The more topics you cover, the better candidate you are for Blue Team, SOC, Detection Engineering, and Incident Response roles.
+This page is updated based on [jassics/security-study-plan/blue-team-detection-response-study-plan](https://github.com/jassics/security-study-plan/blob/main/blue-team-detection-response-study-plan.md). The more topics you cover, the better candidate you are for Blue Team, SOC, Detection Engineering, and Incident Response roles.
 
 Also, I assume you have already checked and are comfortable with the [Common Security Skills study plan](../common-skills-study-plan.md).
 

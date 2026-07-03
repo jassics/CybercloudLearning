@@ -1,6 +1,6 @@
 # Mobile Application Security Study Plan
 
-This study plan is based on milestones, sourced from [jassics/security-study-plan/mobile-application-security-study-plan](https://github.com/jassics/security-study-plan/blob/main/mobile-application-security-study-plan.md). Check how much you can cover within the timeline - the more you cover, the better candidate you are for roles requiring good Android/iOS application security knowledge.
+This page is updated based on [jassics/security-study-plan/mobile-application-security-study-plan](https://github.com/jassics/security-study-plan/blob/main/mobile-application-security-study-plan.md). Check how much you can cover within the timeline - the more you cover, the better candidate you are for roles requiring good Android/iOS application security knowledge.
 
 Also, I assume you have already checked and are comfortable with the [Common Security Skills study plan](../common-skills-study-plan.md) and [Web Security Testing study plan](../cybersecurity/web-security-testing-study-plan.md).
 

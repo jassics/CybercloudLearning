@@ -1,6 +1,6 @@
 # OSINT & Social Engineering Study Plan
 
-This study plan is based on milestones, sourced from [jassics/security-study-plan/osint-social-engineering-study-plan](https://github.com/jassics/security-study-plan/blob/main/osint-social-engineering-study-plan.md). It benefits red team, blue team, GRC, and security-awareness roles alike, and focuses on **ethical** OSINT and social engineering fundamentals.
+This page is updated based on [jassics/security-study-plan/osint-social-engineering-study-plan](https://github.com/jassics/security-study-plan/blob/main/osint-social-engineering-study-plan.md). It benefits red team, blue team, GRC, and security-awareness roles alike, and focuses on **ethical** OSINT and social engineering fundamentals.
 
 Also, I assume you have already checked and are comfortable with the [Common Security Skills study plan](../common-skills-study-plan.md).
 

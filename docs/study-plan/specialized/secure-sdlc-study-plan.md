@@ -1,6 +1,6 @@
 # Security Development Lifecycle (SDL) Study Plan
 
-This study plan is based on milestones, sourced from [jassics/security-study-plan/secure-software-development-lifecycle-study-plan](https://github.com/jassics/security-study-plan/blob/main/secure-software-development-lifecycle-study-plan.md). Also, I assume you have already checked and are comfortable with the [Common Security Skills study plan](../common-skills-study-plan.md).
+This page is updated based on [jassics/security-study-plan/secure-software-development-lifecycle-study-plan](https://github.com/jassics/security-study-plan/blob/main/secure-software-development-lifecycle-study-plan.md). Also, I assume you have already checked and are comfortable with the [Common Security Skills study plan](../common-skills-study-plan.md).
 
 SDL is about building security into each phase of software delivery - requirements, design, coding, testing, release, and maintenance - instead of treating security as a separate step at the end. It's more towards:
 
