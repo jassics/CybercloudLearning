@@ -4,7 +4,7 @@
 
 "We do DevSecOps" means very different things at different organizations - one team runs a manual pentest once a year and calls it done, another blocks every deploy automatically on unreviewed policy violations. A maturity model gives you a shared vocabulary to answer "how mature are we, really?" and a concrete next step instead of a vague "get better at security."
 
-This is a simplified, four-level model in the spirit of the [OWASP DevSecOps Maturity Model (DSOMM)](https://dsomm.owasp.org/) - use DSOMM directly if you need a more granular, dimension-by-dimension assessment.
+This is a simplified, four-level model in the spirit of the [OWASP DevSecOps Maturity Model (DSOMM)](https://dsomm.owasp.org/) - use DSOMM directly if you need a more granular, dimension-by-dimension assessment. See [DevSecOps Fundamentals](devsecops-fundamentals.md) for the broader practice areas this model is scoring you against.
 
 ## The Four Levels
 
@@ -23,7 +23,7 @@ Score your org against each row - "yes" moves you toward the next level up:
 - [ ] SCA/dependency scanning blocks merges on critical/known-exploited CVEs
 - [ ] Secrets scanning runs pre-commit or pre-push, not just in CI
 - [ ] Container images are scanned before they can be deployed
-- [ ] IaC (Terraform/CloudFormation) is scanned for misconfigurations before `apply`
+- [ ] IaC ([Terraform](terraform.md)/CloudFormation) is scanned for misconfigurations before `apply`
 - [ ] DAST runs against a staging environment before every release
 - [ ] Vulnerability remediation has defined SLAs by severity (see [Vulnerability Management](vulnerability-management.md))
 - [ ] Compliance requirements are encoded as automated policy checks, not manual audits
@@ -51,5 +51,4 @@ The jump to **Level 4** is less about tooling and more about culture: security b
 ## Credits/References
 
 1. [OWASP DevSecOps Maturity Model (DSOMM)](https://dsomm.owasp.org/)
-2. [DevSecOps Fundamentals](devsecops-fundamentals.md)
-3. [BSIMM (Building Security In Maturity Model)](https://www.bsimm.com/)
+2. [BSIMM (Building Security In Maturity Model)](https://www.bsimm.com/)

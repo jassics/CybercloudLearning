@@ -82,4 +82,3 @@ A vulnerable SQL query might be flagged by SAST as a data-flow risk and separate
 
 1. [OWASP ZAP (Zed Attack Proxy)](https://www.zaproxy.org/)
 2. [OWASP Web Security Testing Guide](https://owasp.org/www-project-web-security-testing-guide/)
-3. [SAST](../application-security/sast.md), [SCA in CI/CD Pipeline](sca-cicd.md)

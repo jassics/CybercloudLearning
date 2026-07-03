@@ -84,4 +84,3 @@ A large fraction of dependency CVEs are in code paths your application never cal
 1. [Trivy by Aqua Security](https://trivy.dev/)
 2. [Anchore SBOM Action](https://github.com/anchore/sbom-action)
 3. [CycloneDX SBOM Standard](https://cyclonedx.org/)
-4. [SCA](../application-security/sca.md)
