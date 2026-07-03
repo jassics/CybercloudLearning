@@ -12,11 +12,12 @@ A practical study plan to become a successful cybersecurity engineer based on ro
 | Study Plan | Description |
 |------------|-------------|
 | [Application Security](cybersecurity/application-security-study-plan.md) | Complete AppSec engineer roadmap |
-| [API Security](https://github.com/jassics/security-study-plan/blob/main/api-security-study-plan.md) | REST, GraphQL, API security testing |
+| [API Security](cybersecurity/api-security-study-plan.md) | REST, GraphQL, API security testing |
 | [Web Security Testing](cybersecurity/web-security-testing-study-plan.md) | Web app pentesting skills |
-| [Threat Modeling](https://github.com/jassics/security-study-plan/blob/main/threat-modeling-study-plan.md) | STRIDE, PASTA, threat analysis |
-| [Secure Code Review](https://github.com/jassics/security-study-plan/blob/main/secure-code-review-study-plan.md) | Manual and automated code review |
-| [Cryptography](https://github.com/jassics/security-study-plan/blob/main/cryptography-study-plan.md) | Encryption, hashing, PKI |
+| [Threat Modeling](cybersecurity/threat-modeling-study-plan.md) | STRIDE, PASTA, threat analysis |
+| [Secure Code Review](cybersecurity/secure-code-review-study-plan.md) | Manual and automated code review |
+| [Cryptography](cybersecurity/cryptography-study-plan.md) | Encryption, hashing, PKI |
+| [Python for Security](cybersecurity/python-for-security-study-plan.md) | Code-along scripting for security work |
 
 ## Cloud Security
 
@@ -42,7 +43,7 @@ A practical study plan to become a successful cybersecurity engineer based on ro
 | [Security Architecture](https://github.com/jassics/security-study-plan/blob/main/security-architecture-study-plan.md) | Security design principles |
 | [Secure SDLC](https://github.com/jassics/security-study-plan/blob/main/secure-software-development-lifecycle-study-plan.md) | Security in development lifecycle |
 | [Product Security](https://github.com/jassics/security-study-plan/blob/main/product-security-study-plan.md) | End-to-end product security |
-| [GRC](https://github.com/jassics/security-study-plan/blob/main/grc-study-plan.md) | Governance, Risk & Compliance |
+| [GRC](grc-study-plan.md) | Governance, Risk & Compliance |
 
 ## Specialized Security
 
@@ -50,7 +51,7 @@ A practical study plan to become a successful cybersecurity engineer based on ro
 |------------|-------------|
 | [Network Security](cybersecurity/network-security-study-plan.md) | Network defense & monitoring |
 | [GenAI Security](https://github.com/jassics/security-study-plan/blob/main/genai-security-study-plan.md) | LLM security, prompt injection |
-| [IAM Security](https://github.com/jassics/security-study-plan/blob/main/iam-security-study-plan.md) | Identity & Access Management |
+| [IAM Security](cybersecurity/iam-security-study-plan.md) | Identity & Access Management |
 | [Mobile Application Security](https://github.com/jassics/security-study-plan/blob/main/mobile-application-security-study-plan.md) | iOS & Android security |
 | [Blue Team & Detection](https://github.com/jassics/security-study-plan/blob/main/blue-team-detection-response-study-plan.md) | SOC, SIEM, incident response |
 | [Reverse Engineering & Malware](https://github.com/jassics/security-study-plan/blob/main/reverse-engineering-malware-security-study-plan.md) | Malware analysis |

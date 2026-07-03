@@ -131,11 +131,18 @@ nav:
           - 'Azure Security': study-plan/cloud-security/azure-security-study-plan.md
           - 'GCP Security': study-plan/cloud-security/gcp-security-study-plan.md
         - 'Application Security': study-plan/cybersecurity/application-security-study-plan.md
+        - 'API Security': study-plan/cybersecurity/api-security-study-plan.md
+        - 'Cryptography': study-plan/cybersecurity/cryptography-study-plan.md
+        - 'Threat Modeling': study-plan/cybersecurity/threat-modeling-study-plan.md
+        - 'Secure Code Review': study-plan/cybersecurity/secure-code-review-study-plan.md
+        - 'IAM Security': study-plan/cybersecurity/iam-security-study-plan.md
         - 'DevSecOps': study-plan/cybersecurity/devsecops-study-plan.md
         - 'Docker Security': study-plan/cybersecurity/docker-security-study-plan.md
         - 'Kubernetes Security': study-plan/cybersecurity/kubernetes-security-study-plan.md
         - 'Network Security': study-plan/cybersecurity/network-security-study-plan.md
         - 'Web Security Testing': study-plan/cybersecurity/web-security-testing-study-plan.md
+        - 'Python for Security': study-plan/cybersecurity/python-for-security-study-plan.md
+        - 'GRC': study-plan/grc-study-plan.md
     - Resources:
         - 'Resources Overview': resources/index.md
         - 'Tutorials & Guides': resources/tutorials.md
