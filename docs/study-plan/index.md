@@ -3,7 +3,7 @@
 A practical study plan to become a successful cybersecurity engineer based on roles like Pentest, AppSec, Cloud Security, DevSecOps, and more.
 
 !!! tip "Start Here"
-    Begin with **[Common Skills Study Plan](https://github.com/jassics/security-study-plan/blob/main/common-skills-study-plan.md)** - essential skills needed for all security roles.
+    Begin with **[Common Skills Study Plan](common-skills-study-plan.md)** - essential skills needed for all security roles.
 
 > All study plans are maintained at [github.com/jassics/security-study-plan](https://github.com/jassics/security-study-plan)
 
@@ -11,9 +11,9 @@ A practical study plan to become a successful cybersecurity engineer based on ro
 
 | Study Plan | Description |
 |------------|-------------|
-| [Application Security](https://github.com/jassics/security-study-plan/blob/main/application-security-study-plan.md) | Complete AppSec engineer roadmap |
+| [Application Security](cybersecurity/application-security-study-plan.md) | Complete AppSec engineer roadmap |
 | [API Security](https://github.com/jassics/security-study-plan/blob/main/api-security-study-plan.md) | REST, GraphQL, API security testing |
-| [Web Penetration Testing](https://github.com/jassics/security-study-plan/blob/main/web-pentest-study-plan.md) | Web app pentesting skills |
+| [Web Security Testing](cybersecurity/web-security-testing-study-plan.md) | Web app pentesting skills |
 | [Threat Modeling](https://github.com/jassics/security-study-plan/blob/main/threat-modeling-study-plan.md) | STRIDE, PASTA, threat analysis |
 | [Secure Code Review](https://github.com/jassics/security-study-plan/blob/main/secure-code-review-study-plan.md) | Manual and automated code review |
 | [Cryptography](https://github.com/jassics/security-study-plan/blob/main/cryptography-study-plan.md) | Encryption, hashing, PKI |
@@ -22,17 +22,17 @@ A practical study plan to become a successful cybersecurity engineer based on ro
 
 | Study Plan | Description |
 |------------|-------------|
-| [AWS Security](https://github.com/jassics/security-study-plan/blob/main/aws-security-study-plan.md) | IAM, S3, CloudTrail, GuardDuty |
-| [GCP Security](https://github.com/jassics/security-study-plan/blob/main/gcp-security-study-plan.md) | GCP security services & best practices |
-| [Azure Security](https://github.com/jassics/security-study-plan/blob/main/azure-security-study-plan.md) | Azure security fundamentals |
+| [AWS Security](cloud-security/aws-security-study-plan.md) | IAM, S3, CloudTrail, GuardDuty |
+| [GCP Security](cloud-security/gcp-security-study-plan.md) | GCP security services & best practices |
+| [Azure Security](cloud-security/azure-security-study-plan.md) | Azure security fundamentals |
 
 ## DevSecOps & Container Security
 
 | Study Plan | Description |
 |------------|-------------|
-| [DevSecOps](https://github.com/jassics/security-study-plan/blob/main/devsecops-study-plan.md) | CI/CD security, pipeline hardening |
-| [Docker Security](https://github.com/jassics/security-study-plan/blob/main/docker-security-study-plan.md) | Container security fundamentals |
-| [Kubernetes Security](https://github.com/jassics/security-study-plan/blob/main/kubernetes-security-study-plan.md) | K8s security, RBAC, network policies |
+| [DevSecOps](cybersecurity/devsecops-study-plan.md) | CI/CD security, pipeline hardening |
+| [Docker Security](cybersecurity/docker-security-study-plan.md) | Container security fundamentals |
+| [Kubernetes Security](cybersecurity/kubernetes-security-study-plan.md) | K8s security, RBAC, network policies |
 | [Software Supply Chain Security](https://github.com/jassics/security-study-plan/blob/main/software-supply-chain-security-study-plan.md) | SBOM, dependency security |
 
 ## Security Architecture & SDLC
@@ -48,7 +48,7 @@ A practical study plan to become a successful cybersecurity engineer based on ro
 
 | Study Plan | Description |
 |------------|-------------|
-| [Network Security](https://github.com/jassics/security-study-plan/blob/main/network-security-study-plan.md) | Network defense & monitoring |
+| [Network Security](cybersecurity/network-security-study-plan.md) | Network defense & monitoring |
 | [GenAI Security](https://github.com/jassics/security-study-plan/blob/main/genai-security-study-plan.md) | LLM security, prompt injection |
 | [IAM Security](https://github.com/jassics/security-study-plan/blob/main/iam-security-study-plan.md) | Identity & Access Management |
 | [Mobile Application Security](https://github.com/jassics/security-study-plan/blob/main/mobile-application-security-study-plan.md) | iOS & Android security |
