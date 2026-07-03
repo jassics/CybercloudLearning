@@ -127,3 +127,5 @@ Reuse many questions from the [Application Security interview questions](../../i
 2. How do you decide which security issues must be fixed before release and which can go into the backlog?
 3. How would you introduce threat modeling into a product team that has never done it before?
 4. How would you communicate a critical security issue to product and engineering leadership?
+
+**Practice next:** [Application Security interview questions](../../interview-questions/application-security-interview-questions.md) for the technical depth, and [jassics/security-study-plan](https://github.com/jassics/security-study-plan) for the latest updates to this plan.

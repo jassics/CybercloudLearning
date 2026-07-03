@@ -113,3 +113,5 @@ Reuse questions from Web & API Security, plus mobile specifics:
 2. What is OWASP MASVS and how would you use it in an assessment?
 3. How would you approach bypassing certificate pinning (conceptually)?
 4. What are common pitfalls in mobile auth and session management?
+
+**Practice next:** [Application Security interview questions](../../interview-questions/application-security-interview-questions.md) and [Web Security interview questions](../../interview-questions/web-security-interview-questions.md) for the overlapping backend/API fundamentals, and [jassics/security-study-plan](https://github.com/jassics/security-study-plan) for the latest updates to this plan.

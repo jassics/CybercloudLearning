@@ -145,3 +145,5 @@ Use the [Application Security interview questions](../../interview-questions/app
 1. How would you design a secure architecture for a public web application with APIs and mobile clients?
 2. How would you design logging and monitoring for a critical payments system?
 3. How would you approach threat modeling for a new microservices-based product?
+
+**Practice next:** [Application Security interview questions](../../interview-questions/application-security-interview-questions.md) answered from an architecture lens, and [jassics/security-study-plan](https://github.com/jassics/security-study-plan) for the latest updates to this plan.

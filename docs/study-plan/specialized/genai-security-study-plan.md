@@ -301,3 +301,5 @@ More AI security questions live on the [AI Security interview questions](../../i
 **Challenges & CTFs:** [Gandalf](https://gandalf.lakera.ai/) - [Prompt Airlines](https://promptairlines.com/) - [SecOps Certified AI/ML Pentester Exam](https://secops.group/product/certified-ai-ml-pentester/)
 
 **More curated links:** [jassics/awesome-genai-security](https://github.com/jassics/awesome-genai-security)
+
+**Practice next:** [AI Security interview questions](../../interview-questions/ai-security-interview-questions.md) for interview prep, and [jassics/security-study-plan](https://github.com/jassics/security-study-plan) for the latest updates to this plan.

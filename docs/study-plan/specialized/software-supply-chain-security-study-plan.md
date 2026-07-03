@@ -121,9 +121,11 @@ Focus on how to detect/respond to supply chain issues and govern the program.
 
 ## Interview Questions
 
-Reuse questions from Application Security, DevSecOps, and cloud security, plus supply chain focus:
+Reuse questions from [Application Security](../../interview-questions/application-security-interview-questions.md), [DevSecOps](../../interview-questions/devsecops-interview-questions.md), and cloud security, plus supply chain focus:
 
 1. How would you reduce the risk of malicious dependencies in a large organization?
 2. What controls would you put around CI/CD systems to protect against supply chain attacks?
 3. How would you respond if a widely used third-party library in your product was suddenly found to be compromised?
 4. How would you explain the importance of SBOMs and artifact signing to engineering leadership?
+
+**Practice next:** [DevSecOps interview questions](../../interview-questions/devsecops-interview-questions.md), and [jassics/security-study-plan](https://github.com/jassics/security-study-plan) for the latest updates to this plan.
