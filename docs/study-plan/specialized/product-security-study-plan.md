@@ -40,7 +40,7 @@ Goal: understand what Product Security is and where it sits between AppSec, engi
 
 ### Week 1-4: The Role & Lifecycle
 1. How Product Security differs from Application Security, Security Architecture, and Pentesting; typical responsibilities - partnering with product teams, reviewing designs, threat modeling, triaging findings, guiding remediation
-2. Read or refresh: [Application Security](../cybersecurity/application-security-study-plan.md), [API Security](https://github.com/jassics/security-study-plan/blob/main/api-security-study-plan.md), [Security Architecture](security-architecture-study-plan.md)
+2. Read or refresh: [Application Security](../cybersecurity/application-security-study-plan.md), [API Security](../cybersecurity/api-security-study-plan.md), [Security Architecture](security-architecture-study-plan.md)
 3. Typical feature lifecycle - idea/requirements → design → implementation → testing → release and monitoring
 4. Map where Product Security adds value at each step
 
@@ -78,7 +78,7 @@ Make the Secure SDLC **practical** for product teams.
 Threat modeling is a key part of Product Security.
 
 ### Week 14-17: Threat Modeling
-1. Read the [Threat Modeling Study Plan](https://github.com/jassics/security-study-plan/blob/main/threat-modeling-study-plan.md) and the site's [Threat Modeling](../../product-security/application-security/threat-modeling.md) guide
+1. Read the [Threat Modeling Study Plan](../cybersecurity/threat-modeling-study-plan.md) and the site's [Threat Modeling](../../product-security/application-security/threat-modeling.md) guide
 2. Practice at least one structured method (STRIDE or similar)
 3. Practical threat modeling in product teams - short facilitated sessions, using architecture diagrams/data flows, capturing a small actionable mitigation list
 4. Risk-based prioritization - simple risk scoring (likelihood × impact), aligning with internal risk ratings (Critical/High/Medium/Low), when to accept risk vs push for fixes
@@ -121,7 +121,7 @@ Product Security sits in the middle of several other teams.
 
 ## Interview Questions
 
-Reuse many questions from the [Application Security interview questions](https://github.com/jassics/security-interview-questions/blob/main/application-security-interview-questions.md), but think about them in terms of **how you'd embed security into product teams**. Additional Product Security-focused questions:
+Reuse many questions from the [Application Security interview questions](../../interview-questions/application-security-interview-questions.md), but think about them in terms of **how you'd embed security into product teams**. Additional Product Security-focused questions:
 
 1. How would you integrate security into a team that ships features every 1-2 weeks?
 2. How do you decide which security issues must be fixed before release and which can go into the backlog?

@@ -161,4 +161,4 @@ Track metrics across each pillar rather than treating GRC as a checkbox:
 
 ### Interview Questions
 
-Practice with [GRC interview questions](https://github.com/jassics/security-interview-questions/blob/main/grc-interview-questions.md).
+Practice with [GRC interview questions](../interview-questions/grc-interview-questions.md).

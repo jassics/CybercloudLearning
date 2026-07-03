@@ -86,6 +86,6 @@ Expanding into wireless and more complex scenarios.
 
 To finish with this plan: create free accounts on platforms like [TryHackMe](https://tryhackme.com) or [Root Me](https://root-me.org) - useful for building both skills and knowledge. Create a [GitHub](https://www.github.com) account too, to post code and projects (if you don't code yet, see [this TryHackMe scripting module](https://tryhackme.com/module/scripting-for-pentesters)). A Twitter/X account is also useful to keep up with cybersecurity news and build a reputation in the domain.
 
-If you want to go deeper into monitoring, detection, and incident response after Network Security, read the [Blue Team, Detection & Response Study Plan](https://github.com/jassics/security-study-plan/blob/main/blue-team-detection-response-study-plan.md) on GitHub.
+If you want to go deeper into monitoring, detection, and incident response after Network Security, read the [Blue Team, Detection & Response Study Plan](../specialized/blue-team-detection-response-study-plan.md).
 
-**Practice next:** [jassics/security-interview-questions](https://github.com/jassics/security-interview-questions/blob/main/network-security-interview-questions.md) for interview prep, and [jassics/security-study-plan](https://github.com/jassics/security-study-plan) for the latest updates to this plan.
+**Practice next:** [Network Security interview questions](../../interview-questions/network-security-interview-questions.md) for interview prep, and [jassics/security-study-plan](https://github.com/jassics/security-study-plan) for the latest updates to this plan.

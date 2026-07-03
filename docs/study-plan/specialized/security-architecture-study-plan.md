@@ -72,7 +72,7 @@ Focus on how you design secure solutions from the start.
 1. **Network and segmentation** - DMZs, zero trust network concepts, micro-segmentation, north-south vs east-west traffic
 2. **Identity and access architecture** - central IdP, SSO, SAML/OIDC, MFA, RBAC/ABAC, least privilege, just-in-time access
 3. **Data security architecture** - data classification, encryption in transit/at rest, key management (KMS/HSM basics), tokenization/masking/pseudonymization
-4. **Application and API architecture** - high-level secure web/API architectures (deep API details are in the [API Security Study Plan](https://github.com/jassics/security-study-plan/blob/main/api-security-study-plan.md))
+4. **Application and API architecture** - high-level secure web/API architectures (deep API details are in the [API Security Study Plan](../cybersecurity/api-security-study-plan.md))
 5. **Resilience and availability** - redundancy, failover, backups/restore, designing for DDoS and capacity
 
 Pick one or two small systems (side project, home lab, or existing app at work) and **draw** the "as-is" and "to-be" secure architecture.
@@ -85,7 +85,7 @@ Pick one or two small systems (side project, home lab, or existing app at work) 
 Here you combine architecture diagrams with attacker thinking.
 
 ### Week 17-20: Threat Modeling
-1. Read the [Threat Modeling Study Plan](https://github.com/jassics/security-study-plan/blob/main/threat-modeling-study-plan.md) and the site's own [Threat Modeling](../../product-security/application-security/threat-modeling.md) guide
+1. Read the [Threat Modeling Study Plan](../cybersecurity/threat-modeling-study-plan.md) and the site's own [Threat Modeling](../../product-security/application-security/threat-modeling.md) guide
 2. Learn at least one methodology - STRIDE, or attack trees/kill-chain style
 3. Learn how to identify assets/trust boundaries/entry points, identify threats and abuses per component, prioritize with simple risk scoring (likelihood × impact), and propose architectural mitigations
 
@@ -140,7 +140,7 @@ Map each reference diagram to which controls are enforced where, and how attacks
 
 ## Interview Questions
 
-Use the [Application Security interview questions](https://github.com/jassics/security-interview-questions/blob/main/application-security-interview-questions.md) and think about how you'd answer them from an **architecture** perspective (design choices, trade-offs, patterns), then extend with:
+Use the [Application Security interview questions](../../interview-questions/application-security-interview-questions.md) and think about how you'd answer them from an **architecture** perspective (design choices, trade-offs, patterns), then extend with:
 
 1. How would you design a secure architecture for a public web application with APIs and mobile clients?
 2. How would you design logging and monitoring for a critical payments system?

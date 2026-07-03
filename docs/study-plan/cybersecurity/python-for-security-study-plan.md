@@ -111,4 +111,4 @@ Once comfortable with the fundamentals, get hands-on with the libraries covered 
 
 ## Interview Questions
 
-Python-for-security questions frequently overlap with general [Application Security](https://github.com/jassics/security-interview-questions/blob/main/application-security-interview-questions.md) and [DevSecOps](https://github.com/jassics/security-interview-questions/blob/main/devsecops-interview-questions.md) interview sets - review those alongside hands-on scripting practice.
+Python-for-security questions frequently overlap with general [Application Security](../../interview-questions/application-security-interview-questions.md) and [DevSecOps](../../interview-questions/devsecops-interview-questions.md) interview sets - review those alongside hands-on scripting practice.

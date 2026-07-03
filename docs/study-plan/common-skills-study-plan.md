@@ -161,7 +161,7 @@ Learn any of the major CSPs (AWS, Azure, or GCP) and:
 7. Understand data encryption
 8. Understand cloud networking - critical to succeed in cloud security
 
-For a deeper focus on identity and access, see the [IAM Security Study Plan](https://github.com/jassics/security-study-plan/blob/main/iam-security-study-plan.md).
+For a deeper focus on identity and access, see the [IAM Security Study Plan](cybersecurity/iam-security-study-plan.md).
 
 Dedicated cloud security study plans on this site:
 
@@ -230,4 +230,4 @@ Once you're on track and understand the fundamentals, it's time to:
 
 By the time you've worked through this checklist, you'll already be on your way to a strong start in a security job role. All the best!
 
-**Practice next:** [jassics/security-interview-questions](https://github.com/jassics/security-interview-questions/blob/main/common-security-interview-questions.md) for common interview questions, and the [security-study-plan](https://github.com/jassics/security-study-plan) repo for the latest updates to this plan.
+**Practice next:** [Common Security interview questions](../interview-questions/common-security-interview-questions.md) for common interview questions, and the [security-study-plan](https://github.com/jassics/security-study-plan) repo for the latest updates to this plan.

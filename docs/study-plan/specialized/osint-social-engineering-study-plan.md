@@ -4,7 +4,7 @@ This study plan is based on milestones, sourced from [jassics/security-study-pla
 
 Also, I assume you have already checked and are comfortable with the [Common Security Skills study plan](../common-skills-study-plan.md).
 
-**How this connects:** OSINT and social engineering skills complement [Web Security Testing](../cybersecurity/web-security-testing-study-plan.md) and red teaming, help [GRC](https://github.com/jassics/security-study-plan/blob/main/grc-study-plan.md) and [Blue Team, Detection & Response](blue-team-detection-response-study-plan.md) understand human-focused risks, and enrich [Threat Modeling](https://github.com/jassics/security-study-plan/blob/main/threat-modeling-study-plan.md) by adding people and process attack vectors.
+**How this connects:** OSINT and social engineering skills complement [Web Security Testing](../cybersecurity/web-security-testing-study-plan.md) and red teaming, help [GRC](../grc-study-plan.md) and [Blue Team, Detection & Response](blue-team-detection-response-study-plan.md) understand human-focused risks, and enrich [Threat Modeling](../cybersecurity/threat-modeling-study-plan.md) by adding people and process attack vectors.
 
 ## In Short
 
@@ -97,4 +97,4 @@ Goal: use OSINT and SE knowledge to improve defenses.
 2. How would you design an internal phishing awareness campaign?
 3. How can OSINT and SE knowledge help improve an organization's security posture?
 
-Also see the [Common Security Interview Questions](https://github.com/jassics/security-interview-questions/blob/main/common-security-interview-questions.md) repo for broader awareness/GRC-adjacent questions.
+Also see the [Common Security Interview Questions](../../interview-questions/common-security-interview-questions.md) for broader awareness/GRC-adjacent questions.

@@ -134,6 +134,6 @@ GCP has an excellent set of whitepapers on GCP Security - a few important ones a
 4. [Managing Security in Google Cloud](https://www.cloudskillsboost.google/course_templates/21)
 
 ## GCP Security Interview Questions
-There's a [separate repo for GCP Security interview questions](https://github.com/jassics/security-interview-questions/blob/main/gcp-security-interview-questions.md), kept up to date over time. Star it or [fork it](https://github.com/jassics/security-interview-questions/fork).
+Practice with [GCP Security interview questions](../../interview-questions/gcp-security-interview-questions.md), also kept up to date on GitHub - star it or [fork it](https://github.com/jassics/security-interview-questions/fork).
 
 **Practice next:** this site's own [GCP Security Overview](../../product-security/cloud-security/learning-gcp-security/gcp-security-overview.md), and the [security-study-plan](https://github.com/jassics/security-study-plan) repo for the latest updates to this plan.
