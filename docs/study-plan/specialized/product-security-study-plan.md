@@ -1,6 +1,6 @@
 # Product Security Study Plan
 
-This study plan is based on milestones, sourced from [jassics/security-study-plan/product-security-study-plan](https://github.com/jassics/security-study-plan/blob/main/product-security-study-plan.md). Also, I assume you have already checked and are comfortable with the [Common Security Skills study plan](../common-skills-study-plan.md).
+This page is updated based on [jassics/security-study-plan/product-security-study-plan](https://github.com/jassics/security-study-plan/blob/main/product-security-study-plan.md). Also, I assume you have already checked and are comfortable with the [Common Security Skills study plan](../common-skills-study-plan.md).
 
 Product Security is different from a pure "pentesting" role. It's closer to Application Security, but more embedded with product teams, helping them ship secure features quickly while balancing risk, user experience, and business goals. It's more towards:
 
@@ -127,3 +127,5 @@ Reuse many questions from the [Application Security interview questions](../../i
 2. How do you decide which security issues must be fixed before release and which can go into the backlog?
 3. How would you introduce threat modeling into a product team that has never done it before?
 4. How would you communicate a critical security issue to product and engineering leadership?
+
+**Practice next:** [Application Security interview questions](../../interview-questions/application-security-interview-questions.md) for the technical depth, and [jassics/security-study-plan](https://github.com/jassics/security-study-plan) for the latest updates to this plan.

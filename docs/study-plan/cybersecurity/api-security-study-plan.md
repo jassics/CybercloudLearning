@@ -160,3 +160,5 @@ Popular gateways: Kong, Apigee, AWS API Gateway, Azure API Management, Tyk.
 ## Interview Questions
 
 Practice with [API Security interview questions](../../interview-questions/api-security-interview-questions.md), also kept up to date on GitHub alongside the rest of the [career roadmap guide](https://github.com/jassics/cybersecurity-roadmap).
+
+**Practice next:** [API Security interview questions](../../interview-questions/api-security-interview-questions.md), and [jassics/security-study-plan](https://github.com/jassics/security-study-plan) for the latest updates to this plan.

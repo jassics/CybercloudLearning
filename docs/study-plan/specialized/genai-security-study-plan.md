@@ -1,6 +1,6 @@
 # GenAI Security Study Plan (GenAI/LLM)
 
-This study plan covers all the topics, concepts, blogs, videos, books, and newsletters needed to build GenAI security skills, sourced from [jassics/security-study-plan/genai-security-study-plan](https://github.com/jassics/security-study-plan/blob/main/genai-security-study-plan.md).
+This page is updated based on [jassics/security-study-plan/genai-security-study-plan](https://github.com/jassics/security-study-plan/blob/main/genai-security-study-plan.md), covering all the topics, concepts, blogs, videos, books, and newsletters needed to build GenAI security skills.
 
 It should take 6-9 months to be good at GenAI security so that you can do one or more of the below:
 
@@ -70,7 +70,7 @@ Note: this plan does not require core AI/ML skills - everything here is scoped w
 - Lead AI security transformation initiatives
 - Mentor and train internal security teams on AI security
 
-## Study Plan ToC
+## ToC
 
 1. [GenAI/LLM Fundamental Concepts](#genai-fundamental-concepts) - 4 weeks
 2. [Prompt Engineering](#prompt-engineering) - 1 week
@@ -301,3 +301,5 @@ More AI security questions live on the [AI Security interview questions](../../i
 **Challenges & CTFs:** [Gandalf](https://gandalf.lakera.ai/) - [Prompt Airlines](https://promptairlines.com/) - [SecOps Certified AI/ML Pentester Exam](https://secops.group/product/certified-ai-ml-pentester/)
 
 **More curated links:** [jassics/awesome-genai-security](https://github.com/jassics/awesome-genai-security)
+
+**Practice next:** [AI Security interview questions](../../interview-questions/ai-security-interview-questions.md) for interview prep, and [jassics/security-study-plan](https://github.com/jassics/security-study-plan) for the latest updates to this plan.

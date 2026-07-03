@@ -1,6 +1,6 @@
 # Security Development Lifecycle (SDL) Study Plan
 
-This study plan is based on milestones, sourced from [jassics/security-study-plan/secure-software-development-lifecycle-study-plan](https://github.com/jassics/security-study-plan/blob/main/secure-software-development-lifecycle-study-plan.md). Also, I assume you have already checked and are comfortable with the [Common Security Skills study plan](../common-skills-study-plan.md).
+This page is updated based on [jassics/security-study-plan/secure-software-development-lifecycle-study-plan](https://github.com/jassics/security-study-plan/blob/main/secure-software-development-lifecycle-study-plan.md). Also, I assume you have already checked and are comfortable with the [Common Security Skills study plan](../common-skills-study-plan.md).
 
 SDL is about building security into each phase of software delivery - requirements, design, coding, testing, release, and maintenance - instead of treating security as a separate step at the end. It's more towards:
 
@@ -120,8 +120,10 @@ Understand how SDL ties into broader frameworks.
 
 ## Interview Questions
 
-Reuse many questions from the Application Security and Product Security interview sets, but think through the SDL lens:
+Reuse many questions from the [Application Security](../../interview-questions/application-security-interview-questions.md) and Product Security interview sets, but think through the SDL lens:
 
 1. How would you introduce security into an existing agile SDLC with minimal disruption?
 2. Which security activities would you recommend at each phase of the SDLC and why?
 3. How would you measure whether your SDL is working and improving over time?
+
+**Practice next:** [Application Security interview questions](../../interview-questions/application-security-interview-questions.md) and [DevSecOps interview questions](../../interview-questions/devsecops-interview-questions.md), and [jassics/security-study-plan](https://github.com/jassics/security-study-plan) for the latest updates to this plan.

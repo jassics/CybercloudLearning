@@ -1,6 +1,6 @@
 # Software Supply Chain Security Study Plan
 
-This study plan is based on milestones, sourced from [jassics/security-study-plan/software-supply-chain-security-study-plan](https://github.com/jassics/security-study-plan/blob/main/software-supply-chain-security-study-plan.md). Also, I assume you have already checked and are comfortable with the [Common Security Skills study plan](../common-skills-study-plan.md).
+This page is updated based on [jassics/security-study-plan/software-supply-chain-security-study-plan](https://github.com/jassics/security-study-plan/blob/main/software-supply-chain-security-study-plan.md). Also, I assume you have already checked and are comfortable with the [Common Security Skills study plan](../common-skills-study-plan.md).
 
 Software supply chain security is about securing everything that goes into building, packaging, and delivering software: source code, dependencies, build systems, CI/CD pipelines, artifacts, and runtime environments. It's more towards:
 
@@ -121,9 +121,11 @@ Focus on how to detect/respond to supply chain issues and govern the program.
 
 ## Interview Questions
 
-Reuse questions from Application Security, DevSecOps, and cloud security, plus supply chain focus:
+Reuse questions from [Application Security](../../interview-questions/application-security-interview-questions.md), [DevSecOps](../../interview-questions/devsecops-interview-questions.md), and cloud security, plus supply chain focus:
 
 1. How would you reduce the risk of malicious dependencies in a large organization?
 2. What controls would you put around CI/CD systems to protect against supply chain attacks?
 3. How would you respond if a widely used third-party library in your product was suddenly found to be compromised?
 4. How would you explain the importance of SBOMs and artifact signing to engineering leadership?
+
+**Practice next:** [DevSecOps interview questions](../../interview-questions/devsecops-interview-questions.md), and [jassics/security-study-plan](https://github.com/jassics/security-study-plan) for the latest updates to this plan.

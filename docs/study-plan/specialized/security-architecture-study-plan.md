@@ -1,6 +1,6 @@
 # Security Architecture Study Plan
 
-This study plan is based on milestones, sourced from [jassics/security-study-plan/security-architecture-study-plan](https://github.com/jassics/security-study-plan/blob/main/security-architecture-study-plan.md). Also, I assume you have already checked and are comfortable with the [Common Security Skills study plan](../common-skills-study-plan.md).
+This page is updated based on [jassics/security-study-plan/security-architecture-study-plan](https://github.com/jassics/security-study-plan/blob/main/security-architecture-study-plan.md). Also, I assume you have already checked and are comfortable with the [Common Security Skills study plan](../common-skills-study-plan.md).
 
 Security Architecture is different from just "doing AppSec" or "doing pentesting" - you need to design secure systems end-to-end across applications, infrastructure, cloud, data, and identities. It's more about:
 
@@ -145,3 +145,5 @@ Use the [Application Security interview questions](../../interview-questions/app
 1. How would you design a secure architecture for a public web application with APIs and mobile clients?
 2. How would you design logging and monitoring for a critical payments system?
 3. How would you approach threat modeling for a new microservices-based product?
+
+**Practice next:** [Application Security interview questions](../../interview-questions/application-security-interview-questions.md) answered from an architecture lens, and [jassics/security-study-plan](https://github.com/jassics/security-study-plan) for the latest updates to this plan.

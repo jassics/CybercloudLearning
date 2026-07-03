@@ -141,3 +141,5 @@ Reuse questions from [Application Security](../../interview-questions/applicatio
 2. How would you migrate on-prem identities to a cloud IdP safely?
 3. How do you enforce least privilege across many AWS accounts or Azure subscriptions?
 4. How would you investigate and respond to a suspected IAM credential compromise?
+
+**Practice next:** [AWS Security interview questions](../../interview-questions/aws-security-interview-questions.md) for hands-on IAM scenarios, and [jassics/security-study-plan](https://github.com/jassics/security-study-plan) for the latest updates to this plan.

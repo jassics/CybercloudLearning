@@ -6,6 +6,15 @@ I am making this study plan irrespective of job role under the GCP Security cate
 
 So, check how much you can cover and learn practically. The more you are good at these concepts, the better candidate you are for the job role. Also, I assume you have already checked and are comfortable with the [Common Security Skills study plan](../common-skills-study-plan.md).
 
+## ToC
+1. [GCP Security Skills Learning and Checklist](#gcp-security-skills-learning-and-checklist)
+2. [GCP Native Security Skills](#gcp-native-security-skills)
+3. [GCP Security Whitepapers](#gcp-security-whitepapers)
+4. [Check Your GCP Pentesting Skills](#check-your-gcp-pentesting-skills)
+5. [Check Your Knowledge Against Common Security Benchmarks and Frameworks](#check-your-knowledge-against-common-security-benchmarks-and-frameworks)
+6. [GCP Security Videos and Courses](#gcp-security-videos-and-courses)
+7. [GCP Security Interview Questions](#gcp-security-interview-questions)
+
 ## GCP Security Skills Learning and Checklist
 My only suggestion here is to ask below 4 questions while learning each topic/concept:
 
