@@ -59,6 +59,10 @@ A full learning path from web/HTTP fundamentals through architecture-level reaso
 | [Container Overview](container-security/container-overview.md) | What containers are, containers vs. VMs, use cases |
 | [Introduction to Docker](container-security/docker-introduction.md) | Docker fundamentals, images vs. containers |
 | [Docker Security](container-security/docker-security.md) | Image hardening, scanning, secrets, non-root containers |
+| [Docker Isolation Architecture](container-security/docker-container-isolation-architecture.md) | Namespaces, cgroups, capabilities, seccomp/AppArmor - with diagrams |
+| [Docker Attack Techniques](container-security/docker-attack-techniques.md) | Socket breakout, runc escape (CVE-2019-5736), privileged-container abuse |
+| [Docker Red Teaming & Labs](container-security/docker-red-teaming-labs.md) | Assessment methodology, Vulhub, Docker-specific test cases |
+| [Docker Real-World Incidents](container-security/docker-real-world-incidents.md) | Docker Hub breach, cryptomining images - curated and sourced |
 | [Kubernetes](container-security/kubernetes.md) | Core concepts - pods, deployments, services, control plane |
 | [Kubernetes Security](container-security/kubernetes-security.md) | RBAC, network policies, Pod Security Standards, secrets management |
 | [Kubernetes Architecture & Security](container-security/kubernetes-architecture-security.md) | 4Cs model, control-plane trust boundaries, attack-surface map - with diagrams |

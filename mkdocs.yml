@@ -98,6 +98,10 @@ nav:
         - 'Container Overview': product-security/container-security/container-overview.md
         - 'Introduction to Docker': product-security/container-security/docker-introduction.md
         - 'Docker Security': product-security/container-security/docker-security.md
+        - 'Docker Isolation Architecture': product-security/container-security/docker-container-isolation-architecture.md
+        - 'Docker Attack Techniques': product-security/container-security/docker-attack-techniques.md
+        - 'Docker Red Teaming & Labs': product-security/container-security/docker-red-teaming-labs.md
+        - 'Docker Real-World Incidents': product-security/container-security/docker-real-world-incidents.md
         - 'Kubernetes': product-security/container-security/kubernetes.md
         - 'Kubernetes Security': product-security/container-security/kubernetes-security.md
         - 'Kubernetes Architecture & Security': product-security/container-security/kubernetes-architecture-security.md
