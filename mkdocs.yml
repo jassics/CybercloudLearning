@@ -104,11 +104,21 @@ nav:
         - 'Automated Vulnerability Management': product-security/devsecops/vulnerability-management.md
     - AI Security:
       - 'AI Security Overview': ai-security/ai-security-overview.md
+      - 'Preliminary AI/ML Concepts': ai-security/ai-preliminary-concepts.md
       - 'AI Security Fundamentals': ai-security/ai-security-fundamentals.md
+      - 'LLM Security (OWASP Top 10)': ai-security/llm-security.md
+      - 'RAG Security': ai-security/rag-security.md
+      - 'MCP Security': ai-security/mcp-security.md
+      - 'Agentic AI & Agent Security': ai-security/agentic-ai-security.md
+      - 'AI/LLM Security Architecture': ai-security/ai-llm-security-architecture.md
       - 'AI Threat Modeling': ai-security/ai-threat-modeling.md
       - 'AI Data Security': ai-security/ai-data-security.md
       - 'AI Model Security': ai-security/ai-model-security.md
+      - 'AI Supply Chain Security': ai-security/ai-supply-chain-security.md
+      - 'AI Red Teaming': ai-security/ai-red-teaming.md
       - 'AI Governance': ai-security/ai-governance.md
+      - 'Real-World AI Security Incidents': ai-security/ai-security-incidents.md
+      - 'AI Security Resources': ai-security/ai-security-resources.md
     - GRC:
       - 'GRC Overview': grc/grc-overview.md
       - 'ISO/IEC 27001:2022': grc/iso27k1.md
