@@ -50,7 +50,13 @@ A full learning path from web/HTTP fundamentals through architecture-level reaso
 | [OWASP Top 10 Cloud](cloud-security/owasp-top10-cloud.md) | Common cloud misconfiguration risk categories |
 | [AWS Security](cloud-security/learning-aws-security/aws-security-overview.md) | IAM, S3, CloudTrail, GuardDuty, KMS - hands-on with real CLI/policy examples |
 | [GCP Security](cloud-security/learning-gcp-security/gcp-security-overview.md) | Cloud IAM, Security Command Center, Cloud KMS, VPC Service Controls |
+| [GCP IAM & Data Security](cloud-security/learning-gcp-security/gcp-iam-and-data-security.md) | Resource hierarchy, Workload Identity Federation, Cloud Storage, Cloud KMS |
 | [Azure Security](cloud-security/learning-azure-security/azure-security-overview.md) | Defender for Cloud, Entra ID, Key Vault, Sentinel |
+| [Azure Identity & Data Security](cloud-security/learning-azure-security/azure-identity-and-data-security.md) | Conditional Access, PIM, Storage/Key Vault hardening |
+| [Multi-Cloud Security Architecture](cloud-security/multi-cloud-security-architecture.md) | CSPM/CWPP/CNAPP, identity federation risk, attack-surface map - with diagrams |
+| [Cloud Red Teaming & Labs](cloud-security/cloud-red-teaming-labs.md) | Prowler, ScoutSuite, Pacu, flaws.cloud, CloudGoat, AzureGoat, GCPGoat |
+| [Cloud Security Incidents](cloud-security/cloud-security-incidents.md) | Storm-0558, Uber 2022, exposed storage - curated and sourced |
+| [Cloud Security Resources](cloud-security/cloud-security-resources.md) | Multi-cloud standards, tools, labs, courses |
 
 ## Container Security
 

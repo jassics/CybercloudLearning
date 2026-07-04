@@ -92,8 +92,14 @@ nav:
           - 'KMS': product-security/cloud-security/learning-aws-security/kms.md
         - 'Learning GCP Security':
           - 'GCP Security Overview': product-security/cloud-security/learning-gcp-security/gcp-security-overview.md
+          - 'GCP IAM & Data Security': product-security/cloud-security/learning-gcp-security/gcp-iam-and-data-security.md
         - 'Learning Azure Security':
           - 'Azure Security Overview': product-security/cloud-security/learning-azure-security/azure-security-overview.md
+          - 'Azure Identity & Data Security': product-security/cloud-security/learning-azure-security/azure-identity-and-data-security.md
+        - 'Multi-Cloud Security Architecture': product-security/cloud-security/multi-cloud-security-architecture.md
+        - 'Cloud Red Teaming & Labs': product-security/cloud-security/cloud-red-teaming-labs.md
+        - 'Cloud Security Incidents': product-security/cloud-security/cloud-security-incidents.md
+        - 'Cloud Security Resources': product-security/cloud-security/cloud-security-resources.md
       - Container Security:
         - 'Container Overview': product-security/container-security/container-overview.md
         - 'Introduction to Docker': product-security/container-security/docker-introduction.md
