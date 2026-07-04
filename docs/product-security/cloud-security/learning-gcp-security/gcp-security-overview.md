@@ -1,7 +1,7 @@
 # GCP Security Overview
 
-!!! info "This section is growing"
-    This is currently the entry point for GCP security on the site - deeper per-service guides are on the roadmap, following the same pattern as the [Learning AWS Security](../learning-aws-security/aws-security-overview.md) section. If you already know AWS or Azure, use the comparison table below as your map.
+!!! info "Go deeper"
+    This page is the entry point for GCP security on the site - for a hands-on deep dive into IAM, Workload Identity Federation, Cloud Storage, and Cloud KMS, see [GCP IAM & Data Security](gcp-iam-and-data-security.md). If you already know AWS or Azure, use the comparison table below as your map.
 
 ## Shared Responsibility Model
 
