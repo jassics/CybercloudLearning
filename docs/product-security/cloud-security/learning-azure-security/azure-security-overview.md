@@ -1,7 +1,7 @@
 # Azure Security Overview
 
-!!! info "This section is growing"
-    This is currently the entry point for Azure security on the site - deeper per-service guides (Entra ID deep dive, Key Vault, Sentinel) are on the roadmap, following the same pattern as the [Learning AWS Security](../learning-aws-security/aws-security-overview.md) section. If you already know AWS, use the comparison table below as your map.
+!!! info "Go deeper"
+    This page is the entry point for Azure security on the site - for a hands-on deep dive into Entra ID, RBAC, Storage, and Key Vault, see [Azure Identity & Data Security](azure-identity-and-data-security.md). If you already know AWS, use the comparison table below as your map.
 
 ## Shared Responsibility Model
 
