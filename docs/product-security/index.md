@@ -14,21 +14,33 @@ Product Security is the practice of building security into a product end-to-end 
 | Topic | Focus |
 |-------|-------|
 | [Web Security Overview](web-security/web-security-overview.md) | Foundational web application security concepts |
-| [OWASP Top 10 2021](web-security/owasp-top10.md) | The 10 most critical web application security risks, with vulnerable/fixed code examples |
+| [OWASP Top 10 (2025)](web-security/owasp-top10.md) | The 10 most critical web application security risks, with vulnerable/fixed code examples |
 | [Web Security Concepts](web-security/web-security-concepts.md) | Same-origin policy, CORS, cookies, CSP, TLS, CSRF |
 | [Network Security Overview](network-security/network-security-overview.md) | Defense in depth, segmentation, firewalls, IDS/IPS, zero trust vs. perimeter |
 
-## Application Security
+## Application Security (Zero to Hero)
+
+A full learning path from web/HTTP fundamentals through architecture-level reasoning, red teaming, and real-world incident analysis.
 
 | Topic | Focus |
 |-------|-------|
-| [Secure Coding](application-security/secure-coding.md) | Core principles and vulnerability classes (injection, auth, XSS, access control) with mitigations |
+| [AppSec Preliminary Concepts](application-security/appsec-preliminary-concepts.md) | HTTP, client-server model, sessions/cookies - the vocabulary everything else assumes |
+| [Secure Coding](application-security/secure-coding.md) | Core principles and vulnerability classes with mitigations |
 | [Secure Code Review](application-security/secure-code-review.md) | Manual review methodology, risk-based prioritization, findings checklist |
-| [Cryptography](application-security/cryptography.md) | Encryption, hashing, password storage, key management, TLS, common crypto mistakes |
+| [Authentication & Session Security](application-security/authentication-security.md) | OAuth2/OIDC/SAML, JWT pitfalls, MFA, session hijacking |
+| [Authorization & Access Control](application-security/authorization-security.md) | RBAC/ABAC/ReBAC, IDOR, BFLA, OPA/Rego policy engines |
+| [Injection Security](application-security/injection-security.md) | Blind/second-order SQLi, command injection, NoSQL injection, XXE, SSTI |
+| [XSS & Client-Side Security](application-security/xss-client-side-security.md) | Stored/reflected/DOM XSS, context-aware encoding, CSP, DOM clobbering |
+| [Cryptography](application-security/cryptography.md) | Encryption, hashing, password storage, key management, TLS |
 | [Threat Modeling](application-security/threat-modeling.md) | STRIDE, DFDs, trust boundaries, methodology comparison |
+| [Secure Application Architecture](application-security/secure-application-architecture.md) | Reference architecture, defense in depth, ASVS/SAMM - with diagrams |
+| [Business Logic Security](application-security/business-logic-security.md) | Race conditions, mass assignment, request smuggling, cache poisoning |
 | [API Security](application-security/api-security.md) | OWASP API Security Top 10, BOLA, mass assignment, SSRF |
 | [SAST](application-security/sast.md) | Static analysis tooling, CI/CD integration, tuning false positives |
 | [SCA](application-security/sca.md) | Dependency/CVE scanning, SBOMs, remediation strategy |
+| [AppSec Red Teaming & Labs](application-security/appsec-red-teaming-labs.md) | Testing methodology, tools, practice labs and CTFs |
+| [Real-World AppSec Incidents](application-security/appsec-real-world-incidents.md) | Equifax, Capital One, Log4Shell, MOVEit - curated and sourced |
+| [AppSec Resources](application-security/appsec-resources.md) | Standards, books, tools, labs, courses - go deeper on any topic above |
 
 ## Cloud Security
 

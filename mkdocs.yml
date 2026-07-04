@@ -58,18 +58,28 @@ nav:
       - 'Product Security Overview': product-security/index.md
       - Web Security:
           - 'Web Security Overview': product-security/web-security/web-security-overview.md
-          - 'OWASP Top 10 2021': product-security/web-security/owasp-top10.md
+          - 'OWASP Top 10 (2025)': product-security/web-security/owasp-top10.md
           - 'Web Security Concepts': product-security/web-security/web-security-concepts.md
       - Network Security: 
           - 'Network Security Overview': product-security/network-security/network-security-overview.md
       - Application Security:
+          - 'AppSec Preliminary Concepts': product-security/application-security/appsec-preliminary-concepts.md
           - 'Secure Coding': product-security/application-security/secure-coding.md
           - 'Secure Code Review': product-security/application-security/secure-code-review.md
+          - 'Authentication & Session Security': product-security/application-security/authentication-security.md
+          - 'Authorization & Access Control': product-security/application-security/authorization-security.md
+          - 'Injection Security': product-security/application-security/injection-security.md
+          - 'XSS & Client-Side Security': product-security/application-security/xss-client-side-security.md
           - 'Cryptography': product-security/application-security/cryptography.md
           - 'Threat Modeling': product-security/application-security/threat-modeling.md
+          - 'Secure Application Architecture': product-security/application-security/secure-application-architecture.md
+          - 'Business Logic Security': product-security/application-security/business-logic-security.md
           - 'API Security': product-security/application-security/api-security.md
           - 'SAST': product-security/application-security/sast.md
           - 'SCA': product-security/application-security/sca.md
+          - 'AppSec Red Teaming & Labs': product-security/application-security/appsec-red-teaming-labs.md
+          - 'Real-World AppSec Incidents': product-security/application-security/appsec-real-world-incidents.md
+          - 'AppSec Resources': product-security/application-security/appsec-resources.md
       - Cloud Security:
         - 'Cloud Security Essentials': product-security/cloud-security/cloud-security-essentials.md
         - 'OWASP Top 10 Cloud': product-security/cloud-security/owasp-top10-cloud.md
