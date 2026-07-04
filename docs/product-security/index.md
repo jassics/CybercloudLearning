@@ -61,6 +61,12 @@ A full learning path from web/HTTP fundamentals through architecture-level reaso
 | [Docker Security](container-security/docker-security.md) | Image hardening, scanning, secrets, non-root containers |
 | [Kubernetes](container-security/kubernetes.md) | Core concepts - pods, deployments, services, control plane |
 | [Kubernetes Security](container-security/kubernetes-security.md) | RBAC, network policies, Pod Security Standards, secrets management |
+| [Kubernetes Architecture & Security](container-security/kubernetes-architecture-security.md) | 4Cs model, control-plane trust boundaries, attack-surface map - with diagrams |
+| [OWASP Kubernetes Top 10](container-security/owasp-kubernetes-top10.md) | K01-K10 (2025), cross-linked to existing RBAC/NetworkPolicy/Secrets coverage |
+| [Kubernetes Attack Techniques](container-security/kubernetes-attack-techniques.md) | Container escape, privilege escalation, cluster-to-cloud lateral movement |
+| [Kubernetes Red Teaming & Labs](container-security/kubernetes-red-teaming-labs.md) | kube-hunter, kube-bench, Peirates, Kubernetes Goat, CKS certification path |
+| [Kubernetes Real-World Incidents](container-security/kubernetes-real-world-incidents.md) | Tesla cryptojacking, CVE-2018-1002105 - curated and sourced |
+| [Container Security Resources](container-security/container-security-resources.md) | Docker & Kubernetes standards, tools, labs, courses |
 
 ## DevSecOps
 

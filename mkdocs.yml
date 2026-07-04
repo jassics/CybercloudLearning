@@ -99,7 +99,13 @@ nav:
         - 'Introduction to Docker': product-security/container-security/docker-introduction.md
         - 'Docker Security': product-security/container-security/docker-security.md
         - 'Kubernetes': product-security/container-security/kubernetes.md
-        - 'Kubernetes Security': product-security/container-security/kubernetes-security.md  
+        - 'Kubernetes Security': product-security/container-security/kubernetes-security.md
+        - 'Kubernetes Architecture & Security': product-security/container-security/kubernetes-architecture-security.md
+        - 'OWASP Kubernetes Top 10': product-security/container-security/owasp-kubernetes-top10.md
+        - 'Kubernetes Attack Techniques': product-security/container-security/kubernetes-attack-techniques.md
+        - 'Kubernetes Red Teaming & Labs': product-security/container-security/kubernetes-red-teaming-labs.md
+        - 'Kubernetes Real-World Incidents': product-security/container-security/kubernetes-real-world-incidents.md
+        - 'Container Security Resources': product-security/container-security/container-security-resources.md
       - DevSecOps:
         - 'DevSecOps Fundamentals': product-security/devsecops/devsecops-fundamentals.md
         - 'DevSecOps Maturity Model': product-security/devsecops/devsecops-maturity.md
