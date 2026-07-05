@@ -73,6 +73,60 @@ We cover topics related to Application Security, Cloud Security, DevSecOps, AI S
 - Cybersecurity Roadmaps
 - OWASP Top 10 (Web & API)
 - Cloud Security & Penetration Testing
+### 1. Cloud Security
+    1. Cloud Computing Fundamentals
+    2. Cloud Security Basics
+    3. AWS Security
+    4. GCP Security
+    5. Azure Security
+### 2. Containers Security
+    1. Container Fundamentals
+    2. Docker Security
+    3. Kubernetes Security
+### 3. Cybersecurity
+    1. Web Security
+    2. API Security
+    3. Network Security
+    4. Application Security/Software Security
+        1. Secure Coding
+        2. Secure Code Review
+        3. Cryptography
+        4. Threat Modeling
+### 4. DevSecOps
+    1. Understanding DevOps
+    2. DevSecOps Fundamentals
+    3. DevSecOps Maturity Model
+    4. SDL in CI/CD Pipeline
+    5. SCA in CI/CD Pipeline
+    6. DAST in CI/CD Pipeline
+    7. Compliance as a Code
+    8. Automated Vulnerability Management
+### 5. GRC
+    1. Data Privacy
+    2. NIST RMF
+    3. NIST CSF
+    4. GDPR
+    5. PCIDSS
+    6. HIPAA
+    7. GenAI RMF
+### 6. Python Track
+    1. Python Essentials
+    2. Python for Cloud
+    3. Python for Cybersecurity
+    4. Python for Automation
+    5. Python for DevSecOps
+    6. Python for GenAI Projects
+### 7. GenAI/LLM Security
+    1. GenAI/LLM Fundamentals
+    2. GenAI Security
+### 8. Miscellaneous
+    1. Linux Commands
+    2. Vim for everyone
+    3. Regular Expression with Examples
+### 9. Security Study Plan and Security Presentations
+It will cover common cybersecurity domains related study plans and presentations.
+### 10. Security slides
+Security slides presented in webinars, trainings, courses etc. under Cybercloud.
 
 ## Disclaimer
 The information here provided by Cybercloud Gurus is only for educational purpose.
