@@ -131,6 +131,19 @@ nav:
         - 'DAST in CI/CD Pipeline': product-security/devsecops/dast-cicd.md
         - 'Compliance as a Code': product-security/devsecops/compliance-as-code.md
         - 'Automated Vulnerability Management': product-security/devsecops/vulnerability-management.md
+    - AI Fundamentals:
+      - 'AI Fundamentals Overview': ai-fundamentals/index.md
+      - 'LLM Architecture': ai-fundamentals/llm-architecture.md
+      - 'RAG Architecture': ai-fundamentals/rag-architecture.md
+      - 'Multi-Modal AI': ai-fundamentals/multi-modal-ai.md
+      - 'Open-Weight vs. Closed Models': ai-fundamentals/open-weight-vs-closed-models.md
+      - 'Agentic AI Fundamentals': ai-fundamentals/agentic-ai-fundamentals.md
+      - 'Multi-Agent Systems': ai-fundamentals/multi-agent-systems.md
+      - 'Harness & Loop Engineering': ai-fundamentals/harness-and-loop-engineering.md
+      - 'Prompt Engineering': ai-fundamentals/prompt-engineering.md
+      - 'Context Engineering': ai-fundamentals/context-engineering.md
+      - 'Intent Engineering': ai-fundamentals/intent-engineering.md
+      - 'AI Fundamentals Resources': ai-fundamentals/ai-fundamentals-resources.md
     - AI Security:
       - 'AI Security Overview': ai-security/ai-security-overview.md
       - 'Preliminary AI/ML Concepts': ai-security/ai-preliminary-concepts.md
