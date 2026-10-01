@@ -60,8 +60,11 @@ nav:
           - 'Web Security Overview': product-security/web-security/web-security-overview.md
           - 'OWASP Top 10 (2025)': product-security/web-security/owasp-top10.md
           - 'Web Security Concepts': product-security/web-security/web-security-concepts.md
-      - Network Security: 
+      - Network Security:
           - 'Network Security Overview': product-security/network-security/network-security-overview.md
+          - 'Network Red Teaming & Labs': product-security/network-security/network-red-teaming-labs.md
+          - 'Real-World Network Security Incidents': product-security/network-security/network-security-incidents.md
+          - 'Network Security Resources': product-security/network-security/network-security-resources.md
       - Application Security:
           - 'AppSec Preliminary Concepts': product-security/application-security/appsec-preliminary-concepts.md
           - 'Secure Coding': product-security/application-security/secure-coding.md

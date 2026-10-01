@@ -4,6 +4,20 @@
 
 Even with workloads moving to cloud-native and API-driven architectures, the network layer is still where a lot of real attacks happen or get contained - lateral movement after an initial compromise, data exfiltration, DDoS, and misconfigured exposure of internal services to the internet. A security engineer needs enough network fluency to reason about blast radius, not just application-layer flaws.
 
+## The Learning Path
+
+```mermaid
+flowchart TD
+    A[Network Security Overview] --> B[Network Security Red Teaming & Labs]
+    B --> C[Real-World Network Security Incidents]
+    C --> D[Network Security Resources]
+
+    click A "../network-security-overview/" "Network Security Overview"
+    click B "../network-red-teaming-labs/" "Network Security Red Teaming & Labs"
+    click C "../network-security-incidents/" "Real-World Network Security Incidents"
+    click D "../network-security-resources/" "Network Security Resources"
+```
+
 ## Defense in Depth at the Network Layer
 
 No single control should be your only line of defense. A typical layered model:
@@ -93,6 +107,14 @@ DNS is a common blind spot:
 - [ ] DNSSEC enabled where supported, DNS query logging retained for investigation
 - [ ] IDS/IPS deployed at key chokepoints, tuned to reduce alert fatigue
 - [ ] Regular network segmentation review - verify segmentation actually matches the intended trust boundaries
+
+## Practice Next
+
+- [Network Security Red Teaming & Labs](network-red-teaming-labs.md) - assessment methodology and hands-on practice labs
+- [Real-World Network Security Incidents](network-security-incidents.md) - DNS, BGP, DDoS, and VPN incidents, dated and sourced
+- [Network Security Resources](network-security-resources.md) - standards, tools, books, and further reading
+- [Network Security Interview Questions](../../interview-questions/network-security-interview-questions.md) - self-test on segmentation, firewalls, and attack mitigation
+- [Network Security Study Plan](../../study-plan/cybersecurity/network-security-study-plan.md) - a structured, week-by-week path through this domain
 
 ## Credits/References
 
