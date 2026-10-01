@@ -60,6 +60,10 @@ Build real skill before you're doing this against a production system:
 - **[PortSwigger Web Security Academy: Web LLM Attacks](https://portswigger.net/web-security/llm-attacks)** - free, official hands-on labs on exploiting LLM APIs and excessive agency
 - **[Crucible by Dreadnode](https://crucible.dreadnode.io/)** - AI/ML security challenges and CTFs
 
+## Scoring Agentic Findings: AIVSS (Emerging, Not Yet Established)
+
+CVSS has no native concept of "the agent used its legitimate tools to do something it shouldn't have" - a finding like ASI01 Goal Hijack or ASI10 Rogue Agents (see [Agentic AI Security](agentic-ai-security.md)) doesn't map cleanly onto Confidentiality/Integrity/Availability impact metrics designed for traditional software. **AIVSS (Agentic AI Vulnerability Scoring System)**, published by OWASP as a draft (v0.8) framework, is the emerging attempt to fill that gap - a CVSS-like scoring structure scoped specifically to the ten Agentic AI core security risks (ASI01-ASI10), so a red-team report can express severity in terms agentic-specific stakeholders (not just a generic CVSS base score borrowed from a different threat model) can act on. Treat it as directionally useful for prioritizing agentic findings today, but still a draft - don't treat a specific AIVSS score as a stable, cross-organization benchmark the way you would a finalized CVSS score yet.
+
 ## Writing a Finding That Actually Gets Fixed
 
 A GenAI red-team "vulnerability" is often behavioral, not a stack trace - which means a vague description ("the model can be jailbroken") is nearly useless to the team that has to fix it. A good finding includes:
@@ -83,3 +87,4 @@ A GenAI red-team "vulnerability" is often behavioral, not a stack trace - which 
 3. [HiddenLayer: Policy Puppetry - Novel Universal Bypass for All Major LLMs](https://www.hiddenlayer.com/research/novel-universal-bypass-for-all-major-llms)
 4. [Microsoft AI Red Team](https://learn.microsoft.com/en-us/security/ai-red-team/)
 5. [MITRE ATLAS](https://atlas.mitre.org/)
+6. [AIVSS: Agentic AI Vulnerability Scoring System (draft v0.8)](https://genai.owasp.org/) - OWASP's emerging CVSS-equivalent for scoring ASI01-ASI10 findings

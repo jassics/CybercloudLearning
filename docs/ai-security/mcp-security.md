@@ -41,6 +41,12 @@ In 2025, JFrog's security research team disclosed **CVE-2025-6514** (CVSS 9.6) -
 
 The practical lesson: **connecting to an MCP server is a trust decision with the same blast radius as running someone else's code**, because in this case, it literally was someone else's code running with your privileges.
 
+## The STDIO Trust Boundary: "The Mother of All AI Supply Chains"
+
+On April 15, 2026, OX Security disclosed a systemic design flaw in how MCP's STDIO transport gets used across the ecosystem: a configuration-supplied command/args string is passed straight to the OS shell to spawn a subprocess *before* anything validates that the result is a legitimate MCP session - so a payload that just opens a reverse shell executes successfully every time, with no MCP-level check to catch it. OX's research names Anthropic's own `modelcontextprotocol` SDK as exhibiting this pattern via its `StdioServerParameters` interface, and several real hosts/orchestrators built on it - including LangFlow, LettaAI, Flowise, and Windsurf - as vulnerable in practice; OX found 915+ publicly exposed LangFlow instances alone via Shodan, and the coordinated disclosure process spanned 30+ reports and produced 10+ CVEs (including CVE-2026-30615, a Windsurf prompt-injection chain). One demonstrated attack chain: a malicious website serves different content specifically to an agentic IDE's internal requests, the IDE processes the injected instruction and silently rewrites its own `mcp.json` to add a new STDIO server entry - which executes immediately, no further user interaction required ([OX Security](https://www.ox.security/blog/the-mother-of-all-ai-supply-chains-technical-deep-dive/)).
+
+The practical lesson for anyone deploying an MCP host: never let MCP server configuration (the STDIO launch command itself) be written by untrusted content the model has processed, and don't assume the SDK layer enforces a trust boundary the hosting application still has to enforce itself - that's a strictly more dangerous failure mode than the tool-poisoning and confused-deputy patterns covered above, because it bypasses the MCP layer's semantics entirely and goes straight to OS-level command execution. OX's own recommendation to Anthropic was to let developers pre-configure an allow-list of permitted commands rather than accepting an arbitrary command string at all - treat that as the concrete mitigation to look for (or implement yourself) in any STDIO-based MCP host you run.
+
 ## Concrete Mitigations
 
 Treat every third-party MCP server as untrusted code until reviewed - the same discipline you'd apply to a new software dependency:
@@ -70,8 +76,9 @@ Treat every third-party MCP server as untrusted code until reviewed - the same d
 3. [Model Context Protocol specification](https://modelcontextprotocol.io/)
 4. [JFrog Security Research: CVE-2025-6514 - Critical RCE in mcp-remote](https://jfrog.com/blog/2025-6514-critical-mcp-remote-rce-vulnerability/)
 5. [GitHub Advisory: mcp-remote OS Command Injection (CVE-2025-6514)](https://github.com/advisories/GHSA-6xpm-ggf7-wc3p)
-6. Norm Hardy, "The Confused Deputy (or Why Capabilities Might Have Been Invented)," ACM SIGOPS Operating Systems Review, Vol. 22, No. 4, 1988
-7. [Cloud Security Alliance: MAESTRO Agentic AI Threat Modeling Framework](https://cloudsecurityalliance.org/blog/2025/02/06/agentic-ai-threat-modeling-framework-maestro)
+6. [OX Security: The Mother of All AI Supply Chains - Technical Deep Dive](https://www.ox.security/blog/the-mother-of-all-ai-supply-chains-technical-deep-dive/)
+7. Norm Hardy, "The Confused Deputy (or Why Capabilities Might Have Been Invented)," ACM SIGOPS Operating Systems Review, Vol. 22, No. 4, 1988
+8. [Cloud Security Alliance: MAESTRO Agentic AI Threat Modeling Framework](https://cloudsecurityalliance.org/blog/2025/02/06/agentic-ai-threat-modeling-framework-maestro)
 
 ## What's Next
 

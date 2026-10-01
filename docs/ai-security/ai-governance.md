@@ -30,12 +30,25 @@ Risk-based classification of AI systems:
 | **Limited Risk** | Chatbots, deepfakes | Transparency obligations |
 | **Minimal Risk** | Spam filters, games | No specific requirements |
 
+### NIST AI Risk Management Framework
+
+The NIST AI RMF (released January 2023, voluntary) organizes risk management into four functions, not a flat checklist:
+
+| Function | What It Covers |
+|----------|-----------------|
+| **Govern** | Cultivates an organization-wide culture of AI risk management - policy, accountability, and oversight, cutting across the other three |
+| **Map** | Recognizes context and identifies the risks relevant to that specific system/use case |
+| **Measure** | Assesses, analyzes, and tracks the identified risks |
+| **Manage** | Prioritizes and acts on risks based on projected impact |
+
+**NIST AI 600-1 (the Generative AI Profile)**, published July 2024 as a companion to the core RMF, applies this same four-function structure specifically to GAI and names 12 risk categories unique to or exacerbated by generative AI: CBRN information/capabilities, confabulation (hallucination), dangerous/violent/hateful content, data privacy, environmental impact, harmful bias and homogenization, human-AI configuration, information integrity, information security, intellectual property, obscene/abusive content, and value-chain/component integration. If you're only going to read one NIST document for a GenAI-specific program, it's this one rather than the general-purpose RMF core.
+
 ### Other Regulations
 
-- **NIST AI RMF** - US framework for AI risk management
-- **ISO/IEC 42001** - AI management system standard
+- **ISO/IEC 42001:2023** - AI management system standard (the AI equivalent of ISO 27001 for an ISMS) - certifiable, process-focused
 - **Singapore Model AI Governance Framework**
 - **Canada's Directive on Automated Decision-Making**
+- **India's AI governance approach** - principle-based rather than a single binding statute to date, built around existing IT Act/data-protection law (DPDP Act) plus sector-specific advisories (e.g. MeitY advisories to platforms on generative AI), favoring a "light-touch, innovation-first" posture relative to the EU's risk-tiered binding regulation
 
 ## AI Risk Management
 
@@ -165,5 +178,6 @@ This is the level of specificity a governance review actually needs - vague answ
 
 1. [EU Artificial Intelligence Act - Official Text](https://artificialintelligenceact.eu/)
 2. [NIST AI Risk Management Framework (AI RMF 1.0)](https://www.nist.gov/itl/ai-risk-management-framework)
-3. [ISO/IEC 42001:2023 - AI Management System](https://www.iso.org/standard/81230.html)
-4. [Mitchell et al., Model Cards for Model Reporting](https://arxiv.org/abs/1810.03993)
+3. [NIST AI 600-1 - Generative AI Profile](https://doi.org/10.6028/NIST.AI.600-1)
+4. [ISO/IEC 42001:2023 - AI Management System](https://www.iso.org/standard/81230.html)
+5. [Mitchell et al., Model Cards for Model Reporting](https://arxiv.org/abs/1810.03993)
