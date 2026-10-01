@@ -2,6 +2,9 @@
 
 Visual, **clickable** learning paths for various cybersecurity domains. Click any node below to jump straight to that topic's guide on this site.
 
+!!! tip "The full set of 15 domain roadmaps lives in one repo"
+    This page builds out interactive, clickable versions of a subset of roadmaps. For the complete set - Web, API, Network, Software, Cloud, Container/Kubernetes, DevSecOps, Mobile, IoT/ICS-OT, SOC/Blue Team, GRC & Privacy, AI/ML Security, IAM, Cryptography Engineering, and Security Architecture & Leadership - plus career-role mapping, certifications by domain, and real-world job descriptions, see **[jassics/cybersecurity-roadmap](https://github.com/jassics/cybersecurity-roadmap)**. Pair it with [jassics/security-study-plan](https://github.com/jassics/security-study-plan) for the "how to actually study this" companion.
+
 ## How to Use Roadmaps
 
 1. **Identify your goal** - Choose the security domain you want to master
@@ -51,23 +54,27 @@ flowchart TD
 
 ## Cloud Security Roadmap
 
-*Coming soon* - AWS, GCP, Azure security learning paths
+Full roadmap: [jassics/cybersecurity-roadmap - Cloud Security](https://github.com/jassics/cybersecurity-roadmap). On this site: [Cloud Security Essentials](../product-security/cloud-security/cloud-security-essentials.md), [AWS](../product-security/cloud-security/learning-aws-security/aws-security-overview.md), [GCP](../product-security/cloud-security/learning-gcp-security/gcp-security-overview.md), [Azure](../product-security/cloud-security/learning-azure-security/azure-security-overview.md).
 
 ## DevSecOps Roadmap
 
-*Coming soon* - CI/CD security and automation skills
+Full roadmap: [jassics/cybersecurity-roadmap - DevSecOps](https://github.com/jassics/cybersecurity-roadmap). On this site: [DevSecOps Fundamentals](../product-security/devsecops/devsecops-fundamentals.md).
 
 ## Penetration Testing Roadmap
 
-*Coming soon* - Web, network, and mobile pentesting paths
+Full roadmap: [jassics/cybersecurity-roadmap - Web/API/Network/Mobile](https://github.com/jassics/cybersecurity-roadmap). On this site: [AppSec Red Teaming & Labs](../product-security/application-security/appsec-red-teaming-labs.md), [Network Security Red Teaming & Labs](../product-security/network-security/network-red-teaming-labs.md), [Cloud Red Teaming & Labs](../product-security/cloud-security/cloud-red-teaming-labs.md).
 
 ## Security Architecture Roadmap
 
-*Coming soon* - Enterprise security design and implementation
+Full roadmap: [jassics/cybersecurity-roadmap - Security Architecture & Leadership](https://github.com/jassics/cybersecurity-roadmap). On this site: [Secure Application Architecture](../product-security/application-security/secure-application-architecture.md), [AI/LLM Security Architecture](../ai-security/ai-llm-security-architecture.md).
 
 ## GRC Roadmap
 
-*Coming soon* - Governance, Risk, and Compliance career path
+Full roadmap: [jassics/cybersecurity-roadmap - GRC & Privacy](https://github.com/jassics/cybersecurity-roadmap). On this site: [GRC Overview](../grc/grc-overview.md).
+
+## AI/ML Security Roadmap
+
+Full roadmap: [jassics/cybersecurity-roadmap - AI/ML Security](https://github.com/jassics/cybersecurity-roadmap). On this site: [AI Fundamentals Overview](../ai-fundamentals/index.md) and [AI Security Overview](../ai-security/ai-security-overview.md).
 
 ---
 
