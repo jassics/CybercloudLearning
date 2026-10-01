@@ -2,6 +2,8 @@
 
 This page is updated based on [jassics/security-study-plan/software-supply-chain-security-study-plan](https://github.com/jassics/security-study-plan/blob/main/software-supply-chain-security-study-plan.md). Also, I assume you have already checked and are comfortable with the [Common Security Skills study plan](../common-skills-study-plan.md).
 
+See the site's [Software Supply Chain Security](../../product-security/application-security/software-supply-chain-security.md) page for the full content this plan is built around - SLSA levels, per-stage hardening, and sourced write-ups of SolarWinds, event-stream, and XZ Utils.
+
 Software supply chain security is about securing everything that goes into building, packaging, and delivering software: source code, dependencies, build systems, CI/CD pipelines, artifacts, and runtime environments. It's more towards:
 
 - Understanding how code and dependencies flow from dev laptops to production
@@ -79,7 +81,7 @@ This is about making sure what you build is exactly what gets deployed.
 ### Week 10-12: Integrity
 1. Artifact repositories/registries - access control and environment separation, immutable artifacts where possible
 2. Signing and verification (high level) - code signing concepts, image signing/verification
-3. SBOM (Software Bill of Materials) - what it is, why it matters, how it helps in incident response and compliance (see the site's [SCA](../../product-security/application-security/sca.md) guide for SBOM tooling)
+3. SBOM (Software Bill of Materials) - what it is, why it matters, how it helps in incident response and compliance (see the site's [Software Supply Chain Security](../../product-security/application-security/software-supply-chain-security.md) page for SLSA levels, build-integrity hardening, and [SCA](../../product-security/application-security/sca.md) for SBOM tooling)
 4. Simple practices - track which artifact versions are deployed where, ensure builds are reproducible and traceable
 
 ---
@@ -90,10 +92,11 @@ This is about making sure what you build is exactly what gets deployed.
 You'll learn a lot by understanding how major incidents happened.
 
 ### Week 13-14: Case Studies
-1. **npm ecosystem attacks** - malicious packages published to steal credentials/exfiltrate data/run cryptominers, typosquatting attacks, compromised maintainer accounts leading to backdoored releases
+1. **npm ecosystem attacks** - malicious packages published to steal credentials/exfiltrate data/run cryptominers, typosquatting attacks, compromised maintainer accounts leading to backdoored releases (see the **event-stream** write-up on the [Software Supply Chain Security](../../product-security/application-security/software-supply-chain-security.md#real-incidents) page for a real, sourced example)
 2. **SHA-1 related attacks** - collision attacks against SHA-1 showed older hash algorithms may no longer be safe for integrity; understand why moving to stronger hashes matters for signing/integrity checks
-3. **SolarWinds-style attacks** - attackers compromised the vendor's build system, malicious code was inserted into legitimate updates, customers trusted signed updates so the backdoor spread widely
-4. For each incident, focus on: where in the chain the attacker gained control, what controls were missing/weak, and what changed afterward (more signing, better monitoring, stricter access control)
+3. **SolarWinds-style attacks** - attackers compromised the vendor's build system, malicious code was inserted into legitimate updates, customers trusted signed updates so the backdoor spread widely (full write-up on the same page)
+4. **XZ Utils backdoor (CVE-2024-3094, 2024)** - a two-year social-engineering campaign to gain maintainer trust on a core Linux dependency, caught by a performance anomaly rather than a security control - arguably the most sophisticated supply-chain attack publicly documented to date (full write-up on the same page)
+5. For each incident, focus on: where in the chain the attacker gained control, what controls were missing/weak, and what changed afterward (more signing, better monitoring, stricter access control)
 
 ---
 

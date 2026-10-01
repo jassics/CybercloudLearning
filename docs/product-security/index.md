@@ -38,6 +38,7 @@ A full learning path from web/HTTP fundamentals through architecture-level reaso
 | [API Security](application-security/api-security.md) | OWASP API Security Top 10, BOLA, mass assignment, SSRF |
 | [SAST](application-security/sast.md) | Static analysis tooling, CI/CD integration, tuning false positives |
 | [SCA](application-security/sca.md) | Dependency/CVE scanning, SBOMs, remediation strategy |
+| [Software Supply Chain Security](application-security/software-supply-chain-security.md) | SLSA levels, build/CI integrity, SolarWinds/event-stream/XZ Utils incidents |
 | [AppSec Red Teaming & Labs](application-security/appsec-red-teaming-labs.md) | Testing methodology, tools, practice labs and CTFs |
 | [Real-World AppSec Incidents](application-security/appsec-real-world-incidents.md) | Equifax, Capital One, Log4Shell, MOVEit - curated and sourced |
 | [AppSec Resources](application-security/appsec-resources.md) | Standards, books, tools, labs, courses - go deeper on any topic above |

@@ -80,6 +80,7 @@ nav:
           - 'API Security': product-security/application-security/api-security.md
           - 'SAST': product-security/application-security/sast.md
           - 'SCA': product-security/application-security/sca.md
+          - 'Software Supply Chain Security': product-security/application-security/software-supply-chain-security.md
           - 'AppSec Red Teaming & Labs': product-security/application-security/appsec-red-teaming-labs.md
           - 'Real-World AppSec Incidents': product-security/application-security/appsec-real-world-incidents.md
           - 'AppSec Resources': product-security/application-security/appsec-resources.md

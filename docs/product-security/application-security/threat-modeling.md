@@ -90,6 +90,7 @@ Rate each threat by likelihood and impact (a simple High/Medium/Low scale, or DR
 | **LINDDUN** | Privacy-focused threat modeling (Linkability, Identifiability, Non-repudiation, Detectability, Disclosure of information, Unawareness, Non-compliance) |
 | **Attack Trees** | Hierarchical breakdown of how an attacker could achieve a goal |
 | **MITRE ATT&CK** | Real-world adversary tactics/techniques, useful for validating coverage against known TTPs |
+| **MAESTRO** | Purpose-built for agentic/multi-agent AI systems - threat-models across 7 layers (model, orchestration, memory, tools, etc.) so you don't only threat-model the model and miss the surrounding harness. See [Agentic AI & Agent Security](../../ai-security/agentic-ai-security.md#multi-agent-systems-a-wider-attack-surface) for the full breakdown - STRIDE still applies to a traditional app's components, but an agentic system's orchestration/memory/tool layers need MAESTRO's agent-specific lens. |
 
 ## When to Threat Model
 
