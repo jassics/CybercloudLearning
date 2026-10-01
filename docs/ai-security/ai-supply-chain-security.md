@@ -57,6 +57,10 @@ A regular [SBOM](../product-security/application-security/sca.md) inventories yo
 
 [**AIsbom**](https://aisbom.io/) is a real, purpose-built tool here - a CLI that scans model files for embedded malware and generates CycloneDX/SPDX-format AI SBOMs covering this model-specific metadata, so "are we affected by the next nullifAI-style incident" becomes a query instead of a fire drill.
 
+### SBOMs Answer "What's In It", Not "How Does It Behave"
+
+[OWASP CycloneDX](https://cyclonedx.org/) is the globally-adopted BOM standard behind ML-BOM/AI-BOM formats - it gives you provenance and inventory: which models, datasets, and adapters are in your system, and where they came from. That's necessary but not sufficient once a model stops being a static artifact and becomes an **agent** with tools, memory, and the autonomy to act. The [OWASP Top 10 for Agentic Applications](agentic-ai-security.md) and its AIVSS scoring framework pick up exactly where CycloneDX stops: CycloneDX answers "what components and tools are in my AI system?", the Agentic Top 10 answers "how can those components and agents behave, interact, or fail in unsafe ways?" Treat the two as complementary layers of the same assurance program - an accurate ML-BOM tells you nothing about whether a listed tool will be misused (ASI02) or whether an agent built from fully-inventoried components still goes rogue (ASI10).
+
 ## SLSA: Applying Build-Provenance Thinking to Models
 
 [**SLSA**](https://slsa.dev/) (Supply-chain Levels for Software Artifacts) is a framework - originally incubated at Google, now governed under the Open Source Security Foundation (OpenSSF) and the Linux Foundation - that defines graduated levels of confidence in *how verifiably an artifact's build process can be trusted*, rather than just scanning the artifact after the fact.
@@ -113,3 +117,4 @@ Sending your data to a third-party service to fine-tune a model introduces risks
 7. [ModelAudit (promptfoo)](https://github.com/promptfoo/modelaudit)
 8. [AIsbom](https://aisbom.io/)
 9. [weightguard (jassics)](https://github.com/jassics/weightguard) - static scanner for malicious ML model artifacts
+10. [OWASP CycloneDX](https://cyclonedx.org/) - the BOM standard underlying ML-BOM/AI-BOM; see [Agentic AI Security](agentic-ai-security.md) for how it relates to behavioral/agentic risk
