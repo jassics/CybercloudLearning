@@ -103,6 +103,7 @@ Use this page as the "go deeper" reference for the whole [AI Security](ai-securi
 | [Microsoft AI Red Teaming Playground Labs](https://github.com/microsoft/AI-Red-Teaming-Playground-Labs) | Hands-on red-teaming challenges with Docker/Kubernetes deployment |
 | [PortSwigger Web Security Academy: Web LLM Attacks](https://portswigger.net/web-security/llm-attacks) | Free official hands-on labs on LLM API exploitation and excessive agency |
 | [Huntr.com](https://huntr.com/) | Bug bounty platform specifically for AI/ML |
+| [ai-security-projects (jassics)](https://github.com/jassics/ai-security-projects) | 9 runnable learn-by-building projects: prompt-injection detector, grounded RAG, single/multi-agent systems, an AI security gateway, and a multi-agent SOC triage swarm - beginner to advanced |
 
 ## Courses & Certifications
 
@@ -137,6 +138,15 @@ Use this page as the "go deeper" reference for the whole [AI Security](ai-securi
 - `ai-safety` - harm modeling, safety evals, responsible red-teaming (a *distinct* discipline from AI security - see the [taxonomy note](https://github.com/jassics/awesome-claude-security/blob/main/docs/TAXONOMY.md#ai-security-vs-ai-safety))
 
 Install with `/plugin marketplace add jassics/awesome-claude-security` inside a Claude Code session, then `/plugin install llm-security@awesome-claude-security` (or any of the plugins above).
+
+Two companion CLI scanners, built to be run directly rather than installed as plugins:
+
+- [**aisecscan**](https://github.com/jassics/aisecscan) - static scanner for AI coding-assistant config (`.claude/`, `.mcp.json`, `CLAUDE.md`): hooks, permissions, MCP servers, agents/skills, steering files. Never executes what it parses - reads config as data only. `pip install aisecscan && aisecscan scan .`
+- [**weightguard**](https://github.com/jassics/weightguard) - static scanner for malicious ML model artifacts (Pickle/PyTorch, Keras, ONNX, GGUF) before you load them. `pip install weightguard && weightguard scan <hf-repo|git-url|path>`
+
+And a hands-on project series for building the muscle memory, not just reading about it:
+
+[**ai-security-projects**](https://github.com/jassics/ai-security-projects) - 9 runnable, learn-by-building projects pairing a slice of the AI stack (LLM, RAG, MCP, agents) with a real security use case (AppSec, incident response, GRC, red-teaming, SOC), beginner → advanced, each with working code and sample data (no API key required to run the offline/dry-run path). See the Hands-On Labs & CTFs table below for the full project-by-project breakdown.
 
 ## Where to Go Next on This Site
 

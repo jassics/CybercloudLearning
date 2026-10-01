@@ -119,6 +119,7 @@ See [AppSec Red Teaming & Practice Labs](appsec-red-teaming-labs.md) for methodo
 - [BOLA - why it's the #1 API vulnerability](https://apisecurity.io/issue-176-how-to-find-and-fix-bola-vulnerabilities/)
 - [31 Days of API Security Tips (Inon Shkedy)](https://github.com/inonshk/31-days-of-API-Security-Tips)
 - [API Security Checklist (Shieldfy)](https://github.com/shieldfy/API-Security-Checklist) - a classic, widely-referenced reference (some entries have aged, but the framework holds up)
+- [infoslack/awesome-web-hacking](https://github.com/infoslack/awesome-web-hacking) - curated list of web-hacking techniques, tools, and write-ups
 
 ## This Site's Own AppSec Toolkit
 
@@ -145,5 +146,6 @@ Install with `/plugin marketplace add jassics/awesome-claude-security` inside a 
 
 1. [jassics/awesome-appsec-learning-resources](https://github.com/jassics/awesome-cybersecurity-learning-resources/blob/main/awesome-appsec-learning-resources.md) - the full, continuously updated source this page distills
 2. [jassics/awesome-api-security-learning-resources](https://github.com/jassics/awesome-cybersecurity-learning-resources/blob/main/awesome-api-security-learning-resources.md)
+3. [infoslack/awesome-web-hacking](https://github.com/infoslack/awesome-web-hacking)
 3. [jassics/awesome-claude-security](https://github.com/jassics/awesome-claude-security) - Claude Code plugin marketplace for security work
 4. [OWASP Foundation](https://owasp.org/)

@@ -61,6 +61,8 @@ Use this page as the "go deeper" reference for the whole Cloud Security section 
 
 [Pacu](https://github.com/RhinoSecurityLabs/pacu), [aws-nuke](https://github.com/rebuy-de/aws-nuke), [Parliament](https://github.com/duo-labs/parliament) (IAM policy linter), [Policy Sentry](https://github.com/salesforce/policy_sentry) (least-privilege policy generator), [CloudMapper](https://github.com/duo-labs/cloudmapper), [PMapper](https://github.com/nccgroup/PMapper), [S3Scanner](https://github.com/sa7mon/S3Scanner)
 
+For the full curated inventory of AWS security tooling by category (recon, IAM, logging, detection, IR), see [toniblyx/my-arsenal-of-aws-security-tools](https://github.com/toniblyx/my-arsenal-of-aws-security-tools).
+
 ### Azure-Specific
 
 [ROADtools](https://github.com/dirkjanm/ROADtools), [AzureHound](https://github.com/BloodHoundAD/AzureHound), [MicroBurst](https://github.com/NetSPI/MicroBurst), [Stormspotter](https://github.com/Azure/Stormspotter) (archived, still useful)
@@ -98,4 +100,5 @@ See [Cloud Red Teaming & Practice Labs](cloud-red-teaming-labs.md) for the full 
 
 1. [jassics/awesome-cloud-security-learning-resources](https://github.com/jassics/awesome-cybersecurity-learning-resources/blob/main/awesome-cloud-security-learning-resources.md) - the full, continuously updated source this page distills
 2. [jassics/awesome-aws-security](https://github.com/jassics/awesome-aws-security) - companion AWS-specific repo
-3. [Hacking the Cloud](https://hackingthe.cloud/)
+3. [toniblyx/my-arsenal-of-aws-security-tools](https://github.com/toniblyx/my-arsenal-of-aws-security-tools) - curated AWS security tool inventory
+4. [Hacking the Cloud](https://hackingthe.cloud/)

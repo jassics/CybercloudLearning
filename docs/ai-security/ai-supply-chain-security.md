@@ -44,6 +44,7 @@ Treat a downloaded model exactly like any other untrusted third-party artifact y
     - [**ModelScan**](https://github.com/protectai/modelscan) - scans for serialization attacks (pickle, Keras, etc.)
     - [**Fickling**](https://github.com/trailofbits/fickling) (Trail of Bits) - decompiler, static analyzer, and safety scanner specifically for malicious pickle/PyTorch files
     - [**ModelAudit**](https://github.com/promptfoo/modelaudit) - static scanner covering 40+ ML model file formats for malicious code/backdoors
+    - [**weightguard**](https://github.com/jassics/weightguard) - `pip install weightguard`, then `weightguard scan <hf-repo-url|git-url|local-path>`. Covers Pickle/PyTorch (Fickling AST analysis), SafeTensors format validation, Keras `Lambda`-layer injection, ONNX custom-op RCE surface, and anomalous GGUF headers - all pure static analysis, never executes or deserializes the target. Returns severity-tagged findings and a `--fail-on` flag for CI gating
 
 ## AI/ML SBOM ("ML-BOM")
 
@@ -111,3 +112,4 @@ Sending your data to a third-party service to fine-tune a model introduces risks
 6. [Fickling (Trail of Bits)](https://github.com/trailofbits/fickling)
 7. [ModelAudit (promptfoo)](https://github.com/promptfoo/modelaudit)
 8. [AIsbom](https://aisbom.io/)
+9. [weightguard (jassics)](https://github.com/jassics/weightguard) - static scanner for malicious ML model artifacts

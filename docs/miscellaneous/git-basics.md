@@ -74,6 +74,7 @@ After either, you must force-push the rewritten history and **rotate the leaked 
 ## Further Reading
 
 - [jassics/cybersecurity-slides](https://github.com/jassics/cybersecurity-slides) - includes a "Git Fundamentals" slide deck (`Git-Fundamentals-Flexmind.pdf`) for a visual walkthrough
+- [jassics/git-commands](https://github.com/jassics/git-commands) - the full reference repo this page is distilled from
 - [Secure Code Review](../product-security/application-security/secure-code-review.md) - how `git diff`/`git blame` fit into a structured review process
 
 ## Credits/References

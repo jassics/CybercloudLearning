@@ -89,7 +89,7 @@ cursor.execute("SELECT * FROM users WHERE id = %s", (user_id,))
 
 1. **Requirements** - Define security/abuse-case requirements alongside functional ones.
 2. **Design** - Perform threat modeling (see [Threat Modeling](threat-modeling.md)).
-3. **Implementation** - Follow secure coding standards, use linters and pre-commit hooks.
+3. **Implementation** - Follow secure coding standards, use linters and pre-commit hooks. [security-champion](https://github.com/jassics/security-champion) is one concrete way to wire this in: it generates an always-on secure-coding system prompt for your AI coding agent (Claude Code, Cursor, Copilot, or any chat UI) and installs a git pre-commit hook that runs a structured, language-aware security review on every staged diff - blocking the commit outright on high-confidence CRITICAL findings (SQLi, XSS, RCE, SSRF, hardcoded secrets, and more).
 4. **Verification** - Run SAST ([SAST](sast.md)), SCA ([SCA](sca.md)), and manual [Secure Code Review](secure-code-review.md).
 5. **Release** - Gate deployments on passing security scans.
 6. **Response** - Monitor, patch, and feed lessons learned back into coding standards.
@@ -107,3 +107,4 @@ cursor.execute("SELECT * FROM users WHERE id = %s", (user_id,))
 2. [OWASP Secure Coding Practices](https://owasp.org/www-project-secure-coding-practices-quick-reference-guide/)
 3. [CERT Coding Standards, Carnegie Mellon SEI](https://wiki.sei.cmu.edu/confluence/display/seccode)
 4. [NIST SP 800-218: Secure Software Development Framework](https://csrc.nist.gov/pubs/sp/800/218/final)
+5. [security-champion (jassics)](https://github.com/jassics/security-champion) - portable, agent-agnostic secure-coding system prompt + pre-commit/CI enforcement

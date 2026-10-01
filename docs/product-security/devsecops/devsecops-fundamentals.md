@@ -62,7 +62,7 @@ This is what lets security scale with engineering headcount instead of becoming 
 
 ## Best Practices
 
-1. **Automate before you mandate** - a manual security checklist gets skipped under deadline pressure; a CI gate doesn't.
+1. **Automate before you mandate** - a manual security checklist gets skipped under deadline pressure; a CI gate doesn't. [security-champion](https://github.com/jassics/security-champion) is a concrete example: an enforced git pre-commit hook plus a CI/CD gate, not just an instruction file an agent can ignore.
 2. **Fail fast, fail cheap** - order pipeline stages so fast, cheap checks (secrets scan, lint) run before slow ones (DAST).
 3. **Make the secure path the easy path** - golden CI templates, pre-approved base images, and secure-by-default IaC modules beat writing a wiki page nobody reads.
 4. **Treat false positives as a tooling bug** - a noisy pipeline that developers learn to ignore is worse than no pipeline.
@@ -73,3 +73,4 @@ This is what lets security scale with engineering headcount instead of becoming 
 1. [OWASP DevSecOps Guideline](https://owasp.org/www-project-devsecops-guideline/)
 2. [NIST SP 800-218: Secure Software Development Framework](https://csrc.nist.gov/pubs/sp/800/218/final)
 3. [DevSecOps Maturity Model (DSOMM)](https://dsomm.owasp.org/)
+4. [devsecops/awesome-devsecops](https://github.com/devsecops/awesome-devsecops) - curated list of DevSecOps tools, platforms, and reading

@@ -267,6 +267,11 @@ More AI security questions live on the [AI Security interview questions](../../i
 - **[AI Exploits (ProtectAI)](https://github.com/protectai/ai-exploits)** - collection of AI/ML security exploits for education/testing
 - **[Garak](https://github.com/leondz/garak)** - LLM vulnerability scanner, extensible framework
 - **[PromptFoo](https://github.com/promptfoo/promptfoo)** - LLM evaluation/testing with security-focused test cases, CI/CD integration
+- **[weightguard (jassics)](https://github.com/jassics/weightguard)** - static scanner for malicious ML model artifacts (Pickle/PyTorch, Keras, ONNX, GGUF) before loading
+- **[aisecscan (jassics)](https://github.com/jassics/aisecscan)** - static scanner for AI coding-assistant config (Claude Code hooks, MCP servers, permissions, skills), mapped to OWASP LLM/Agentic Top 10
+
+### Hands-On Practice Projects
+- **[ai-security-projects (jassics)](https://github.com/jassics/ai-security-projects)** - 9 runnable, learn-by-building projects covering prompt injection, RAG, single/multi-agent systems, an AI security gateway, and a multi-agent SOC swarm, beginner to advanced - the fastest way to turn this study plan's checklists into working code
 
 ### Commercial Platforms
 - **Lakera Guard** - real-time LLM security monitoring, prompt injection detection, content filtering

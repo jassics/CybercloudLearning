@@ -89,3 +89,4 @@ This wraps any line containing `malicious-domain.com` in a comment, using a capt
 1. [Vim official documentation](https://www.vim.org/docs.php)
 2. `vimtutor` - the built-in interactive tutorial, run it from any terminal with Vim installed
 3. [Regular Expression Essentials](regular-expression.md) - the regex syntax used in Vim's search/replace
+4. [jassics/mastering-vim-editor](https://github.com/jassics/mastering-vim-editor) - the full reference repo this page is distilled from
